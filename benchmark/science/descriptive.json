@@ -1,0 +1,2870 @@
+[
+  {
+    "id": "science_descriptive_1",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Healthcare stakeholders in India including healthcare providers, patients, and health systems\nExposure: Digital transformation implementation in healthcare (including telemedicine, electronic health records, mobile health applications, and other digital health technologies)\nComparison: Successful versus unsuccessful digital health implementation contexts\nOutcome: Barriers to digital transformation implementation (including technological infrastructure limitations, data security and privacy concerns, lack of physical examination capability, organizational barriers, financial barriers, and behavioral resistance)\nPublication period: up to 2022-12-31\nEligible studies: The present study included peer-reviewed qualitative and quantitative studies published in English from inception till December 2022. Specifically, reports that provide data on barriers to implementing digital transformation in the health sector of India were included. Both patient-provider level barriers to the uptake of digital health transformation were considered. This review defined barriers as factors hindering the health sector’s digital transformation, such as a switch to various technological innovations, including telemedicine and mobile health.\nExclude: case reports, conference abstracts, editorials, commentaries, and reviews were excluded.\n\nTask: What were the main barriers to implementing digital transformation in India's health sector?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 8284,
+        "type": "article"
+      },
+      {
+        "id": 8285,
+        "type": "article"
+      },
+      {
+        "id": 8286,
+        "type": "article"
+      },
+      {
+        "id": 8287,
+        "type": "article"
+      },
+      {
+        "id": 8288,
+        "type": "article"
+      },
+      {
+        "id": 8289,
+        "type": "article"
+      },
+      {
+        "id": 8290,
+        "type": "article"
+      },
+      {
+        "id": 8291,
+        "type": "article"
+      },
+      {
+        "id": 8292,
+        "type": "article"
+      },
+      {
+        "id": 8293,
+        "type": "article"
+      },
+      {
+        "id": 8294,
+        "type": "article"
+      },
+      {
+        "id": 8295,
+        "type": "article"
+      },
+      {
+        "id": 8296,
+        "type": "article"
+      },
+      {
+        "id": 8297,
+        "type": "article"
+      },
+      {
+        "id": 8298,
+        "type": "article"
+      },
+      {
+        "id": 8299,
+        "type": "article"
+      },
+      {
+        "id": 8300,
+        "type": "article"
+      },
+      {
+        "id": 8301,
+        "type": "article"
+      },
+      {
+        "id": 8302,
+        "type": "article"
+      },
+      {
+        "id": 8303,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The main barriers were limited network coverage and IT infrastructure, high costs, inadequate medical records and expertise, limited physical examination, data accuracy and privacy concerns, language and communication barriers, user-related barriers, and ethical, legal, and accountability concerns."
+  },
+  {
+    "id": "science_descriptive_2",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Adults aged 18 years or older with BMI ≥27.5 kg/m² (living with excess weight or obesity)\nIntervention: Synchronous (real-time), remote health interventions for weight management\nComparison: Factors facilitating engagement versus factors hindering engagement (barriers versus facilitators)\nOutcome: Engagement with remote weight management interventions (barriers and facilitators to engagement mapped to capability, opportunity, and motivation domains)\nPublication period: up to 2023-10-31\nEligible studies: The Population, Intervention, Comparison, Outcomes, and Study design (PICOS) framework was used to define the eligibility criteria [34]. The following criteria were selected for inclusion. Population. Studies including Adults (>18 years old) living with excess weight using the adjusted BMI obesity category thresholds to be inclusive of all ethnic groups (BMI ≥ 27.5 kg/m2 ) [35] and/or providers of care to this population following the NICE guidelines.Intervention. Studies that included a synchronous (real-time), interactive, remotely delivered weight management intervention. Comparison. Studies with or without a comparison group. Outcome(s). Studies that reported on the barriers and facilitators to engage with a remotely delivered weight management intervention. Study design. Mixed-methods, quantitative and qualitative study designs where barriers and facilitators to engaging in a synchronous, interactive, remotely delivered weight management intervention were measured/discussed.\nExclude: The following criteria were set for exclusion using the PICOS framework. Population. Studies with participants <18 years of age or with a BMI < 27.5 kg/m2 were excluded. Intervention. Studies that were not a health intervention with a weight management focus, alongside those that were solely autonomous or delivered only face-to-face, were excluded. Studies that reported predicting factors (such as demographic predictors) without specific barriers or facilitators were also excluded. Comparison. No exclusion specification was set for this criteria. Outcome(s). Studies not specifically reporting barriers or facilitators to engagement in a remote weight management intervention Study design. Studies not published in the English Language and systematic reviews, conference papers, protocols, case studies, opinion and editorial letters, and unpublished works were excluded.\n\nTask: What were the main barriers to engagement with remote weight-management interventions among adults living with excess weight?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 4578,
+        "type": "article"
+      },
+      {
+        "id": 6919,
+        "type": "article"
+      },
+      {
+        "id": 6920,
+        "type": "article"
+      },
+      {
+        "id": 6921,
+        "type": "article"
+      },
+      {
+        "id": 6922,
+        "type": "article"
+      },
+      {
+        "id": 4574,
+        "type": "article"
+      },
+      {
+        "id": 6923,
+        "type": "article"
+      },
+      {
+        "id": 6924,
+        "type": "article"
+      },
+      {
+        "id": 6925,
+        "type": "article"
+      },
+      {
+        "id": 6926,
+        "type": "article"
+      },
+      {
+        "id": 6927,
+        "type": "article"
+      },
+      {
+        "id": 6928,
+        "type": "article"
+      },
+      {
+        "id": 6929,
+        "type": "article"
+      },
+      {
+        "id": 6930,
+        "type": "article"
+      },
+      {
+        "id": 6931,
+        "type": "article"
+      },
+      {
+        "id": 6932,
+        "type": "article"
+      },
+      {
+        "id": 6933,
+        "type": "article"
+      },
+      {
+        "id": 6934,
+        "type": "article"
+      },
+      {
+        "id": 6935,
+        "type": "article"
+      },
+      {
+        "id": 6936,
+        "type": "article"
+      },
+      {
+        "id": 6937,
+        "type": "article"
+      },
+      {
+        "id": 6938,
+        "type": "article"
+      },
+      {
+        "id": 6939,
+        "type": "article"
+      },
+      {
+        "id": 8403,
+        "type": "article"
+      },
+      {
+        "id": 19897,
+        "type": "article"
+      },
+      {
+        "id": 6940,
+        "type": "article"
+      },
+      {
+        "id": 6941,
+        "type": "article"
+      },
+      {
+        "id": 6942,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The main barriers were privacy concerns, time burden, embarrassment or anxiety, technical issues, and limited technology or internet access."
+  },
+  {
+    "id": "science_descriptive_3",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Studies from systematic reviews assessing WASH interventions on diarrhoeal disease and acute respiratory infections in low- and middle-income countries\nIntervention: Water, sanitation and/or handwashing with soap interventions\nComparison: Gender responsiveness categories (gender unequal vs gender unaware) according to WHO Gender Responsiveness Assessment Scale\nOutcome: Women's engagement in research activities, women's engagement in intervention activities, time burden reporting, gender responsiveness classification, and assessment of intervention impacts specific to women\nPublication period: not restricted by date\nEligible studies: All papers included in the two previously published systematic reviews were eligible for inclusion if published in English or Spanish. Studies were excluded if not in English or Spanish1,2 .\nExclude: 14 were duplicates and 3 were excluded due to language (Chinese, Danish and French)\n\nTask: What type of outcome involving women was most commonly reported in WASH intervention studies?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 2096,
+        "type": "article"
+      },
+      {
+        "id": 2097,
+        "type": "article"
+      },
+      {
+        "id": 2098,
+        "type": "article"
+      },
+      {
+        "id": 2099,
+        "type": "article"
+      },
+      {
+        "id": 30807,
+        "type": "article"
+      },
+      {
+        "id": 2100,
+        "type": "article"
+      },
+      {
+        "id": 2101,
+        "type": "article"
+      },
+      {
+        "id": 2102,
+        "type": "article"
+      },
+      {
+        "id": 2103,
+        "type": "article"
+      },
+      {
+        "id": 2104,
+        "type": "article"
+      },
+      {
+        "id": 2105,
+        "type": "article"
+      },
+      {
+        "id": 4648,
+        "type": "article"
+      },
+      {
+        "id": 31207,
+        "type": "article"
+      },
+      {
+        "id": 2106,
+        "type": "article"
+      },
+      {
+        "id": 2107,
+        "type": "article"
+      },
+      {
+        "id": 2108,
+        "type": "article"
+      },
+      {
+        "id": 31094,
+        "type": "article"
+      },
+      {
+        "id": 2109,
+        "type": "article"
+      },
+      {
+        "id": 2110,
+        "type": "article"
+      },
+      {
+        "id": 2081,
+        "type": "article"
+      },
+      {
+        "id": 2082,
+        "type": "article"
+      },
+      {
+        "id": 2083,
+        "type": "article"
+      },
+      {
+        "id": 2111,
+        "type": "article"
+      },
+      {
+        "id": 2112,
+        "type": "article"
+      },
+      {
+        "id": 2084,
+        "type": "article"
+      },
+      {
+        "id": 2085,
+        "type": "article"
+      },
+      {
+        "id": 2113,
+        "type": "article"
+      },
+      {
+        "id": 2114,
+        "type": "article"
+      },
+      {
+        "id": 2115,
+        "type": "article"
+      },
+      {
+        "id": 2116,
+        "type": "article"
+      },
+      {
+        "id": 2117,
+        "type": "article"
+      },
+      {
+        "id": 2118,
+        "type": "article"
+      },
+      {
+        "id": 2119,
+        "type": "article"
+      },
+      {
+        "id": 2120,
+        "type": "article"
+      },
+      {
+        "id": 2121,
+        "type": "article"
+      },
+      {
+        "id": 30855,
+        "type": "article"
+      },
+      {
+        "id": 2122,
+        "type": "article"
+      },
+      {
+        "id": 2087,
+        "type": "article"
+      },
+      {
+        "id": 2123,
+        "type": "article"
+      },
+      {
+        "id": 2124,
+        "type": "article"
+      },
+      {
+        "id": 2125,
+        "type": "article"
+      },
+      {
+        "id": 4649,
+        "type": "article"
+      },
+      {
+        "id": 2126,
+        "type": "article"
+      },
+      {
+        "id": 2127,
+        "type": "article"
+      },
+      {
+        "id": 2128,
+        "type": "article"
+      },
+      {
+        "id": 2129,
+        "type": "article"
+      },
+      {
+        "id": 2130,
+        "type": "article"
+      },
+      {
+        "id": 2131,
+        "type": "article"
+      },
+      {
+        "id": 2088,
+        "type": "article"
+      },
+      {
+        "id": 2095,
+        "type": "article"
+      },
+      {
+        "id": 2132,
+        "type": "article"
+      },
+      {
+        "id": 2133,
+        "type": "article"
+      },
+      {
+        "id": 2134,
+        "type": "article"
+      },
+      {
+        "id": 2135,
+        "type": "article"
+      },
+      {
+        "id": 2136,
+        "type": "article"
+      },
+      {
+        "id": 2137,
+        "type": "article"
+      },
+      {
+        "id": 30827,
+        "type": "article"
+      },
+      {
+        "id": 2138,
+        "type": "article"
+      },
+      {
+        "id": 2139,
+        "type": "article"
+      },
+      {
+        "id": 2089,
+        "type": "article"
+      },
+      {
+        "id": 2140,
+        "type": "article"
+      },
+      {
+        "id": 2141,
+        "type": "article"
+      },
+      {
+        "id": 2079,
+        "type": "article"
+      },
+      {
+        "id": 2142,
+        "type": "article"
+      },
+      {
+        "id": 2143,
+        "type": "article"
+      },
+      {
+        "id": 2144,
+        "type": "article"
+      },
+      {
+        "id": 2091,
+        "type": "article"
+      },
+      {
+        "id": 2145,
+        "type": "article"
+      },
+      {
+        "id": 4650,
+        "type": "article"
+      },
+      {
+        "id": 2146,
+        "type": "article"
+      },
+      {
+        "id": 2147,
+        "type": "article"
+      },
+      {
+        "id": 2093,
+        "type": "article"
+      },
+      {
+        "id": 2148,
+        "type": "article"
+      },
+      {
+        "id": 31018,
+        "type": "article"
+      },
+      {
+        "id": 4651,
+        "type": "article"
+      },
+      {
+        "id": 2149,
+        "type": "article"
+      },
+      {
+        "id": 2150,
+        "type": "article"
+      },
+      {
+        "id": 2151,
+        "type": "article"
+      },
+      {
+        "id": 2152,
+        "type": "article"
+      },
+      {
+        "id": 2153,
+        "type": "article"
+      },
+      {
+        "id": 4652,
+        "type": "article"
+      },
+      {
+        "id": 2154,
+        "type": "article"
+      },
+      {
+        "id": 2155,
+        "type": "article"
+      },
+      {
+        "id": 2156,
+        "type": "article"
+      },
+      {
+        "id": 2157,
+        "type": "article"
+      },
+      {
+        "id": 2158,
+        "type": "article"
+      },
+      {
+        "id": 2159,
+        "type": "article"
+      },
+      {
+        "id": 2160,
+        "type": "article"
+      },
+      {
+        "id": 2161,
+        "type": "article"
+      },
+      {
+        "id": 2162,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "women's compliance behaviors"
+  },
+  {
+    "id": "science_descriptive_4",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Radiology reports (free-text clinical documentation from radiological imaging examinations, particularly CT, MRI, and thoracic imaging)\nExposure: Application of large language model (LLM) based natural language processing approaches, including pre-transformer and encoder-based models such as BERT\nComparison: Different LLM architectures and approaches (pre-transformer models, encoder-based models, various reporting granularities), as well as internal versus external validation performance\nOutcome: Information extraction performance from radiology reports, including named entity recognition, relation extraction, template filling accuracy, generalizability across external datasets, and comparability of approaches\nPublication period: from 2018-01-01 00:00:00 through 2023-08-01 00:00:00\nEligible studies: Inclusion criteria were discussed among and agreed on by all three authors. No separation was made between exclusion and inclusion criteria; reports were included upon fulfillment of all the following six aspects: • C.01: The full-text SOE is retrievable. • C.02: The SOE was published after 31/12/2017. • C.03: The SOE is published in a peer-reviewed journal or conference proceeding. • C.04: The SOE describes original research, excluding reviews, comments, patents and white papers. • C.05: The SOE describes the application of NLP methods for the purpose of IE from free-text radiology reports. • C.06: The described approach is LLM-based (defined as deep learning models with more than one million parameters, trained on unlabeled text data).\nExclude: not fulfilling inclusion criteria, which was not apparent based on information provided in the abstract.\n\nTask: Which model architecture predominated in large-language-model-based information extraction from radiology reports?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 4740,
+        "type": "article"
+      },
+      {
+        "id": 4741,
+        "type": "article"
+      },
+      {
+        "id": 4742,
+        "type": "article"
+      },
+      {
+        "id": 4743,
+        "type": "article"
+      },
+      {
+        "id": 4744,
+        "type": "article"
+      },
+      {
+        "id": 4745,
+        "type": "article"
+      },
+      {
+        "id": 4746,
+        "type": "article"
+      },
+      {
+        "id": 4747,
+        "type": "article"
+      },
+      {
+        "id": 4748,
+        "type": "article"
+      },
+      {
+        "id": 4749,
+        "type": "article"
+      },
+      {
+        "id": 4750,
+        "type": "article"
+      },
+      {
+        "id": 4751,
+        "type": "article"
+      },
+      {
+        "id": 4752,
+        "type": "article"
+      },
+      {
+        "id": 4753,
+        "type": "article"
+      },
+      {
+        "id": 4754,
+        "type": "article"
+      },
+      {
+        "id": 4755,
+        "type": "article"
+      },
+      {
+        "id": 4756,
+        "type": "article"
+      },
+      {
+        "id": 4757,
+        "type": "article"
+      },
+      {
+        "id": 4758,
+        "type": "article"
+      },
+      {
+        "id": 4759,
+        "type": "article"
+      },
+      {
+        "id": 4760,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "encoder-only BERT-based architectures"
+  },
+  {
+    "id": "science_descriptive_5",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Individuals with mobility disabilities, primarily those with spinal cord injuries, lower back pain, and lower limb pain\nIntervention: Virtual walking interventions including passive observing moving, arm swing locomotion, and foot tracking locomotion using virtual reality technologies\nComparison: Traditional physical therapy or standard care conditions\nOutcome: Pain reduction, physical function (mobility and muscle strength), depression, psychological well-being, feasibility, acceptability, and neurological mechanisms (somatosensory cortex activation)\nPublication period: from 2014-01-01 00:00:00 through 2024-10-08 00:00:00\nEligible studies: The inclusion and exclusion criteria were developed following the Population, Concept, and Context (PCC) framework. The population consisted of adults aged 18 years or older, with no restrictions on specific diseases or demographic characteristics (e.g., ethnicity or socioeconomic status). The concept focused on virtual walking interventions or interventions incorporating virtual walking components and reporting health- related outcomes. The context included a variety of interventional study designs, such as RCT, quasi- experimental studies, and other experimental studies.\nExclude: Studies were excluded if they were abstract- only, conference proceedings, protocols, or lacked full- text availability. Only studies published in English were included\n\nTask: Which locomotion method was most commonly used in virtual-walking interventions?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 4869,
+        "type": "article"
+      },
+      {
+        "id": 4870,
+        "type": "article"
+      },
+      {
+        "id": 4871,
+        "type": "article"
+      },
+      {
+        "id": 4872,
+        "type": "article"
+      },
+      {
+        "id": 4873,
+        "type": "article"
+      },
+      {
+        "id": 73678,
+        "type": "article"
+      },
+      {
+        "id": 4874,
+        "type": "article"
+      },
+      {
+        "id": 4875,
+        "type": "article"
+      },
+      {
+        "id": 4876,
+        "type": "article"
+      },
+      {
+        "id": 4877,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "passive observing"
+  },
+  {
+    "id": "science_descriptive_6",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Abortion seekers and healthcare providers in the United States accessing or providing medication abortion services\nIntervention: Medication abortion services via telemedicine and digital health platforms (including e-counseling, e-consenting, e-prescribing)\nComparison: Traditional in-clinic abortion services\nOutcome: Effectiveness of abortion (surgical intervention rates), accessibility of care, acceptability and perceptions of telemedicine-based abortion services among users and providers\nPublication period: up to 2022-09-30 00:00:00\nEligible studies: All primary studies that addressed the issue of medication abortion via telemedicine in the United States were included, including those using qualitative, quantitative, and mixed-method approaches; Medication abortion via telemedicine includes e-counseling, e-consenting, and/or e-prescribing abortion pills for users residing in the United States, regardless of the service provider’s location; Participants for the included studies were either potential abortion users or care providers; The studies we included also examined the effectiveness, acceptability, and perspectives of providers and users of abortion services offered via telemedicine.\nExclude: Duplicate studies; conference papers; anonymous reports; review papers; did not report any finding related to medication abortion via telemedicine; editorials; theoretical papers.\n\nTask: What were the common reasons for choosing telemedicine for medication abortion in the United States?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 5006,
+        "type": "article"
+      },
+      {
+        "id": 5007,
+        "type": "article"
+      },
+      {
+        "id": 5008,
+        "type": "article"
+      },
+      {
+        "id": 5009,
+        "type": "article"
+      },
+      {
+        "id": 75341,
+        "type": "article"
+      },
+      {
+        "id": 5010,
+        "type": "article"
+      },
+      {
+        "id": 5011,
+        "type": "article"
+      },
+      {
+        "id": 5012,
+        "type": "article"
+      },
+      {
+        "id": 5013,
+        "type": "article"
+      },
+      {
+        "id": 5014,
+        "type": "article"
+      },
+      {
+        "id": 75299,
+        "type": "article"
+      },
+      {
+        "id": 5015,
+        "type": "article"
+      },
+      {
+        "id": 5016,
+        "type": "article"
+      },
+      {
+        "id": 5017,
+        "type": "article"
+      },
+      {
+        "id": 5018,
+        "type": "article"
+      },
+      {
+        "id": 5019,
+        "type": "article"
+      },
+      {
+        "id": 5020,
+        "type": "article"
+      },
+      {
+        "id": 5021,
+        "type": "article"
+      },
+      {
+        "id": 5022,
+        "type": "article"
+      },
+      {
+        "id": 5023,
+        "type": "article"
+      },
+      {
+        "id": 5024,
+        "type": "article"
+      },
+      {
+        "id": 5025,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The common reasons were distance, convenience, privacy, cost, flexibility, and restrictive state laws."
+  },
+  {
+    "id": "science_descriptive_7",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Oral healthcare clinics, including dental clinics and surgeries.\nExposure: Polymer-containing dental materials and oral-healthcare clinical procedures.\nComparison: Different clinic procedures, materials, and waste-management practices.\nOutcome: Polymer waste generation and polymer pollution in clinic air, wastewater, and solid waste.\nPublication period: up to 2025-03-31 00:00:00\nEligible studies: studies that reported quantified estimates of polymer waste or pollution in the air or wastewater within oral healthcare clinics; waste audits and field-based research reporting polymer pollution in oral healthcare clinics; laboratory studies experimentally designed to estimate polymer pollution from waste collection, management, and disposal in oral healthcare clinics\nExclude: studies that did not report quantified estimates, regardless of study design\n\nTask: What type of item was identified as a major contributor to polymer waste in oral healthcare clinics?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 45,
+        "type": "article"
+      },
+      {
+        "id": 46,
+        "type": "article"
+      },
+      {
+        "id": 47,
+        "type": "article"
+      },
+      {
+        "id": 48,
+        "type": "article"
+      },
+      {
+        "id": 49,
+        "type": "article"
+      },
+      {
+        "id": 50,
+        "type": "article"
+      },
+      {
+        "id": 51,
+        "type": "article"
+      },
+      {
+        "id": 52,
+        "type": "article"
+      },
+      {
+        "id": 53,
+        "type": "article"
+      },
+      {
+        "id": 54,
+        "type": "article"
+      },
+      {
+        "id": 55,
+        "type": "article"
+      },
+      {
+        "id": 56,
+        "type": "article"
+      },
+      {
+        "id": 57,
+        "type": "article"
+      },
+      {
+        "id": 58,
+        "type": "article"
+      },
+      {
+        "id": 59,
+        "type": "article"
+      },
+      {
+        "id": 60,
+        "type": "article"
+      },
+      {
+        "id": 61,
+        "type": "article"
+      },
+      {
+        "id": 62,
+        "type": "article"
+      },
+      {
+        "id": 63,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "single-use items"
+  },
+  {
+    "id": "science_descriptive_8",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Dental practice settings and dental specialties\nExposure: Application of Large Language Models (LLMs), predominantly ChatGPT, in dental practice\nComparison: General-purpose LLM models versus advanced prompting strategies; different levels of deployment maturity\nOutcome: Applications of LLMs in dentistry, evaluation metrics used, prompting strategies employed, and deployment levels of LLMs in dental practice\nPublication period: up to 2024-03-31 00:00:00\nEligible studies: Primary studies utilizing LLMs in dental practice ; Studies in English language\nExclude: Reviews, editorials, commentaries, and conference proceedings; Studies available as abstract only ; Studies registered as protocols\n\nTask: Which large language model was used most often in dentistry studies?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 136,
+        "type": "article"
+      },
+      {
+        "id": 137,
+        "type": "article"
+      },
+      {
+        "id": 138,
+        "type": "article"
+      },
+      {
+        "id": 139,
+        "type": "article"
+      },
+      {
+        "id": 140,
+        "type": "article"
+      },
+      {
+        "id": 141,
+        "type": "article"
+      },
+      {
+        "id": 142,
+        "type": "article"
+      },
+      {
+        "id": 143,
+        "type": "article"
+      },
+      {
+        "id": 144,
+        "type": "article"
+      },
+      {
+        "id": 145,
+        "type": "article"
+      },
+      {
+        "id": 146,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "ChatGPT"
+  },
+  {
+    "id": "science_descriptive_9",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Dental patients and dental professionals (dentists and dental care providers)\nExposure: Dentist-patient trust relationship and its conceptualization in dental care settings\nComparison: Various definitions, assessment tools (Dental Trust Scale, Dental Beliefs Survey, and other instruments), and professional perceptions across included studies\nOutcome: Definition of trust in dental context, measurement instruments for dentist-patient trust, and dental professionals' perceptions of patient trust (including the role of communication in building trusting relationships)\nPublication period: from 1980-01-01 00:00:00 through 2021-11-30 00:00:00\nEligible studies: The participants should include patients and dental professionals, including dentists, dental nurses, dental hygienists and dental therapists. The participants should be at least 18 years old. The study should include information that is relevant to at least one of the objectives. The study should be carried out in a dental setting including clinics and hospitals. English publications.\nExclude: If the study includes any non-dental professionals such as practice managers and receptionists. If the study participants include children, the intellectually disabled or family members of patients. If the study does not should include information that is relevant to at least one of the objectives. If the study is carried out in a nondental setting such as community centres. Non-English publications.\n\nTask: Which instruments were commonly used to measure patient trust in dentistry?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 6412,
+        "type": "article"
+      },
+      {
+        "id": 6413,
+        "type": "article"
+      },
+      {
+        "id": 6414,
+        "type": "article"
+      },
+      {
+        "id": 6415,
+        "type": "article"
+      },
+      {
+        "id": 6416,
+        "type": "article"
+      },
+      {
+        "id": 6417,
+        "type": "article"
+      },
+      {
+        "id": 6418,
+        "type": "article"
+      },
+      {
+        "id": 6419,
+        "type": "article"
+      },
+      {
+        "id": 6420,
+        "type": "article"
+      },
+      {
+        "id": 6421,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The commonly used instruments were the Dental Trust Scale (DTS) and Dental Beliefs Survey (DBS)."
+  },
+  {
+    "id": "science_descriptive_10",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Dental practitioners, dental office staff, patients, students, and educators in dental care settings\nExposure: Sexual misconduct behaviors including unwelcome sexual advances, comments, gestures, and physical contact in dental settings\nComparison: Non-exposed individuals or settings without sexual misconduct incidents\nOutcome: Prevalence of sexual misconduct, underreporting rates, emotional trauma, professional disengagement, and effectiveness of interventions targeting sexual misconduct behaviors\nPublication period: from 2010-01-01 00:00:00 through 2024-10-31 00:00:00\nEligible studies: Population Studies involving dental professionals (dentists, dental care professionals, dental technicians, dental nurses), dental students, and patients in dental care settings Phenomenon of interest Studies capturing and reporting on the prevalence of sexual misconduct within the context of dentistry, including details of perpetrator and victim. Also studies that reported on policies or interventions targeted at preventing or managing instances of sexual misconduct.Types of studies All study designs (e.g., quantitative, qualitative, mixed methods). Language Studies in English and other languages, provided an English abstract or translation is available. Timeframe January 2010 – October 2024.\nExclude: Studies that included dental professionals though data were mixed with other health professions and did not explicitly state outcomes specific to dental professionals. Studies that did not provide empirical data on sexual misconduct in dental settings or with dental professionals. Literature that is solely editorial or opinion-based without empirical data or case analysis\n\nTask: Which form of sexual misconduct was reported most frequently in dentistry?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 6422,
+        "type": "article"
+      },
+      {
+        "id": 6423,
+        "type": "article"
+      },
+      {
+        "id": 6424,
+        "type": "article"
+      },
+      {
+        "id": 6425,
+        "type": "article"
+      },
+      {
+        "id": 6426,
+        "type": "article"
+      },
+      {
+        "id": 6427,
+        "type": "article"
+      },
+      {
+        "id": 6428,
+        "type": "article"
+      },
+      {
+        "id": 6429,
+        "type": "article"
+      },
+      {
+        "id": 6430,
+        "type": "article"
+      },
+      {
+        "id": 6431,
+        "type": "article"
+      },
+      {
+        "id": 6432,
+        "type": "article"
+      },
+      {
+        "id": 104436,
+        "type": "article"
+      },
+      {
+        "id": 6433,
+        "type": "article"
+      },
+      {
+        "id": 6434,
+        "type": "article"
+      },
+      {
+        "id": 6435,
+        "type": "article"
+      },
+      {
+        "id": 6436,
+        "type": "article"
+      },
+      {
+        "id": 6437,
+        "type": "article"
+      },
+      {
+        "id": 6438,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "verbal harassment"
+  },
+  {
+    "id": "science_descriptive_11",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Doctors working in general Emergency Departments in the UK, including foundation doctors, Emergency Medicine trainees, specialty and associate specialist doctors, and EM consultants\nExposure: Experience level and ophthalmology training received in Emergency Departments\nComparison: Different training grades (foundation doctors versus more experienced Emergency Medicine physicians) and adequacy of formal ophthalmology training\nOutcome: Self-reported confidence in managing ophthalmic emergencies, confidence in performing funduscopy and using the slit lamp, and perceived adequacy of ophthalmology training\nPublication period: up to 2022-10-01 00:00:00\nEligible studies: (1) featured doctors working in general EDs in the UK; (2) assessed the confidence of doctors in managing ophthalmic emergencies; (3) contained original data; (4) were full-text; and (5) were written in English.\nExclude: (1) did not feature doctors working in general EDs in the UK; (2) did not assess the confidence of doctors in managing ophthalmic emergencies; (3) did not contain original data; (4) had no fulltext; and (5) were not written in English\n\nTask: Which ophthalmic examination skills did emergency-department doctors most commonly report lacking confidence in?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3106,
+        "type": "article"
+      },
+      {
+        "id": 3107,
+        "type": "article"
+      },
+      {
+        "id": 3108,
+        "type": "article"
+      },
+      {
+        "id": 3109,
+        "type": "article"
+      },
+      {
+        "id": 3110,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The skills most commonly associated with low confidence were funduscopy and slit-lamp examination."
+  },
+  {
+    "id": "science_descriptive_12",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Glaucoma patients and healthcare professionals (ophthalmologists)\nExposure: Stated-preference methodologies examining preferences for glaucoma treatment characteristics, health states, and services\nComparison: Trade-offs between different attributes of glaucoma management (outcome attributes, process attributes, and cost attributes)\nOutcome: Preferences and relative importance of glaucoma management attributes including treatment effectiveness, adverse events, affordability, recovery time, duration of effect, and monitoring burden\nPublication period: up to 2021-10-27 00:00:00\nEligible studies: Stated-preference studies were included if they investigated patients’ or healthcare providers’ preferences for different aspects of glaucoma management and were published in full-text English. Stated-preference studies were defined as methods using ranking, rating, or choice designs to quantify preferences for various attributes [10]. There were no constraints on publication year, age, sex, or origin of the participants.\nExclude: Contingent valuation surveys (WTP) were excluded. Lastly, case reports and conference abstracts were also excluded.\n\nTask: Which treatment attribute was most influential in glaucoma treatment-preference studies?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3149,
+        "type": "article"
+      },
+      {
+        "id": 3150,
+        "type": "article"
+      },
+      {
+        "id": 3151,
+        "type": "article"
+      },
+      {
+        "id": 3152,
+        "type": "article"
+      },
+      {
+        "id": 3153,
+        "type": "article"
+      },
+      {
+        "id": 3154,
+        "type": "article"
+      },
+      {
+        "id": 3155,
+        "type": "article"
+      },
+      {
+        "id": 3156,
+        "type": "article"
+      },
+      {
+        "id": 85166,
+        "type": "article"
+      },
+      {
+        "id": 3157,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "treatment effectiveness"
+  },
+  {
+    "id": "science_descriptive_13",
+    "type": "study_pattern",
+    "query": "Evidence-synthesis scope:\nPopulation: Patients with childhood glaucoma (including primary congenital glaucoma, juvenile open-angle glaucoma, and secondary glaucoma) and their caregivers (parents)\nExposure: Childhood glaucoma diagnosis and associated disease factors (visual impairment, treatment demands, chronic eye drop use, surgical procedures, cosmetic changes)\nComparison: Peers without chronic disease or visual impairment, as referenced through extrapolations from other pediatric conditions\nOutcome: Psychosocial functioning (well-being, basic functioning, self-mastery, interpersonal and social relationships) and quality of life (health-related QoL, vision-related QoL, functional vision) in patients and caregiver burden\nPublication period: up to 2022-04-30 00:00:00\nEligible studies: The authors used the following inclusion criteria when selecting literature: (1) original abstracts available in English; (2) research studies of any methodology; (3) studies from any country of publication; (4) studies from any year of publication; (5) study participants who were diagnosed with glaucoma at a pediatric age or study participants who were considered to be parent, caregiver, or immediate family member of a patient with childhood glaucoma; and (6) studies on the topic of PF or QoL.\nExclude: The authors excluded literature if (1) the paper was on any disease not relevant to childhood glaucoma, (2) the paper was on any topic not relevant to PF or QoL, and (3) it was a literature review and/or meta-analysis paper.\n\nTask: What study design predominated in research on psychosocial functioning and quality of life in childhood glaucoma?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3260,
+        "type": "article"
+      },
+      {
+        "id": 3261,
+        "type": "article"
+      },
+      {
+        "id": 3262,
+        "type": "article"
+      },
+      {
+        "id": 3263,
+        "type": "article"
+      },
+      {
+        "id": 3264,
+        "type": "article"
+      },
+      {
+        "id": 3265,
+        "type": "article"
+      },
+      {
+        "id": 3266,
+        "type": "article"
+      },
+      {
+        "id": 3267,
+        "type": "article"
+      },
+      {
+        "id": 3268,
+        "type": "article"
+      },
+      {
+        "id": 3269,
+        "type": "article"
+      },
+      {
+        "id": 3270,
+        "type": "article"
+      },
+      {
+        "id": 85882,
+        "type": "article"
+      },
+      {
+        "id": 3271,
+        "type": "article"
+      },
+      {
+        "id": 3272,
+        "type": "article"
+      },
+      {
+        "id": 3273,
+        "type": "article"
+      },
+      {
+        "id": 3274,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "cross-sectional studies"
+  },
+  {
+    "id": "science_descriptive_14",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Patients with spinal muscular atrophy (SMA) types 1 and 2\nIntervention: Gene-based therapies including onasemnogene abeparvovec, risdiplam, and nusinersen\nComparison: Comparison between different gene-based therapies (onasemnogene abeparvovec vs risdiplam vs nusinersen) and pre-treatment baseline status\nOutcome: Survival rate, need for ventilatory support, motor function improvement (CHOP-INTEND score ≥4 points), and adverse drug reactions (headaches, vomiting, gastrointestinal disorders)\nPublication period: up to 2024-05-31 00:00:00\nEligible studies: Initially, titles and abstracts were screened to identify potential studies. Clinical trials, cohort studies, and case-control studies that reported the effects of gene-based therapy on patients with SMA types 1 and 2 were selected. The outcomes of interest were patient survival, the number of patients requiring ventilatory support, motor function improvement, and ADRs. Only studies published in English were included.\nExclude: Duplication; Irrelevance to spinal muscular atrophy and the studydesigns;Non-English language studies;No full-texts available;Lacked the outcomes of interest;Not investigated the effects ofgene-based therapyamong children with spinal muscular atrophy;Not estimated the effects of gene-based therapy;Study abstracts conference or poster presentations;studies excluded because of the variation in reportedoutcomes,and the differences in symptoms and functional status of patients\n\nTask: What adverse drug reactions were most commonly reported for gene-based therapies for spinal muscular atrophy types 1 and 2?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3319,
+        "type": "article"
+      },
+      {
+        "id": 3320,
+        "type": "article"
+      },
+      {
+        "id": 3321,
+        "type": "article"
+      },
+      {
+        "id": 3322,
+        "type": "article"
+      },
+      {
+        "id": 3323,
+        "type": "article"
+      },
+      {
+        "id": 3324,
+        "type": "article"
+      },
+      {
+        "id": 3325,
+        "type": "article"
+      },
+      {
+        "id": 3326,
+        "type": "article"
+      },
+      {
+        "id": 3327,
+        "type": "article"
+      },
+      {
+        "id": 3328,
+        "type": "article"
+      },
+      {
+        "id": 3329,
+        "type": "article"
+      },
+      {
+        "id": 3330,
+        "type": "article"
+      },
+      {
+        "id": 3331,
+        "type": "article"
+      },
+      {
+        "id": 3332,
+        "type": "article"
+      },
+      {
+        "id": 3333,
+        "type": "article"
+      },
+      {
+        "id": 3334,
+        "type": "article"
+      },
+      {
+        "id": 3335,
+        "type": "article"
+      },
+      {
+        "id": 3336,
+        "type": "article"
+      },
+      {
+        "id": 3337,
+        "type": "article"
+      },
+      {
+        "id": 3338,
+        "type": "article"
+      },
+      {
+        "id": 3339,
+        "type": "article"
+      },
+      {
+        "id": 3340,
+        "type": "article"
+      },
+      {
+        "id": 3341,
+        "type": "article"
+      },
+      {
+        "id": 3342,
+        "type": "article"
+      },
+      {
+        "id": 3343,
+        "type": "article"
+      },
+      {
+        "id": 3344,
+        "type": "article"
+      },
+      {
+        "id": 3345,
+        "type": "article"
+      },
+      {
+        "id": 3346,
+        "type": "article"
+      },
+      {
+        "id": 3347,
+        "type": "article"
+      },
+      {
+        "id": 3348,
+        "type": "article"
+      },
+      {
+        "id": 3349,
+        "type": "article"
+      },
+      {
+        "id": 3350,
+        "type": "article"
+      },
+      {
+        "id": 3351,
+        "type": "article"
+      },
+      {
+        "id": 3352,
+        "type": "article"
+      },
+      {
+        "id": 3353,
+        "type": "article"
+      },
+      {
+        "id": 3354,
+        "type": "article"
+      },
+      {
+        "id": 3355,
+        "type": "article"
+      },
+      {
+        "id": 3356,
+        "type": "article"
+      },
+      {
+        "id": 3357,
+        "type": "article"
+      },
+      {
+        "id": 3358,
+        "type": "article"
+      },
+      {
+        "id": 3359,
+        "type": "article"
+      },
+      {
+        "id": 3360,
+        "type": "article"
+      },
+      {
+        "id": 3361,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The most common adverse drug reactions were headache, vomiting, and gastrointestinal disorders."
+  },
+  {
+    "id": "science_descriptive_15",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: General population exposed to persistent organic pollutants (POPs) including per- and polyfluoroalkyl substances (PFAS), organochlorine pesticides, polychlorinated biphenyls (PCBs), polybrominated diphenyl ethers (PBDEs), and polychlorinated dioxins and furans (PCDD/Fs)\nExposure: Persistent organic pollutants (POPs) mixtures including PFAS, organochlorine pesticides, PCBs, PBDEs, and PCDD/Fs\nComparison: Single pollutant analysis approaches or non-exposed/lower exposure groups\nOutcome: Various health outcomes including body weight and birth sizes, neurological outcomes, cardiovascular diseases, metabolic diseases, liver injury, neurodevelopment, reproductive outcomes, and cancer\nPublication period: from 2011-01-01 00:00:00 through 2023-04-26 00:00:00\nEligible studies: We included peer-reviewed studies which were: 1) conducted in human subjects; 2) used any type of observational study design such as cohort, case–control and cross-sectional studies; 3) evaluated at least three POPs based on the National Institute of Environmental Health Science (NIEHS) definition of mixture in biomonitoring [33]; 4) estimated overall effects of POP mixtures using statistical methods. Statistical methods included were mixture methods identified in the previous literature [20, 21] or methods we identified through the two-stage literature screening approach. The final list of methods used for literature search were: WQS, BKMR, quantile g-computation, PCA, factor analysis, clustering methods such as k-means and hierarchical clustering, exposure continuum mapping, latent class/profile analysis, and other Bayesian approaches related to environmental mixture overall effects. We also included novel mixture methods developed through the Powering Research Through Innovative Methods for Mixtures in Epidemiology(PRIME) workshop [21] (Methods were listed in Supplementary Table S1).\nExclude: We excluded journal studies based on the following criteria: 1) studies conducted in animals or in silico, in vitro studies; 2) POP mixtures in studies were measured in air, food, drinking water, occupational settings or direct administration; 3) studies only used summation measures of POPs; 4) studies only used non-statistical toxicology-based studies such as toxic equivalency factors for PCDD/Fs [34]; 5) sources considered as gray literature, reviews, pre-prints, conference proceedings manuscripts, editorials, websites, or textbook chapters.\n\nTask: Which statistical mixture method was used most frequently in epidemiological studies of persistent organic pollutant mixtures?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3551,
+        "type": "article"
+      },
+      {
+        "id": 3552,
+        "type": "article"
+      },
+      {
+        "id": 3553,
+        "type": "article"
+      },
+      {
+        "id": 3554,
+        "type": "article"
+      },
+      {
+        "id": 3555,
+        "type": "article"
+      },
+      {
+        "id": 3556,
+        "type": "article"
+      },
+      {
+        "id": 3557,
+        "type": "article"
+      },
+      {
+        "id": 3558,
+        "type": "article"
+      },
+      {
+        "id": 3559,
+        "type": "article"
+      },
+      {
+        "id": 3560,
+        "type": "article"
+      },
+      {
+        "id": 86728,
+        "type": "article"
+      },
+      {
+        "id": 86850,
+        "type": "article"
+      },
+      {
+        "id": 3561,
+        "type": "article"
+      },
+      {
+        "id": 3562,
+        "type": "article"
+      },
+      {
+        "id": 3563,
+        "type": "article"
+      },
+      {
+        "id": 3564,
+        "type": "article"
+      },
+      {
+        "id": 3565,
+        "type": "article"
+      },
+      {
+        "id": 3566,
+        "type": "article"
+      },
+      {
+        "id": 3567,
+        "type": "article"
+      },
+      {
+        "id": 88913,
+        "type": "article"
+      },
+      {
+        "id": 3568,
+        "type": "article"
+      },
+      {
+        "id": 3569,
+        "type": "article"
+      },
+      {
+        "id": 3570,
+        "type": "article"
+      },
+      {
+        "id": 3571,
+        "type": "article"
+      },
+      {
+        "id": 3572,
+        "type": "article"
+      },
+      {
+        "id": 3573,
+        "type": "article"
+      },
+      {
+        "id": 3574,
+        "type": "article"
+      },
+      {
+        "id": 3575,
+        "type": "article"
+      },
+      {
+        "id": 3576,
+        "type": "article"
+      },
+      {
+        "id": 88196,
+        "type": "article"
+      },
+      {
+        "id": 3577,
+        "type": "article"
+      },
+      {
+        "id": 3578,
+        "type": "article"
+      },
+      {
+        "id": 3579,
+        "type": "article"
+      },
+      {
+        "id": 3580,
+        "type": "article"
+      },
+      {
+        "id": 3581,
+        "type": "article"
+      },
+      {
+        "id": 3582,
+        "type": "article"
+      },
+      {
+        "id": 3583,
+        "type": "article"
+      },
+      {
+        "id": 3584,
+        "type": "article"
+      },
+      {
+        "id": 3585,
+        "type": "article"
+      },
+      {
+        "id": 70015,
+        "type": "article"
+      },
+      {
+        "id": 3586,
+        "type": "article"
+      },
+      {
+        "id": 3587,
+        "type": "article"
+      },
+      {
+        "id": 3588,
+        "type": "article"
+      },
+      {
+        "id": 3589,
+        "type": "article"
+      },
+      {
+        "id": 3590,
+        "type": "article"
+      },
+      {
+        "id": 3591,
+        "type": "article"
+      },
+      {
+        "id": 3592,
+        "type": "article"
+      },
+      {
+        "id": 3593,
+        "type": "article"
+      },
+      {
+        "id": 3594,
+        "type": "article"
+      },
+      {
+        "id": 3595,
+        "type": "article"
+      },
+      {
+        "id": 3596,
+        "type": "article"
+      },
+      {
+        "id": 88583,
+        "type": "article"
+      },
+      {
+        "id": 3597,
+        "type": "article"
+      },
+      {
+        "id": 86869,
+        "type": "article"
+      },
+      {
+        "id": 3598,
+        "type": "article"
+      },
+      {
+        "id": 3599,
+        "type": "article"
+      },
+      {
+        "id": 3600,
+        "type": "article"
+      },
+      {
+        "id": 88130,
+        "type": "article"
+      },
+      {
+        "id": 3601,
+        "type": "article"
+      },
+      {
+        "id": 3602,
+        "type": "article"
+      },
+      {
+        "id": 3603,
+        "type": "article"
+      },
+      {
+        "id": 3604,
+        "type": "article"
+      },
+      {
+        "id": 3605,
+        "type": "article"
+      },
+      {
+        "id": 3606,
+        "type": "article"
+      },
+      {
+        "id": 3607,
+        "type": "article"
+      },
+      {
+        "id": 3608,
+        "type": "article"
+      },
+      {
+        "id": 70013,
+        "type": "article"
+      },
+      {
+        "id": 3609,
+        "type": "article"
+      },
+      {
+        "id": 3406,
+        "type": "article"
+      },
+      {
+        "id": 3610,
+        "type": "article"
+      },
+      {
+        "id": 3611,
+        "type": "article"
+      },
+      {
+        "id": 88983,
+        "type": "article"
+      },
+      {
+        "id": 3612,
+        "type": "article"
+      },
+      {
+        "id": 3613,
+        "type": "article"
+      },
+      {
+        "id": 3614,
+        "type": "article"
+      },
+      {
+        "id": 3615,
+        "type": "article"
+      },
+      {
+        "id": 3616,
+        "type": "article"
+      },
+      {
+        "id": 88687,
+        "type": "article"
+      },
+      {
+        "id": 3617,
+        "type": "article"
+      },
+      {
+        "id": 3618,
+        "type": "article"
+      },
+      {
+        "id": 3619,
+        "type": "article"
+      },
+      {
+        "id": 3620,
+        "type": "article"
+      },
+      {
+        "id": 3621,
+        "type": "article"
+      },
+      {
+        "id": 3622,
+        "type": "article"
+      },
+      {
+        "id": 3623,
+        "type": "article"
+      },
+      {
+        "id": 3624,
+        "type": "article"
+      },
+      {
+        "id": 3625,
+        "type": "article"
+      },
+      {
+        "id": 3626,
+        "type": "article"
+      },
+      {
+        "id": 3627,
+        "type": "article"
+      },
+      {
+        "id": 88698,
+        "type": "article"
+      },
+      {
+        "id": 3628,
+        "type": "article"
+      },
+      {
+        "id": 3629,
+        "type": "article"
+      },
+      {
+        "id": 3630,
+        "type": "article"
+      },
+      {
+        "id": 3631,
+        "type": "article"
+      },
+      {
+        "id": 3632,
+        "type": "article"
+      },
+      {
+        "id": 3633,
+        "type": "article"
+      },
+      {
+        "id": 3634,
+        "type": "article"
+      },
+      {
+        "id": 3635,
+        "type": "article"
+      },
+      {
+        "id": 3636,
+        "type": "article"
+      },
+      {
+        "id": 3637,
+        "type": "article"
+      },
+      {
+        "id": 3638,
+        "type": "article"
+      },
+      {
+        "id": 3639,
+        "type": "article"
+      },
+      {
+        "id": 3640,
+        "type": "article"
+      },
+      {
+        "id": 3641,
+        "type": "article"
+      },
+      {
+        "id": 3642,
+        "type": "article"
+      },
+      {
+        "id": 3643,
+        "type": "article"
+      },
+      {
+        "id": 3644,
+        "type": "article"
+      },
+      {
+        "id": 3645,
+        "type": "article"
+      },
+      {
+        "id": 3646,
+        "type": "article"
+      },
+      {
+        "id": 3647,
+        "type": "article"
+      },
+      {
+        "id": 3648,
+        "type": "article"
+      },
+      {
+        "id": 3649,
+        "type": "article"
+      },
+      {
+        "id": 3650,
+        "type": "article"
+      },
+      {
+        "id": 3651,
+        "type": "article"
+      },
+      {
+        "id": 3652,
+        "type": "article"
+      },
+      {
+        "id": 3653,
+        "type": "article"
+      },
+      {
+        "id": 3654,
+        "type": "article"
+      },
+      {
+        "id": 3655,
+        "type": "article"
+      },
+      {
+        "id": 3656,
+        "type": "article"
+      },
+      {
+        "id": 3657,
+        "type": "article"
+      },
+      {
+        "id": 3658,
+        "type": "article"
+      },
+      {
+        "id": 3659,
+        "type": "article"
+      },
+      {
+        "id": 88904,
+        "type": "article"
+      },
+      {
+        "id": 3660,
+        "type": "article"
+      },
+      {
+        "id": 3661,
+        "type": "article"
+      },
+      {
+        "id": 3662,
+        "type": "article"
+      },
+      {
+        "id": 3663,
+        "type": "article"
+      },
+      {
+        "id": 88703,
+        "type": "article"
+      },
+      {
+        "id": 3664,
+        "type": "article"
+      },
+      {
+        "id": 3665,
+        "type": "article"
+      },
+      {
+        "id": 3666,
+        "type": "article"
+      },
+      {
+        "id": 3667,
+        "type": "article"
+      },
+      {
+        "id": 86851,
+        "type": "article"
+      },
+      {
+        "id": 86868,
+        "type": "article"
+      },
+      {
+        "id": 3668,
+        "type": "article"
+      },
+      {
+        "id": 3669,
+        "type": "article"
+      },
+      {
+        "id": 3670,
+        "type": "article"
+      },
+      {
+        "id": 86856,
+        "type": "article"
+      },
+      {
+        "id": 3671,
+        "type": "article"
+      },
+      {
+        "id": 3672,
+        "type": "article"
+      },
+      {
+        "id": 3673,
+        "type": "article"
+      },
+      {
+        "id": 3674,
+        "type": "article"
+      },
+      {
+        "id": 3675,
+        "type": "article"
+      },
+      {
+        "id": 69988,
+        "type": "article"
+      },
+      {
+        "id": 3676,
+        "type": "article"
+      },
+      {
+        "id": 3677,
+        "type": "article"
+      },
+      {
+        "id": 3678,
+        "type": "article"
+      },
+      {
+        "id": 3679,
+        "type": "article"
+      },
+      {
+        "id": 3680,
+        "type": "article"
+      },
+      {
+        "id": 3681,
+        "type": "article"
+      },
+      {
+        "id": 3682,
+        "type": "article"
+      },
+      {
+        "id": 86818,
+        "type": "article"
+      },
+      {
+        "id": 3683,
+        "type": "article"
+      },
+      {
+        "id": 3684,
+        "type": "article"
+      },
+      {
+        "id": 3685,
+        "type": "article"
+      },
+      {
+        "id": 3686,
+        "type": "article"
+      },
+      {
+        "id": 3687,
+        "type": "article"
+      },
+      {
+        "id": 3688,
+        "type": "article"
+      },
+      {
+        "id": 3689,
+        "type": "article"
+      },
+      {
+        "id": 3690,
+        "type": "article"
+      },
+      {
+        "id": 3691,
+        "type": "article"
+      },
+      {
+        "id": 86893,
+        "type": "article"
+      },
+      {
+        "id": 3692,
+        "type": "article"
+      },
+      {
+        "id": 3693,
+        "type": "article"
+      },
+      {
+        "id": 3694,
+        "type": "article"
+      },
+      {
+        "id": 3695,
+        "type": "article"
+      },
+      {
+        "id": 3696,
+        "type": "article"
+      },
+      {
+        "id": 3697,
+        "type": "article"
+      },
+      {
+        "id": 3698,
+        "type": "article"
+      },
+      {
+        "id": 3699,
+        "type": "article"
+      },
+      {
+        "id": 3700,
+        "type": "article"
+      },
+      {
+        "id": 3701,
+        "type": "article"
+      },
+      {
+        "id": 3702,
+        "type": "article"
+      },
+      {
+        "id": 3703,
+        "type": "article"
+      },
+      {
+        "id": 3704,
+        "type": "article"
+      },
+      {
+        "id": 3705,
+        "type": "article"
+      },
+      {
+        "id": 3706,
+        "type": "article"
+      },
+      {
+        "id": 3707,
+        "type": "article"
+      },
+      {
+        "id": 3708,
+        "type": "article"
+      },
+      {
+        "id": 3709,
+        "type": "article"
+      },
+      {
+        "id": 88974,
+        "type": "article"
+      },
+      {
+        "id": 3710,
+        "type": "article"
+      },
+      {
+        "id": 3711,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "BKMR (Bayesian Kernel Machine Regression)"
+  },
+  {
+    "id": "science_descriptive_16",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Human subjects, with particular focus on newborns, infants, and children in population-based and field-based epidemiological studies\nExposure: Environmental toxicants including environmental tobacco smoke, trace elements (lead, mercury, cadmium, arsenic), and industrial chemicals (endocrine-disrupting chemicals and persistent organic pollutants)\nComparison: Venipuncture-based blood sampling methods (gold standard) and plasma/serum sample analysis\nOutcome: Analytical method performance parameters including analytical sensitivity, specificity, sample volume requirements, contamination considerations, extracted blood volume estimation, biomarker stability, analyte recovery, and hematocrit effects\nPublication period: up to 2022-03-07 00:00:00\nEligible studies: To be included in this review, studies had to meet the following criteria: Measured environmental exposure biomarker (i.e., internal doses of exposure to exogenous pollutants, including native exogenous compounds and/or their metabolites). Used dried blood spot (DBS) sampling. Used human blood (not animal blood).\nExclude: Duplcate records；Records not retrieved，abstracts ony； Did not measure environmental；Did not use human blood，exposure biomarker\n\nTask: Which environmental biomarkers were specifically identified as needing improved detection limits in dried-blood-spot assays?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3805,
+        "type": "article"
+      },
+      {
+        "id": 3806,
+        "type": "article"
+      },
+      {
+        "id": 90376,
+        "type": "article"
+      },
+      {
+        "id": 3807,
+        "type": "article"
+      },
+      {
+        "id": 3808,
+        "type": "article"
+      },
+      {
+        "id": 3809,
+        "type": "article"
+      },
+      {
+        "id": 3810,
+        "type": "article"
+      },
+      {
+        "id": 3811,
+        "type": "article"
+      },
+      {
+        "id": 3812,
+        "type": "article"
+      },
+      {
+        "id": 3813,
+        "type": "article"
+      },
+      {
+        "id": 90448,
+        "type": "article"
+      },
+      {
+        "id": 3814,
+        "type": "article"
+      },
+      {
+        "id": 3815,
+        "type": "article"
+      },
+      {
+        "id": 3816,
+        "type": "article"
+      },
+      {
+        "id": 3817,
+        "type": "article"
+      },
+      {
+        "id": 3818,
+        "type": "article"
+      },
+      {
+        "id": 3819,
+        "type": "article"
+      },
+      {
+        "id": 3820,
+        "type": "article"
+      },
+      {
+        "id": 3821,
+        "type": "article"
+      },
+      {
+        "id": 3822,
+        "type": "article"
+      },
+      {
+        "id": 3823,
+        "type": "article"
+      },
+      {
+        "id": 3824,
+        "type": "article"
+      },
+      {
+        "id": 3825,
+        "type": "article"
+      },
+      {
+        "id": 3826,
+        "type": "article"
+      },
+      {
+        "id": 3827,
+        "type": "article"
+      },
+      {
+        "id": 3828,
+        "type": "article"
+      },
+      {
+        "id": 3829,
+        "type": "article"
+      },
+      {
+        "id": 3830,
+        "type": "article"
+      },
+      {
+        "id": 3831,
+        "type": "article"
+      },
+      {
+        "id": 3832,
+        "type": "article"
+      },
+      {
+        "id": 3833,
+        "type": "article"
+      },
+      {
+        "id": 3834,
+        "type": "article"
+      },
+      {
+        "id": 3835,
+        "type": "article"
+      },
+      {
+        "id": 3836,
+        "type": "article"
+      },
+      {
+        "id": 3837,
+        "type": "article"
+      },
+      {
+        "id": 3838,
+        "type": "article"
+      },
+      {
+        "id": 3839,
+        "type": "article"
+      },
+      {
+        "id": 3840,
+        "type": "article"
+      },
+      {
+        "id": 3841,
+        "type": "article"
+      },
+      {
+        "id": 3842,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "Arsenic, cadmium, and bisphenol A were identified as needing improved detection limits."
+  },
+  {
+    "id": "science_descriptive_17",
+    "type": "study_pattern",
+    "query": "Evidence-synthesis scope:\nPopulation: Patients with hypertension\nIntervention: Biofeedback (including various modalities such as heart rate variability biofeedback)\nComparison: Control conditions (standard care or no biofeedback intervention)\nOutcome: Blood pressure changes (systolic and diastolic blood pressure)\nPublication period: up to 2024-01-16 00:00:00\nEligible studies: Inclusion criteria were as follows: assessment of biofeedback (all modalities e.g., neurological, cardiovascular, physical) on systolic and/or diastolic blood pressure, randomised control trial, published in English, adult participants aged 18 and over, with a diagnosis of hypertension (office reading of systolic blood pressure (SBP) ≥ 140 and/or diastolic blood pressure (DBP) ≥ 90 mmHg or home blood pressure readings of SBP ≥ 135 and/or DBP ≥ 85 mmHg) [14]. There was no specification for patients to be on specific types of hypertension treatment.\nExclude: Systematic reviews, editorial letters and conference abstracts were excluded.The main reasons for exclusion were study design not meeting the inclusion criteria (31%), articles not in English (18%), or outcomes outside of the inclusion criteria (14%).\n\nTask: During which period were most studies of biofeedback for hypertension published?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 3848,
+        "type": "article"
+      },
+      {
+        "id": 3849,
+        "type": "article"
+      },
+      {
+        "id": 3850,
+        "type": "article"
+      },
+      {
+        "id": 3851,
+        "type": "article"
+      },
+      {
+        "id": 3852,
+        "type": "article"
+      },
+      {
+        "id": 3853,
+        "type": "article"
+      },
+      {
+        "id": 3854,
+        "type": "article"
+      },
+      {
+        "id": 3855,
+        "type": "article"
+      },
+      {
+        "id": 3856,
+        "type": "article"
+      },
+      {
+        "id": 3857,
+        "type": "article"
+      },
+      {
+        "id": 3858,
+        "type": "article"
+      },
+      {
+        "id": 3859,
+        "type": "article"
+      },
+      {
+        "id": 3860,
+        "type": "article"
+      },
+      {
+        "id": 90639,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "1970-1999"
+  },
+  {
+    "id": "science_descriptive_18",
+    "type": "main_factors",
+    "query": "Evidence-synthesis scope:\nPopulation: Individuals at increased risk for type 1 diabetes (pre-clinical stages) and individuals with newly diagnosed type 1 diabetes\nIntervention: Disease-modifying therapies, primarily immunomodulatory agents (including teplizumab and other immunotherapies) and therapies targeting beta cell health and function\nComparison: Placebo\nOutcome: Prevention or delay of clinical type 1 diabetes onset, preservation of endogenous insulin production (measured by C-peptide levels), beta cell function, and identification of features linked to treatment response (age, beta cell function measures, immune phenotypes)\nPublication period: from 1996-01-01 through 2022-02-22\nEligible studies: To qualify for review, studies must have tested a disease-modifying treatment in either initially non diabetic individuals at risk, or individuals with new-onset type 1 diabetes (within 1 year of diagnosis). Eligible study types included randomized controlled trials (RCTs); systematic reviews or meta analyses of RCTs, or post hoc analyses of RCTs. Selected primary trials or longitudinal follow-up papers of primary trials had a total sample size ≥50 and were published as a full paper in English in a peer-reviewed journal within 25 years of the search (2/21/1997-2/ 22/2022). Papers focusing on a precision approach to identify features associated with a treatment response were also included if the total sample size was ≥10. Longitudinal follow-up papers of RCTs were included if they addressed follow-up data on time to diabetes, C-peptide area under the curve (AUC), or included “precision analyses” of specific individual features or measures of treatment response.\nExclude: Studies were excluded if they included mixed participant populations (i.e., type 1 and type 2 diabetes) or populations with inconsistent definitions across papers (i.e., latent autoimmune diabetes in adults). Several additional key articles previously known to the group of experts that also met inclusion criteria but were not included in the search results because of search restrictions designed to improve search feasibility were also included in the analysis. While systematic reviews and meta analyses were included in the original search strategy to identify any existing meta-analyses aimed at precision approaches, none that met inclusion criteria were identified.\n\nTask: Which baseline factors were most frequently identified as being associated with differential treatment response in type 1 diabetes prevention studies?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 1290,
+        "type": "article"
+      },
+      {
+        "id": 1291,
+        "type": "article"
+      },
+      {
+        "id": 1292,
+        "type": "article"
+      },
+      {
+        "id": 1293,
+        "type": "article"
+      },
+      {
+        "id": 1294,
+        "type": "article"
+      },
+      {
+        "id": 1295,
+        "type": "article"
+      },
+      {
+        "id": 1296,
+        "type": "article"
+      },
+      {
+        "id": 1297,
+        "type": "article"
+      },
+      {
+        "id": 1298,
+        "type": "article"
+      },
+      {
+        "id": 22956,
+        "type": "article"
+      },
+      {
+        "id": 1299,
+        "type": "article"
+      },
+      {
+        "id": 1300,
+        "type": "article"
+      },
+      {
+        "id": 1301,
+        "type": "article"
+      },
+      {
+        "id": 1302,
+        "type": "article"
+      },
+      {
+        "id": 1303,
+        "type": "article"
+      },
+      {
+        "id": 1304,
+        "type": "article"
+      },
+      {
+        "id": 1305,
+        "type": "article"
+      },
+      {
+        "id": 1306,
+        "type": "article"
+      },
+      {
+        "id": 1307,
+        "type": "article"
+      },
+      {
+        "id": 1308,
+        "type": "article"
+      },
+      {
+        "id": 1309,
+        "type": "article"
+      },
+      {
+        "id": 1310,
+        "type": "article"
+      },
+      {
+        "id": 1311,
+        "type": "article"
+      },
+      {
+        "id": 1312,
+        "type": "article"
+      },
+      {
+        "id": 1313,
+        "type": "article"
+      },
+      {
+        "id": 1314,
+        "type": "article"
+      },
+      {
+        "id": 23082,
+        "type": "article"
+      },
+      {
+        "id": 1315,
+        "type": "article"
+      },
+      {
+        "id": 1316,
+        "type": "article"
+      },
+      {
+        "id": 1317,
+        "type": "article"
+      },
+      {
+        "id": 1318,
+        "type": "article"
+      },
+      {
+        "id": 23128,
+        "type": "article"
+      },
+      {
+        "id": 1319,
+        "type": "article"
+      },
+      {
+        "id": 1320,
+        "type": "article"
+      },
+      {
+        "id": 23111,
+        "type": "article"
+      },
+      {
+        "id": 1321,
+        "type": "article"
+      },
+      {
+        "id": 1322,
+        "type": "article"
+      },
+      {
+        "id": 1323,
+        "type": "article"
+      },
+      {
+        "id": 1324,
+        "type": "article"
+      },
+      {
+        "id": 1325,
+        "type": "article"
+      },
+      {
+        "id": 1326,
+        "type": "article"
+      },
+      {
+        "id": 1327,
+        "type": "article"
+      },
+      {
+        "id": 23231,
+        "type": "article"
+      },
+      {
+        "id": 1328,
+        "type": "article"
+      },
+      {
+        "id": 1329,
+        "type": "article"
+      },
+      {
+        "id": 1330,
+        "type": "article"
+      },
+      {
+        "id": 1331,
+        "type": "article"
+      },
+      {
+        "id": 1332,
+        "type": "article"
+      },
+      {
+        "id": 1333,
+        "type": "article"
+      },
+      {
+        "id": 1334,
+        "type": "article"
+      },
+      {
+        "id": 1335,
+        "type": "article"
+      },
+      {
+        "id": 1336,
+        "type": "article"
+      },
+      {
+        "id": 22957,
+        "type": "article"
+      },
+      {
+        "id": 1337,
+        "type": "article"
+      },
+      {
+        "id": 1338,
+        "type": "article"
+      },
+      {
+        "id": 1339,
+        "type": "article"
+      },
+      {
+        "id": 1340,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "The most frequently identified baseline factors were age and measures of beta-cell function."
+  },
+  {
+    "id": "science_descriptive_19",
+    "type": "dominant_category",
+    "query": "Evidence-synthesis scope:\nPopulation: Patients with bipolar disorder\nIntervention: L-type calcium channel antagonists (verapamil, diltiazem, nimodipine, nifedipine, methyoxyverapamil, isradipine)\nComparison: Placebo or standard treatments\nOutcome: Treatment efficacy for acute manic and depressive episodes, relapse prevention, and tolerability\nPublication period: up to 2016-02-15\nEligible studies: We included randomised controlled trials (RCTs) comparing LTCC antagonists with placebo or any other active pharmacological treatment (all interventions could be in any preparation, dose, frequency, route of delivery or delivery setting). To assess efficacy and acceptability, we considered only double-blind studies. By contrast, for consideration of adverse effects, single blind or open RCTs were also included, and the most relevant non-randomised evidence was summarised as well. For RCTs with a crossover design, only results from the first period before crossover were considered. Cluster randomised trials were excluded. We included both published and unpublished studies. We allowed both fixed and flexible dose regimen designs. Patients of any age, of both sexes, of any ethnicity, based in any clinical setting, with a primary diagnosis of bipolar disorder (any subtype and according to any standardised diagnostic criteria) were included. In addition to studies using LTCC antagonists as monotherapy, trials in which an LTCC antagonist was used as add-on treatment (for example, with lithium) were also included, if the pre-existing treatments were evenly distributed in both the experimental and comparator intervention arms, and were continued throughout the study.\nExclude: We excluded only studies recruiting participants with a serious concomitant medical illness.\n\nTask: Which L-type calcium-channel antagonist was tested in all double-blind randomized controlled trials identified for bipolar disorder?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 1741,
+        "type": "article"
+      },
+      {
+        "id": 1742,
+        "type": "article"
+      },
+      {
+        "id": 1743,
+        "type": "article"
+      },
+      {
+        "id": 1744,
+        "type": "article"
+      },
+      {
+        "id": 1745,
+        "type": "article"
+      },
+      {
+        "id": 27218,
+        "type": "article"
+      },
+      {
+        "id": 1746,
+        "type": "article"
+      },
+      {
+        "id": 27223,
+        "type": "article"
+      },
+      {
+        "id": 1747,
+        "type": "article"
+      },
+      {
+        "id": 1748,
+        "type": "article"
+      },
+      {
+        "id": 1749,
+        "type": "article"
+      },
+      {
+        "id": 1750,
+        "type": "article"
+      },
+      {
+        "id": 1751,
+        "type": "article"
+      },
+      {
+        "id": 1752,
+        "type": "article"
+      },
+      {
+        "id": 1753,
+        "type": "article"
+      },
+      {
+        "id": 1754,
+        "type": "article"
+      },
+      {
+        "id": 1755,
+        "type": "article"
+      },
+      {
+        "id": 1756,
+        "type": "article"
+      },
+      {
+        "id": 1757,
+        "type": "article"
+      },
+      {
+        "id": 1758,
+        "type": "article"
+      },
+      {
+        "id": 1759,
+        "type": "article"
+      },
+      {
+        "id": 1760,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "verapamil"
+  },
+  {
+    "id": "science_descriptive_20",
+    "type": "study_pattern",
+    "query": "Evidence-synthesis scope:\nPopulation: Adults in obesity research studies\nExposure: Obesogenic environmental factors studied through non-traditional data sources (geospatial data/GIS, social networks, digital devices)\nComparison: Traditional data sources used in obesity research\nOutcome: Identification and characterization of non-traditional data sources, their applications across obesogenic environment domains (physical, sociocultural, political, economic), and obesity-related outcomes\nPublication period: from 2021-09-29 through 2021-12-22\nEligible studies: Studies were considered eligible if they met the following criteria for their inclusion: (1) to be orientated towards obesity research, using non-traditional data sources to characterise environment, such as data from geospatial data sources, social networks, or digital devices sources (such as accelerometers and GPS tracking devices); (2) to be written in English, Spanish or Portuguese; (3) to be available in full text; (4) to be published between 2016 and 2021; (5) to be original articles; and (6) to have been carried out in adult population.\nExclude: We excluded those articles that did not meet these conditions, as well as duplicate publications, systematic reviews and meta-analyses, validation studies, technical reports, and editorial articles.\n\nTask: Which non-traditional data source was used most often in obesity research on obesogenic environments?",
+    "instruction": "Using only the eligible studies within the scope stated in the query, provide the requested descriptive finding. Return only one concise, direct sentence or phrase. Do not include explanations, statistics, citations, or a JSON/list format.",
+    "evidence": [
+      {
+        "id": 7050,
+        "type": "article"
+      },
+      {
+        "id": 7051,
+        "type": "article"
+      },
+      {
+        "id": 7052,
+        "type": "article"
+      },
+      {
+        "id": 19172,
+        "type": "article"
+      },
+      {
+        "id": 7053,
+        "type": "article"
+      },
+      {
+        "id": 7054,
+        "type": "article"
+      },
+      {
+        "id": 19126,
+        "type": "article"
+      },
+      {
+        "id": 7055,
+        "type": "article"
+      },
+      {
+        "id": 7056,
+        "type": "article"
+      },
+      {
+        "id": 7057,
+        "type": "article"
+      },
+      {
+        "id": 7058,
+        "type": "article"
+      },
+      {
+        "id": 7059,
+        "type": "article"
+      },
+      {
+        "id": 7060,
+        "type": "article"
+      },
+      {
+        "id": 7061,
+        "type": "article"
+      },
+      {
+        "id": 7062,
+        "type": "article"
+      },
+      {
+        "id": 7063,
+        "type": "article"
+      },
+      {
+        "id": 7064,
+        "type": "article"
+      },
+      {
+        "id": 7065,
+        "type": "article"
+      },
+      {
+        "id": 7066,
+        "type": "article"
+      },
+      {
+        "id": 7067,
+        "type": "article"
+      },
+      {
+        "id": 7068,
+        "type": "article"
+      },
+      {
+        "id": 7069,
+        "type": "article"
+      },
+      {
+        "id": 7070,
+        "type": "article"
+      },
+      {
+        "id": 7071,
+        "type": "article"
+      },
+      {
+        "id": 7072,
+        "type": "article"
+      },
+      {
+        "id": 7073,
+        "type": "article"
+      },
+      {
+        "id": 7074,
+        "type": "article"
+      },
+      {
+        "id": 7075,
+        "type": "article"
+      },
+      {
+        "id": 7076,
+        "type": "article"
+      },
+      {
+        "id": 7077,
+        "type": "article"
+      },
+      {
+        "id": 7078,
+        "type": "article"
+      },
+      {
+        "id": 7079,
+        "type": "article"
+      },
+      {
+        "id": 7080,
+        "type": "article"
+      }
+    ],
+    "ground_truth": "geospatial data within GIS"
+  }
+]

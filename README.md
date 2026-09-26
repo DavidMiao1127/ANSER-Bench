@@ -1,24 +1,6 @@
----
-license: mit
-language:
-- en
-- zh
-task_categories:
-- question-answering
-- text-retrieval
-tags:
-- analytical-search
-- legal
-- finance
-- science
-- benchmark
----
-
 # ANSER-Bench: A Comprehensive Benchmark for Analytical Search
 
 [中文说明](README_zh.md)
-
-[Paper (arXiv, coming soon)](https://arxiv.org/abs/XXXX.XXXXX) · [Code (GitHub, coming soon)](https://github.com/your-org/your-repo)
 
 ANSER-Bench is a multilingual, multi-domain benchmark for **analytical search**. Rather than evaluating whether a system can find a relevant document, it evaluates whether the system can retrieve, filter, compute over, or synthesize a given corpus, and produce answers traceable to the critical evidence.
 
