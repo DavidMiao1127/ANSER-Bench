@@ -1,0 +1,30 @@
+{
+  "deadline_seconds": 600,
+  "request_timeout_seconds": 180,
+  "transient_retries": 2,
+  "max_output_tokens": 8192,
+  "closing_time_reserves_seconds": [
+    120,
+    45
+  ],
+  "tool_result_bytes": 24000,
+  "verifier_result_bytes": 8000,
+  "context_bytes_guard": 100000,
+  "search_top_k": 10,
+  "chunk_chars": 3000,
+  "chunk_overlap": 200,
+  "policies_file": "policies.json",
+  "disable_verifier_thinking": false,
+  "qwen_legal_protection": true,
+  "hard_closing_seconds": null,
+  "hard_closing_wall_floor_seconds": null,
+  "rate_limit_retries": 3,
+  "rate_limit_backoff_seconds": [
+    60,
+    120,
+    180
+  ],
+  "concurrency": 4,
+  "borrow_slots": true,
+  "borrow_min_available_gb": 2
+}

@@ -1,0 +1,5 @@
+{
+  "global_instruction": "Solve the public task using only the supplied local corpus. Search it with web_search. Do not use open-web sources or hidden annotations. Follow the task instruction exactly; output only the requested answer.",
+  "evidence_instruction": "Use only evidence IDs actually returned by the corpus tool. Retrieve the complete cohort for population tasks. Do not fabricate references.",
+  "task_template": "Task: {id}\nType: {type}\nQuery: {query}\nInstruction: {instruction}"
+}

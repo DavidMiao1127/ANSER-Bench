@@ -1,0 +1,5802 @@
+[
+  {
+    "id": "finance_zh_predictive_1",
+    "type": "mixed_numeric_text",
+    "query": "以华能国际（600011）截至2024年的年度报告为依据，并参考2022-2024年收入趋势和管理层经营展望，判断其2025年营业收入同比增速最可能处于哪个区间。 A. 同比增速≤-5% | B. -5%<同比增速<2% | C. 2%≤同比增速<8% | D. 同比增速≥8%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600011_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600011_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600011_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600011_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600011_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_2",
+    "type": "mixed_numeric_text",
+    "query": "阅读澳柯玛（600336）2022-2024年年报后，结合收入变化和2024年经营展望，判断2025年营业收入同比增长更接近哪一档。 A. 同比增速≤-5% | B. -5%<同比增速<2% | C. 2%≤同比增速<8% | D. 同比增速≥8%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600336_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600336_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600336_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600336_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600336_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_3",
+    "type": "mixed_numeric_text",
+    "query": "在仅使用中贝通信（603220）截至2024年财报信息的前提下，根据2022-2024年收入表现与管理层展望，选择2025年收入同比增速区间。 A. 同比增速≤-5% | B. -5%<同比增速<2% | C. 2%≤同比增速<8% | D. 同比增速≥8%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603220_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603220_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603220_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603220_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603220_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_4",
+    "type": "mixed_numeric_text",
+    "query": "围绕大豪科技（603025）2022-2024年收入走势及2024年管理层展望，判断2025年营业收入同比增长最可能落入的区间。 A. 同比增速≤-5% | B. -5%<同比增速<2% | C. 2%≤同比增速<8% | D. 同比增速≥8%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603025_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603025_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603025_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603025_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603025_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_5",
+    "type": "mixed_numeric_text",
+    "query": "结合国电电力（600795）2020-2024年收入复合增速以及2024年订单或需求表述，判断其2025年收入增速相对历史区间应归入哪类。 A. 2025年同比增速低于2020-2024年最低同比增速 | B. 2025年同比增速≤2020-2024年同比增速中位数+2个百分点 | C. 2025年同比增速>2020-2024年同比增速中位数+2个百分点 | D. 缺少2025年或2020-2024年可比增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600795_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600795_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600795_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600795_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600795_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_6",
+    "type": "mixed_numeric_text",
+    "query": "观察东贝集团（601956）2020-2024年收入复合增长情况，并参考2024年订单、需求相关披露，选择2025年收入增速区间。 A. 2025年同比增速低于2020-2024年最低同比增速 | B. 2025年同比增速≤2020-2024年同比增速中位数+2个百分点 | C. 2025年同比增速>2020-2024年同比增速中位数+2个百分点 | D. 缺少2025年或2020-2024年可比增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601956_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601956_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601956_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601956_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601956_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_7",
+    "type": "mixed_numeric_text",
+    "query": "若以数据港（603881）2020-2024年收入复合增速为历史参照，并加入2024年需求或订单线索，2025年收入增速应如何定位？ A. 2025年同比增速低于2020-2024年最低同比增速 | B. 2025年同比增速≤2020-2024年同比增速中位数+2个百分点 | C. 2025年同比增速>2020-2024年同比增速中位数+2个百分点 | D. 缺少2025年或2020-2024年可比增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603881_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603881_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603881_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603881_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603881_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_8",
+    "type": "mixed_numeric_text",
+    "query": "用睿能科技（603933）2020-2024年收入增长中枢作基准，再结合2024年订单或需求描述，判断2025年收入增速所处位置。 A. 2025年同比增速低于2020-2024年最低同比增速 | B. 2025年同比增速≤2020-2024年同比增速中位数+2个百分点 | C. 2025年同比增速>2020-2024年同比增速中位数+2个百分点 | D. 缺少2025年或2020-2024年可比增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603933_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603933_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603933_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603933_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603933_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_9",
+    "type": "mixed_numeric_text",
+    "query": "仅依据华电国际（600027）截至2024年的财报和2020-2024年经营数据，判断其2025年归母净利润增速最可能属于哪一类。 A. 同比增速≤-5%、由盈转亏或亏损额扩大≥5% | B. -5%<同比增速<2% | C. 2%≤同比增速<20% | D. 同比增速≥20%、由亏转盈或亏损额收窄≥20%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600027_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600027_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600027_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600027_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600027_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_10",
+    "type": "mixed_numeric_text",
+    "query": "如果不使用2025年以后的外部预测，晨光股份（603899）2025年归母净利润增速更可能落在哪个区间？请基于2020-2024年数据判断。 A. 同比增速≤-5%、由盈转亏或亏损额扩大≥5% | B. -5%<同比增速<2% | C. 2%≤同比增速<20% | D. 同比增速≥20%、由亏转盈或亏损额收窄≥20%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603899_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603899_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603899_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603899_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603899_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_11",
+    "type": "mixed_numeric_text",
+    "query": "根据超讯通信（603322）2020-2024年盈利表现及截至2024年的年报披露，选择2025年归母净利润增速类别。 A. 同比增速≤-5%、由盈转亏或亏损额扩大≥5% | B. -5%<同比增速<2% | C. 2%≤同比增速<20% | D. 同比增速≥20%、由亏转盈或亏损额收窄≥20%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603322_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603322_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603322_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603322_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603322_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_12",
+    "type": "mixed_numeric_text",
+    "query": "从三一重工（600031）2020-2024年收入、成本和利润趋势出发，判断2025年归母净利润增速最合理的档位。 A. 同比增速≤-5%、由盈转亏或亏损额扩大≥5% | B. -5%<同比增速<2% | C. 2%≤同比增速<20% | D. 同比增速≥20%、由亏转盈或亏损额收窄≥20%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600031_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600031_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600031_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600031_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600031_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_13",
+    "type": "mixed_numeric_text",
+    "query": "根据大唐发电（601991）2020-2024年毛利率、成本压力和产品结构披露，判断2025年毛利率较2024年更可能出现怎样的变化。 A. 毛利率变动≤-3个百分点 | B. -3个百分点<毛利率变动<1个百分点 | C. 1个百分点≤毛利率变动<5个百分点 | D. 毛利率变动≥5个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601991_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601991_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601991_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601991_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601991_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_14",
+    "type": "mixed_numeric_text",
+    "query": "将欧派家居（603833）2020-2024年毛利率轨迹与成本、产品结构信息放在一起看，2025年毛利率相对2024年应选哪一项？ A. 毛利率变动≤-3个百分点 | B. -3个百分点<毛利率变动<1个百分点 | C. 1个百分点≤毛利率变动<5个百分点 | D. 毛利率变动≥5个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603833_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603833_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603833_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603833_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603833_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_15",
+    "type": "mixed_numeric_text",
+    "query": "参考城地香江（603887）截至2024年的财报数据和成本/产品结构表述，判断2025年毛利率变化方向及幅度。 A. 毛利率变动≤-3个百分点 | B. -3个百分点<毛利率变动<1个百分点 | C. 1个百分点≤毛利率变动<5个百分点 | D. 毛利率变动≥5个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603887_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603887_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603887_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603887_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603887_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_16",
+    "type": "mixed_numeric_text",
+    "query": "围绕安徽合力（600761）2020-2024年毛利率变化、成本压力和结构调整线索，选择2025年毛利率相对2024年的变化类型。 A. 毛利率变动≤-3个百分点 | B. -3个百分点<毛利率变动<1个百分点 | C. 1个百分点≤毛利率变动<5个百分点 | D. 毛利率变动≥5个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600761_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600761_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600761_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600761_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600761_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_17",
+    "type": "mixed_numeric_text",
+    "query": "综合中国神华（601088）2020-2024年经营现金流、应收账款和存货变化，判断其2025年经营现金流质量更可能落入哪一档。 A. 2025年经营现金流/收入<0或较2024年下降≥2个百分点 | B. 2025年经营现金流/收入<5%或较2024年下降<2个百分点 | C. 0≤较2024年变动≤2个百分点且2025年经营现金流/收入≥5% | D. 较2024年上升>2个百分点且2025年经营现金流/收入≥5%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601088_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601088_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601088_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601088_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601088_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_18",
+    "type": "mixed_numeric_text",
+    "query": "从顾家家居（603816）2020-2024年回款表现、应收账款和存货周转线索看，2025年经营现金流质量应如何分类？ A. 2025年经营现金流/收入<0或较2024年下降≥2个百分点 | B. 2025年经营现金流/收入<5%或较2024年下降<2个百分点 | C. 0≤较2024年变动≤2个百分点且2025年经营现金流/收入≥5% | D. 较2024年上升>2个百分点且2025年经营现金流/收入≥5%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603816_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603816_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603816_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603816_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603816_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_19",
+    "type": "mixed_numeric_text",
+    "query": "以用友网络（600588）2020-2024年经营现金流趋势为主线，并结合应收账款、存货变化，选择2025年现金流质量类别。 A. 2025年经营现金流/收入<0或较2024年下降≥2个百分点 | B. 2025年经营现金流/收入<5%或较2024年下降<2个百分点 | C. 0≤较2024年变动≤2个百分点且2025年经营现金流/收入≥5% | D. 较2024年上升>2个百分点且2025年经营现金流/收入≥5%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600588_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600588_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600588_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600588_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600588_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_20",
+    "type": "mixed_numeric_text",
+    "query": "对照杭叉集团（603298）2020-2024年现金流、应收账款和存货数据，判断2025年经营现金流质量最可能呈现的状态。 A. 2025年经营现金流/收入<0或较2024年下降≥2个百分点 | B. 2025年经营现金流/收入<5%或较2024年下降<2个百分点 | C. 0≤较2024年变动≤2个百分点且2025年经营现金流/收入≥5% | D. 较2024年上升>2个百分点且2025年经营现金流/收入≥5%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603298_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603298_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603298_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603298_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603298_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_21",
+    "type": "multi_period_trend",
+    "query": "参考中煤能源（601898）2020-2024年销售费用率、管理费用率和研发费用率变化，判断2025年期间费用率更可能怎样演变。 A. 期间费用率较2024年上升>1个百分点 | B. -1个百分点≤期间费用率较2024年变动≤1个百分点 | C. 期间费用率较2024年下降>1个百分点 | D. 缺少2025年或2024年期间费用率数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601898_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601898_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601898_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601898_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601898_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_22",
+    "type": "multi_period_trend",
+    "query": "把公牛集团（603195）2020-2024年主要费用率放在同一口径下比较，选择2025年期间费用率的可能走势。 A. 期间费用率较2024年上升>1个百分点 | B. -1个百分点≤期间费用率较2024年变动≤1个百分点 | C. 期间费用率较2024年下降>1个百分点 | D. 缺少2025年或2024年期间费用率数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603195_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603195_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603195_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603195_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603195_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_23",
+    "type": "multi_period_trend",
+    "query": "依据三六零（601360）2020-2024年销售、管理和研发费用率轨迹，判断2025年费用率变化方向。 A. 期间费用率较2024年上升>1个百分点 | B. -1个百分点≤期间费用率较2024年变动≤1个百分点 | C. 期间费用率较2024年下降>1个百分点 | D. 缺少2025年或2024年期间费用率数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601360_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601360_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601360_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601360_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601360_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_24",
+    "type": "multi_period_trend",
+    "query": "围绕恒立液压（601100）2020-2024年费用结构变化，判断2025年期间费用率最可能属于哪种状态。 A. 期间费用率较2024年上升>1个百分点 | B. -1个百分点≤期间费用率较2024年变动≤1个百分点 | C. 期间费用率较2024年下降>1个百分点 | D. 缺少2025年或2024年期间费用率数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601100_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601100_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601100_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601100_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601100_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_25",
+    "type": "mixed_numeric_text",
+    "query": "结合陕西煤业（601225）2020-2024年收入、应收账款和合同负债走势，判断2025年营运资本压力应归为哪一档。 A. 营运资本/收入较2024年上升>2个百分点 | B. -2个百分点≤营运资本/收入较2024年变动≤2个百分点 | C. 营运资本/收入较2024年下降>2个百分点 | D. 缺少营运资本/收入可比数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601225_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601225_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601225_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601225_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601225_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_26",
+    "type": "mixed_numeric_text",
+    "query": "从老凤祥（600612）2020-2024年收入增长、应收账款占用和合同负债变化看，2025年营运资本压力更接近哪类？ A. 营运资本/收入较2024年上升>2个百分点 | B. -2个百分点≤营运资本/收入较2024年变动≤2个百分点 | C. 营运资本/收入较2024年下降>2个百分点 | D. 缺少营运资本/收入可比数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600612_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600612_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600612_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600612_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600612_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_27",
+    "type": "mixed_numeric_text",
+    "query": "以恒生电子（600570）2020-2024年营运资金相关指标为依据，选择2025年营运资本压力的判断结果。 A. 营运资本/收入较2024年上升>2个百分点 | B. -2个百分点≤营运资本/收入较2024年变动≤2个百分点 | C. 营运资本/收入较2024年下降>2个百分点 | D. 缺少营运资本/收入可比数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600570_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600570_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600570_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600570_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600570_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_28",
+    "type": "mixed_numeric_text",
+    "query": "对比中国船舶（600150）2020-2024年收入、应收账款与合同负债变化后，判断2025年营运资本压力的可能方向。 A. 营运资本/收入较2024年上升>2个百分点 | B. -2个百分点≤营运资本/收入较2024年变动≤2个百分点 | C. 营运资本/收入较2024年下降>2个百分点 | D. 缺少营运资本/收入可比数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600150_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600150_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600150_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600150_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600150_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_29",
+    "type": "mixed_numeric_text",
+    "query": "从兖矿能源（600188）2020-2024年在建工程、固定资产和产能规划披露看，2025年资本开支趋势最可能对应哪一项。 A. 固定资产同比增速>10% | B. -5%≤固定资产同比增速≤10% | C. 固定资产同比增速<-5% | D. 缺少2025年或2024年固定资产数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600188_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600188_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600188_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600188_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600188_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_30",
+    "type": "mixed_numeric_text",
+    "query": "依据海澜之家（600398）2020-2024年固定资产变化、在建工程和产能安排，选择2025年资本开支趋势。 A. 固定资产同比增速>10% | B. -5%≤固定资产同比增速≤10% | C. 固定资产同比增速<-5% | D. 缺少2025年或2024年固定资产数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600398_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600398_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600398_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600398_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600398_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_31",
+    "type": "mixed_numeric_text",
+    "query": "若把中科软（603927）截至2024年的资产投入和产能规划作为判断基础，2025年资本开支更可能呈现哪种状态？ A. 固定资产同比增速>10% | B. -5%≤固定资产同比增速≤10% | C. 固定资产同比增速<-5% | D. 缺少2025年或2024年固定资产数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603927_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603927_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603927_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603927_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603927_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_32",
+    "type": "mixed_numeric_text",
+    "query": "结合航发动力（600893）2020-2024年固定资产、在建工程和产能线索，判断2025年投入节奏。 A. 固定资产同比增速>10% | B. -5%≤固定资产同比增速≤10% | C. 固定资产同比增速<-5% | D. 缺少2025年或2024年固定资产数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600893_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600893_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600893_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600893_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600893_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_33",
+    "type": "mixed_numeric_text",
+    "query": "将中国石化（600028）与石油加工贸易可比公司2020-2024年收入和利润趋势相比，判断其2025年相对增长位置更可能是哪类。 A. 同业排名百分位>66.67% | B. 33.33%<同业排名百分位≤66.67% | C. 同业排名百分位≤33.33% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600028_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600028_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600028_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600028_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600028_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_34",
+    "type": "mixed_numeric_text",
+    "query": "在服装家纺同业样本中，对照雅戈尔（600177）2020-2024年收入、利润走势，选择其2025年相对增长档位。 A. 同业排名百分位>66.67% | B. 33.33%<同业排名百分位≤66.67% | C. 同业排名百分位≤33.33% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600177_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600177_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600177_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600177_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600177_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_35",
+    "type": "mixed_numeric_text",
+    "query": "参考宝信软件（600845）与IT服务同业公司2020-2024年收入及利润表现，判断2025年增长相对位置。 A. 同业排名百分位>66.67% | B. 33.33%<同业排名百分位≤66.67% | C. 同业排名百分位≤33.33% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600845_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600845_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600845_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600845_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600845_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_36",
+    "type": "mixed_numeric_text",
+    "query": "把中航沈飞（600760）放入军工装备可比公司中比较历史收入和利润趋势，2025年更可能处于哪一相对位置？ A. 同业排名百分位>66.67% | B. 33.33%<同业排名百分位≤66.67% | C. 同业排名百分位≤33.33% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600760_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600760_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600760_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600760_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600760_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_37",
+    "type": "mixed_numeric_text",
+    "query": "结合中国石油（601857）2024年管理层对需求、价格和产能的展望，判断2025年最合理的经营情景。 A. 收入同比增速<-2% | B. 收入同比增速>2%且利润率变动<0个百分点 | C. -2%≤收入同比增速≤2%且利润率变动在±1个百分点内 | D. 收入同比增速>2%且利润率变动≥0个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601857_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601857_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601857_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601857_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601857_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_38",
+    "type": "mixed_numeric_text",
+    "query": "若际华集团（601718）延续2024年年报中关于需求、价格和产能的判断，2025年经营情景应选哪一项？ A. 收入同比增速<-2% | B. 收入同比增速>2%且利润率变动<0个百分点 | C. -2%≤收入同比增速≤2%且利润率变动在±1个百分点内 | D. 收入同比增速>2%且利润率变动≥0个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601718_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601718_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601718_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601718_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601718_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_39",
+    "type": "mixed_numeric_text",
+    "query": "依据东软集团（600718）2024年管理层展望中的需求、价格和产能线索，选择2025年经营情景。 A. 收入同比增速<-2% | B. 收入同比增速>2%且利润率变动<0个百分点 | C. -2%≤收入同比增速≤2%且利润率变动在±1个百分点内 | D. 收入同比增速>2%且利润率变动≥0个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600718_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600718_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600718_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600718_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600718_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_40",
+    "type": "mixed_numeric_text",
+    "query": "从中直股份（600038）2024年经营展望出发，综合需求、价格和产能信息，判断2025年最可能的情景。 A. 收入同比增速<-2% | B. 收入同比增速>2%且利润率变动<0个百分点 | C. -2%≤收入同比增速≤2%且利润率变动在±1个百分点内 | D. 收入同比增速>2%且利润率变动≥0个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600038_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600038_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600038_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600038_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600038_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_41",
+    "type": "mixed_numeric_text",
+    "query": "若恒力石化（600346）2020-2024年收入增长主要由单一主业贡献，判断2025年收入增速区间应如何归类。 A. 收入同比增速<-2% | B. -2%≤收入同比增速<8% | C. 收入同比增速≥8% | D. 缺少2025年或2024年收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600346_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600346_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600346_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600346_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600346_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_42",
+    "type": "mixed_numeric_text",
+    "query": "在单一主业贡献较集中的前提下，结合永辉超市（601933）2020-2024年收入变化，选择2025年收入增速类别。 A. 收入同比增速<-2% | B. -2%≤收入同比增速<8% | C. 收入同比增速≥8% | D. 缺少2025年或2024年收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601933_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601933_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601933_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601933_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601933_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_43",
+    "type": "mixed_numeric_text",
+    "query": "以电科数字（600850）2020-2024年主业收入表现为核心证据，判断2025年收入增速更可能落在哪一档。 A. 收入同比增速<-2% | B. -2%≤收入同比增速<8% | C. 收入同比增速≥8% | D. 缺少2025年或2024年收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600850_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600850_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600850_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600850_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600850_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_44",
+    "type": "mixed_numeric_text",
+    "query": "围绕睿创微纳（688002）单一主业对历史收入增长的贡献，推断2025年收入增速区间。 A. 收入同比增速<-2% | B. -2%≤收入同比增速<8% | C. 收入同比增速≥8% | D. 缺少2025年或2024年收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "688002_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688002_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688002_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688002_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688002_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_45",
+    "type": "mixed_numeric_text",
+    "query": "结合上海石化（600688）2020-2024年价格、原材料成本和毛利率趋势，判断2025年盈利弹性更可能属于哪类。 A. 利润率变动<-2个百分点 | B. -2个百分点≤利润率变动<0个百分点 | C. 0≤利润率变动≤2个百分点 | D. 利润率变动>2个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600688_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600688_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600688_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600688_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600688_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_46",
+    "type": "mixed_numeric_text",
+    "query": "从中国中免（601888）价格变化、原材料成本压力和毛利率轨迹出发，选择2025年盈利弹性档位。 A. 利润率变动<-2个百分点 | B. -2个百分点≤利润率变动<0个百分点 | C. 0≤利润率变动≤2个百分点 | D. 利润率变动>2个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601888_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601888_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601888_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601888_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601888_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_47",
+    "type": "mixed_numeric_text",
+    "query": "依据国网信通（600131）截至2024年的价格、成本和毛利率证据，判断2025年盈利弹性强弱。 A. 利润率变动<-2个百分点 | B. -2个百分点≤利润率变动<0个百分点 | C. 0≤利润率变动≤2个百分点 | D. 利润率变动>2个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600131_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600131_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600131_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600131_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600131_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_48",
+    "type": "mixed_numeric_text",
+    "query": "把国睿科技（600562）2020-2024年的价格、原材料成本与毛利率走势合并分析，2025年盈利弹性应选哪项？ A. 利润率变动<-2个百分点 | B. -2个百分点≤利润率变动<0个百分点 | C. 0≤利润率变动≤2个百分点 | D. 利润率变动>2个百分点",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600562_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600562_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600562_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600562_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600562_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_49",
+    "type": "mixed_numeric_text",
+    "query": "根据紫金矿业（601899）2020-2024年经营现金流和利润数据，判断2025年经营现金流相对利润的匹配度最可能是哪项。 A. 净利润≤0、经营现金流<0或现金流/净利润无法计算 | B. 0≤经营现金流/净利润<80% | C. 80%≤经营现金流/净利润≤150% | D. 经营现金流/净利润>150%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601899_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601899_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601899_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601899_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601899_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_50",
+    "type": "mixed_numeric_text",
+    "query": "对照豫园股份（600655）2020-2024年现金流与利润关系，选择2025年经营现金流对利润的匹配状态。 A. 净利润≤0、经营现金流<0或现金流/净利润无法计算 | B. 0≤经营现金流/净利润<80% | C. 80%≤经营现金流/净利润≤150% | D. 经营现金流/净利润>150%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600655_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600655_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600655_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600655_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600655_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_51",
+    "type": "mixed_numeric_text",
+    "query": "用万华化学（600309）历史经营现金流/利润关系作参照，判断2025年现金流与利润是否匹配。 A. 净利润≤0、经营现金流<0或现金流/净利润无法计算 | B. 0≤经营现金流/净利润<80% | C. 80%≤经营现金流/净利润≤150% | D. 经营现金流/净利润>150%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600309_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600309_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600309_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600309_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600309_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "D"
+  },
+  {
+    "id": "finance_zh_predictive_52",
+    "type": "mixed_numeric_text",
+    "query": "从火炬电子（603678）2020-2024年利润兑现为经营现金流的情况看，2025年最可能属于哪类匹配度？ A. 净利润≤0、经营现金流<0或现金流/净利润无法计算 | B. 0≤经营现金流/净利润<80% | C. 80%≤经营现金流/净利润≤150% | D. 经营现金流/净利润>150%",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603678_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603678_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603678_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603678_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603678_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_53",
+    "type": "mixed_numeric_text",
+    "query": "若按贵金属公司2020-2024年收入增速和利润率变化排序，判断山东黄金（600547）2025年更可能位于哪一组。 A. 同业排名百分位>75% | B. 25%<同业排名百分位≤75% | C. 同业排名百分位≤25% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600547_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600547_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600547_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600547_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600547_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_54",
+    "type": "mixed_numeric_text",
+    "query": "在零售同业样本中，以历史收入增速和利润率变化排序，选择百联股份（600827）2025年的相对分组。 A. 同业排名百分位>75% | B. 25%<同业排名百分位≤75% | C. 同业排名百分位≤25% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600827_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600827_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600827_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600827_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600827_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_55",
+    "type": "mixed_numeric_text",
+    "query": "参考化学制品公司2020-2024年增长和利润率表现，判断中化国际（600500）2025年可能处于哪个四分位区间。 A. 同业排名百分位>75% | B. 25%<同业排名百分位≤75% | C. 同业排名百分位≤25% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600500_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600500_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600500_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600500_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600500_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_56",
+    "type": "mixed_numeric_text",
+    "query": "把七一二（603712）纳入军工电子同业排序，依据收入增速和利润率变化判断其2025年分位位置。 A. 同业排名百分位>75% | B. 25%<同业排名百分位≤75% | C. 同业排名百分位≤25% | D. 缺少可比公司排序样本",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603712_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603712_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603712_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603712_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603712_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "B"
+  },
+  {
+    "id": "finance_zh_predictive_57",
+    "type": "mixed_numeric_text",
+    "query": "将中金黄金（600489）2024年年报风险因素纳入增长判断后，2025年收入增长区间应如何修正？ A. 2025年同比增速<历史中位数-3个百分点 | B. 历史中位数-3个百分点≤2025年同比增速≤历史中位数+3个百分点 | C. 2025年同比增速>历史中位数+3个百分点 | D. 缺少2025年或历史收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600489_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600489_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600489_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600489_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600489_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_58",
+    "type": "mixed_numeric_text",
+    "query": "若充分考虑上汽集团（600104）2024年风险因素披露，2025年增长判断更适合做哪种调整？ A. 2025年同比增速<历史中位数-3个百分点 | B. 历史中位数-3个百分点≤2025年同比增速≤历史中位数+3个百分点 | C. 2025年同比增速>历史中位数+3个百分点 | D. 缺少2025年或历史收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "600104_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600104_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600104_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600104_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600104_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "C"
+  },
+  {
+    "id": "finance_zh_predictive_59",
+    "type": "mixed_numeric_text",
+    "query": "基于合盛硅业（603260）2024年年报列示的风险因素，选择对2025年增长区间的修正方式。 A. 2025年同比增速<历史中位数-3个百分点 | B. 历史中位数-3个百分点≤2025年同比增速≤历史中位数+3个百分点 | C. 2025年同比增速>历史中位数+3个百分点 | D. 缺少2025年或历史收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "603260_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603260_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603260_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603260_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603260_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_60",
+    "type": "mixed_numeric_text",
+    "query": "把中远海控（601919）的风险披露并入2025年增长预测时，应上调、维持还是下调原判断？ A. 2025年同比增速<历史中位数-3个百分点 | B. 历史中位数-3个百分点≤2025年同比增速≤历史中位数+3个百分点 | C. 2025年同比增速>历史中位数+3个百分点 | D. 缺少2025年或历史收入增速数据",
+    "instruction": "请根据题目指定年度的财报趋势和管理层经营展望，判断最可能的预测区间或经营情景，只返回一个选项。",
+    "evidence": [
+      {
+        "id": "601919_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601919_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601919_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601919_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601919_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "A"
+  },
+  {
+    "id": "finance_zh_predictive_61",
+    "type": "multi_period_trend",
+    "query": "以株冶集团（600961）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年营业收入约为____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600961_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600961_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600961_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600961_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600961_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "222.46"
+  },
+  {
+    "id": "finance_zh_predictive_62",
+    "type": "multi_period_trend",
+    "query": "读取长城汽车（601633）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年营业收入约____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601633_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601633_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601633_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601633_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601633_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "2228.24"
+  },
+  {
+    "id": "finance_zh_predictive_63",
+    "type": "multi_period_trend",
+    "query": "根据梅花生物（600873）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年营业收入约为____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600873_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600873_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600873_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600873_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600873_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "242.09"
+  },
+  {
+    "id": "finance_zh_predictive_64",
+    "type": "multi_period_trend",
+    "query": "对照上港集团（600018）2020-2024年历史表现后，直接用2025年实际数据填空：2025年营业收入约____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600018_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600018_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600018_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600018_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600018_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "396.11"
+  },
+  {
+    "id": "finance_zh_predictive_65",
+    "type": "multi_period_trend",
+    "query": "以江西铜业（600362）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年收入同比增速约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600362_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600362_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600362_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600362_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600362_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "5.42"
+  },
+  {
+    "id": "finance_zh_predictive_66",
+    "type": "multi_period_trend",
+    "query": "读取赛力斯（601127）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年收入同比增速约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601127_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601127_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601127_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601127_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601127_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "13.69"
+  },
+  {
+    "id": "finance_zh_predictive_67",
+    "type": "multi_period_trend",
+    "query": "根据华谊集团（600623）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年收入同比增速约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600623_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600623_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600623_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600623_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600623_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "-6.44"
+  },
+  {
+    "id": "finance_zh_predictive_68",
+    "type": "multi_period_trend",
+    "query": "对照宁波港（601018）2020-2024年历史表现后，直接用2025年实际数据填空：2025年收入同比增速约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601018_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601018_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601018_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601018_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601018_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "7.41"
+  },
+  {
+    "id": "finance_zh_predictive_69",
+    "type": "multi_period_trend",
+    "query": "以中国铝业（601600）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年净利润约为____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601600_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601600_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601600_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601600_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601600_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "215.25"
+  },
+  {
+    "id": "finance_zh_predictive_70",
+    "type": "multi_period_trend",
+    "query": "读取广汽集团（601238）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年净利润约____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601238_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601238_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601238_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601238_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601238_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "-114.82"
+  },
+  {
+    "id": "finance_zh_predictive_71",
+    "type": "multi_period_trend",
+    "query": "根据宝丰能源（600989）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年净利润约为____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600989_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600989_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600989_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600989_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600989_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "113.50"
+  },
+  {
+    "id": "finance_zh_predictive_72",
+    "type": "multi_period_trend",
+    "query": "对照中远海发（601866）2020-2024年历史表现后，直接用2025年实际数据填空：2025年净利润约____亿元。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601866_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601866_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601866_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601866_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601866_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "17.38"
+  },
+  {
+    "id": "finance_zh_predictive_73",
+    "type": "multi_period_trend",
+    "query": "以洛阳钼业（603993）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年毛利率较2024年的变化约为____个百分点。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "603993_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603993_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603993_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603993_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603993_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "7.38"
+  },
+  {
+    "id": "finance_zh_predictive_74",
+    "type": "multi_period_trend",
+    "query": "读取华域汽车（600741）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年毛利率较2024年的变化约____个百分点。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600741_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600741_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600741_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600741_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600741_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "0.17"
+  },
+  {
+    "id": "finance_zh_predictive_75",
+    "type": "multi_period_trend",
+    "query": "根据君正集团（601216）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年毛利率较2024年的变化约为____个百分点。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601216_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601216_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601216_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601216_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601216_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "1.92"
+  },
+  {
+    "id": "finance_zh_predictive_76",
+    "type": "multi_period_trend",
+    "query": "对照南方航空（600029）2020-2024年历史表现后，直接用2025年实际数据填空：2025年毛利率较2024年的变化约____个百分点。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600029_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600029_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600029_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600029_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600029_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "1.73"
+  },
+  {
+    "id": "finance_zh_predictive_77",
+    "type": "multi_period_trend",
+    "query": "以金田股份（601609）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年经营现金流转化率约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601609_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601609_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601609_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601609_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601609_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "216.80"
+  },
+  {
+    "id": "finance_zh_predictive_78",
+    "type": "multi_period_trend",
+    "query": "读取均胜电子（600699）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年经营现金流转化率约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600699_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600699_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600699_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600699_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600699_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "334.13"
+  },
+  {
+    "id": "finance_zh_predictive_79",
+    "type": "multi_period_trend",
+    "query": "根据三友化工（600409）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年经营现金流转化率约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600409_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600409_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600409_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600409_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600409_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "1628.21"
+  },
+  {
+    "id": "finance_zh_predictive_80",
+    "type": "multi_period_trend",
+    "query": "对照中国国航（601111）2020-2024年历史表现后，直接用2025年实际数据填空：2025年经营现金流转化率约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601111_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601111_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601111_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601111_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601111_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "-1192.83"
+  },
+  {
+    "id": "finance_zh_predictive_81",
+    "type": "multi_period_trend",
+    "query": "以宝钢股份（600019）2025年年度报告中的实际结构化数据为准，并参考2020-2024年历史趋势作对照，填空：2025年期间费用率约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600019_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600019_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600019_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600019_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600019_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "3.29"
+  },
+  {
+    "id": "finance_zh_predictive_82",
+    "type": "multi_period_trend",
+    "query": "读取福耀玻璃（600660）2025年实际年报数据后，用2020-2024年数据辅助校验，填空：2025年期间费用率约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600660_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600660_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600660_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600660_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600660_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "12.70"
+  },
+  {
+    "id": "finance_zh_predictive_83",
+    "type": "multi_period_trend",
+    "query": "根据复星医药（600196）2025年ground_truth结构化数据，并以2020-2024年序列作为参照，填空：2025年期间费用率约为____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600196_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600196_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600196_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600196_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600196_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "45.47"
+  },
+  {
+    "id": "finance_zh_predictive_84",
+    "type": "multi_period_trend",
+    "query": "对照白云机场（600004）2020-2024年历史表现后，直接用2025年实际数据填空：2025年期间费用率约____%。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600004_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600004_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600004_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600004_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600004_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "7.62"
+  },
+  {
+    "id": "finance_zh_predictive_85",
+    "type": "multi_period_trend",
+    "query": "在钢铁样本内按2025年收入增速排序并三等分分层，填空：马钢股份（600808）2025年预计位于第____梯队（前1/3为第1梯队，中间1/3为第2梯队，后1/3为第3梯队）。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600808_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600808_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600808_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600808_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600808_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "第2梯队"
+  },
+  {
+    "id": "finance_zh_predictive_86",
+    "type": "multi_period_trend",
+    "query": "将汽车零部件公司按2025年收入增速分成三个梯队后，填空：赛轮轮胎（601058）2025年预计处于第____梯队（前1/3为第1梯队，中间1/3为第2梯队，后1/3为第3梯队）。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "601058_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601058_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601058_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601058_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601058_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "第1梯队"
+  },
+  {
+    "id": "finance_zh_predictive_87",
+    "type": "multi_period_trend",
+    "query": "以化学制药样本2025年收入增速为排序依据并按三等分分层，填空：恒瑞医药（600276）2025年对应第____梯队。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600276_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600276_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600276_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600276_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600276_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "第1梯队"
+  },
+  {
+    "id": "finance_zh_predictive_88",
+    "type": "multi_period_trend",
+    "query": "按照机场航运同业2025年收入增速排名并划分前三分之一、中间三分之一、后三分之一，填空：海航控股（600221）2025年预计落在第____梯队。",
+    "instruction": "请根据题目指定年度的结构化财务数据和历史趋势，直接返回题目要求的数值。",
+    "evidence": [
+      {
+        "id": "600221_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600221_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600221_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600221_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600221_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "第2梯队"
+  },
+  {
+    "id": "finance_zh_predictive_89",
+    "type": "mixed_numeric_text",
+    "query": "根据山东钢铁（600022）2020-2024年财报，判断2025年收入是否存在趋势反转信号。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600022_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600022_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600022_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600022_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600022_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_90",
+    "type": "mixed_numeric_text",
+    "query": "观察杉杉股份（600884）2020-2024年收入轨迹后，2025年是否能看到趋势反转迹象？",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600884_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600884_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600884_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600884_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600884_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_91",
+    "type": "mixed_numeric_text",
+    "query": "以人福医药（600079）2020-2024年年度数据为依据，判断2025年收入方向是否出现反转信号。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600079_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600079_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600079_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600079_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600079_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "是"
+  },
+  {
+    "id": "finance_zh_predictive_92",
+    "type": "mixed_numeric_text",
+    "query": "对比大秦铁路（601006）2020-2024年收入变化，2025年是否具备趋势反转特征？仅需给出“是/否”。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "601006_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601006_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601006_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601006_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601006_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_93",
+    "type": "mixed_numeric_text",
+    "query": "结合柳钢股份（601003）利润率、费用率和管理层展望，判断2025年盈利能力是否具备恢复基础。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "601003_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601003_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601003_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601003_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601003_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "是"
+  },
+  {
+    "id": "finance_zh_predictive_94",
+    "type": "mixed_numeric_text",
+    "query": "从骆驼股份（601311）利润率修复、费用率变化和管理层展望看，2025年盈利能力是否有恢复支撑？",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "601311_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601311_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601311_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601311_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601311_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "是"
+  },
+  {
+    "id": "finance_zh_predictive_95",
+    "type": "mixed_numeric_text",
+    "query": "依据哈药股份（600664）盈利能力指标、费用控制和经营展望，判断2025年是否具备利润恢复条件。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600664_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600664_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600664_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600664_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600664_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_96",
+    "type": "mixed_numeric_text",
+    "query": "把京沪高铁（601816）利润率、费用率与管理层展望合并分析，2025年盈利能力是否存在修复基础？仅需给出“是/否”。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "601816_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601816_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601816_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601816_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601816_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_97",
+    "type": "mixed_numeric_text",
+    "query": "对比建筑材料可比公司，判断金隅集团（601992）2025年收入增长是否有望跑赢行业中位水平。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "601992_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601992_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601992_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601992_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601992_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_98",
+    "type": "mixed_numeric_text",
+    "query": "将容百科技（688005）放入电池同业样本比较，2025年收入增速是否可能高于行业中位？",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "688005_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688005_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688005_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688005_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688005_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_99",
+    "type": "mixed_numeric_text",
+    "query": "参照生物制品可比公司表现，判断辽宁成大（600739）2025年收入增长能否超过同业中位水平。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600739_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600739_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600739_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600739_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600739_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_100",
+    "type": "mixed_numeric_text",
+    "query": "从公路铁路运输同业相对位置看，山东高速（600350）2025年收入增长是否具备跑赢中位数的可能？仅需给出“是/否”。",
+    "instruction": "请根据题目指定年度的财报趋势判断问题，只返回“是”或“否”。",
+    "evidence": [
+      {
+        "id": "600350_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600350_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600350_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600350_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600350_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "否"
+  },
+  {
+    "id": "finance_zh_predictive_101",
+    "type": "mixed_numeric_text",
+    "query": "基于海螺水泥（600585）截至2024年的财报，概括判断2025年收入增长幅度的核心依据，需覆盖2020-2024年收入趋势、管理层展望和至少一个经营指标。请将回答合并为一段话，并控制在150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600585_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600585_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600585_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600585_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600585_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "海螺水泥2025年收入同比下降9.33%，处于收缩状态；判断依据包括2020-2024年收入持续下滑趋势、2024年年报中提及的经营情况及收入减少原因，以及2025年经营现金流同比下降9.92%。应收账款占收入比下降0.59个百分点，反映回款效率改善。"
+  },
+  {
+    "id": "finance_zh_predictive_102",
+    "type": "mixed_numeric_text",
+    "query": "围绕璞泰来（603659）2020-2024年收入走势、管理层展望及一个经营指标，说明2025年收入增长幅度判断的主要依据。回答需合并为一段，150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603659_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603659_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603659_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603659_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603659_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "璞泰来2025年收入增长16.83%，处于较快增长状态；判断依据包括2020-2024年收入走势、2024年年报中提到的经营情况及2025年收入增长数据，以及应收账款占收入比上升1.74个百分点、经营现金流同比增长13.73%。若用于估值，还需关注利润率和现金流兑现情况。"
+  },
+  {
+    "id": "finance_zh_predictive_103",
+    "type": "mixed_numeric_text",
+    "query": "请从天坛生物（600161）截至2024年的财报出发，提炼2025年收入增长幅度判断所依赖的历史趋势、展望信息和经营指标。请用一段话作答，字数不超过150字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600161_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600161_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600161_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600161_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600161_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "天坛生物2025年收入增长2.26%，处于温和增长状态；判断依据包括2020-2024年收入增长轨迹、2024年年报中销量增加带来的收入增长，以及2025年应收账款占收入比上升19.11个百分点、经营现金流同比下降58.68%等经营指标。若用于估值，还需关注净利润率下降及现金流兑现能力。"
+  },
+  {
+    "id": "finance_zh_predictive_104",
+    "type": "mixed_numeric_text",
+    "query": "结合广深铁路（601333）2020-2024年收入趋势、2024年管理层展望和至少一项经营指标，概括2025年收入增长幅度的判断逻辑。答案写成一段，控制在150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601333_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601333_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601333_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601333_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601333_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "广深铁路2025年收入增长5.89%，延续了温和增长态势；判断依据包括2020-2024年收入趋势、2024年管理层对经营情况的展望，以及2025年应收账款占收入比下降4.35个百分点、经营现金流同比增长27.72%等经营指标。"
+  },
+  {
+    "id": "finance_zh_predictive_105",
+    "type": "mixed_numeric_text",
+    "query": "说明华新水泥（600801）2025年利润趋势判断如何由收入、毛利率、费用率和非经常性因素共同支撑。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600801_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600801_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600801_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600801_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600801_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "华新水泥2025年归母净利润增长18.09%，收入增长3.31%；利润增长主要得益于毛利率提升5.53个百分点，但期间费用率也上升1.62个百分点，净利率提升1.38个百分点。需关注收入增长是否能持续覆盖费用上升，以支撑利润修复趋势。"
+  },
+  {
+    "id": "finance_zh_predictive_106",
+    "type": "mixed_numeric_text",
+    "query": "请把通威股份（600438）收入变化、毛利率、费用率和非经常性因素串联起来，解释2025年利润趋势判断。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600438_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600438_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600438_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600438_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600438_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "通威股份2025年归母净利润下降35.73%，收入端下降8.55%；利润下滑主要由毛利率下降3.69个百分点、期间费用率上升0.06个百分点及净利率下降4.14个百分点共同导致。若收入增长快于费用扩张并伴随毛利率改善，则利润修复更可靠，反之则需下调利润预期。"
+  },
+  {
+    "id": "finance_zh_predictive_107",
+    "type": "mixed_numeric_text",
+    "query": "围绕甘李药业（603087）2025年利润方向，概括收入、毛利率、费用率与非经常性因素分别提供的证据。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603087_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603087_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603087_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603087_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603087_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "甘李药业2025年归母净利润增长86.05%，收入增长33.06%；盈利趋势主要由毛利率上升1.01个百分点、期间费用率下降7.13个百分点和净利率上升8.04个百分点共同推动。收入扩张快于费用并伴随毛利率改善，利润修复更可靠。"
+  },
+  {
+    "id": "finance_zh_predictive_108",
+    "type": "mixed_numeric_text",
+    "query": "从收入端、毛利率、费用率和非经常性项目四个角度，说明建发股份（600153）2025年利润趋势的判断依据。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600153_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600153_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600153_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600153_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600153_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "建发股份2025年归母净利润由正转负，收入端同比下降4.28%；利润下滑主要由毛利率下降0.31个百分点、期间费用率下降0.03个百分点及净利率下降5.02个百分点共同导致。若收入增长快于费用并伴随毛利率改善，则利润修复更可靠，反之则需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_109",
+    "type": "mixed_numeric_text",
+    "query": "从收入回款、存货、应收账款和合同负债变化出发，概括中国巨石（600176）2025年经营现金流趋势。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600176_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600176_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600176_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600176_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600176_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国巨石2025年经营现金流同比增长106.69%，现金流/净利润转化率为122.99%；同时观察应收账款占收入比下降1.46个百分点、存货占收入比下降7.68个百分点、合同负债占收入比下降0.76个百分点。若回款改善且库存压力下降，现金流趋势更偏正面。"
+  },
+  {
+    "id": "finance_zh_predictive_110",
+    "type": "mixed_numeric_text",
+    "query": "结合隆基绿能（601012）回款表现、存货、应收账款和合同负债变化，判断2025年经营现金流可能呈现的趋势。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601012_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601012_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601012_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601012_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601012_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "隆基绿能2025年经营现金流同比由负转正，现金流/净利润转化率为-66.97%；同时观察应收账款占收入比下降0.46个百分点，存货占收入比上升4.47个百分点，合同负债占收入比上升1.82个百分点。若回款持续改善且库存压力缓解，经营现金流趋势将更偏正面。"
+  },
+  {
+    "id": "finance_zh_predictive_111",
+    "type": "mixed_numeric_text",
+    "query": "请用特宝生物（688278）收入回款、存货占用、应收账款和合同负债线索，概括2025年经营现金流方向。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "688278_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688278_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688278_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688278_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688278_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "特宝生物2025年经营现金流同比增长69.37%，现金流/净利润转化率为70.73%；应收账款占收入比上升1.55个百分点，存货占收入比上升1.87个百分点，合同负债占收入比下降0.73个百分点。若回款改善且库存压力下降，现金流趋势将更偏正面。"
+  },
+  {
+    "id": "finance_zh_predictive_112",
+    "type": "mixed_numeric_text",
+    "query": "围绕物产中大（600704）现金回收、库存、应收账款和合同负债四类证据，说明2025年经营现金流趋势。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600704_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600704_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600704_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600704_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600704_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "物产中大2025年经营现金流由正转负，净现金流为-75.48亿元，现金流/净利润转化率为-137.56%；应收账款占收入比上升0.45个百分点，存货占收入比上升1.03个百分点，合同负债占收入比下降0.07个百分点。若回款改善且库存压力下降，现金流趋势将更偏正面。"
+  },
+  {
+    "id": "finance_zh_predictive_113",
+    "type": "mixed_numeric_text",
+    "query": "为保利发展（600048）2025年收入趋势列出乐观、基准、谨慎三种情景，并说明各自依赖的2020-2024年财报证据。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600048_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600048_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600048_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600048_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600048_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "保利发展2025年收入同比下降1.13%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善，带动毛利率下降1.18个百分点；谨慎情景则源于需求走弱、成本上升或现金流承压。2020-2024年收入波动及2024年风险与展望披露为情景设定提供了依据。"
+  },
+  {
+    "id": "finance_zh_predictive_114",
+    "type": "mixed_numeric_text",
+    "query": "请把福斯特（603806）2025年收入趋势拆分为乐观、基准和谨慎情景，并对应说明2020-2024年证据。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603806_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603806_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603806_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603806_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603806_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "福斯特2025年收入下降19.10%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动及2024年风险与展望披露为情景设定提供了依据。"
+  },
+  {
+    "id": "finance_zh_predictive_115",
+    "type": "mixed_numeric_text",
+    "query": "围绕新华医疗（600587）2025年收入走势，设计三档情景，并交代每档情景依赖的历史财报依据。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600587_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600587_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600587_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600587_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600587_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "新华医疗2025年收入下降2.84%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率下降0.91个百分点；谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险与展望披露为情景设计提供了依据。"
+  },
+  {
+    "id": "finance_zh_predictive_116",
+    "type": "mixed_numeric_text",
+    "query": "根据厦门象屿（600057）2020-2024年财报证据，概括2025年收入趋势的乐观、基准与谨慎判断。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600057_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600057_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600057_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600057_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600057_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "厦门象屿2025年收入增长11.90%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率下降0.24个百分点，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_117",
+    "type": "mixed_numeric_text",
+    "query": "利用2020-2024年收入趋势和2025年同业排序结果，将绿地控股（600606）与房地产可比公司比较：明确其综合增长与利润率位置是否高于、接近或低于行业中位，并用毛利率、费用率变化解释。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600606_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600606_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600606_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600606_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600606_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "绿地控股2025年收入下降25.16%，在房地产可比公司中的综合增长与利润率位置为第33/47，低于行业中位；2020-2024年收入持续下滑，2025年毛利率下降4.92个百分点，期间费用率上升1.53个百分点，表明增长和盈利质量偏弱。"
+  },
+  {
+    "id": "finance_zh_predictive_118",
+    "type": "mixed_numeric_text",
+    "query": "请把福莱特（601865）放在光伏设备同业中，对比2020-2024年数据后解释2025年增长相对行业中位的位置。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601865_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601865_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601865_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601865_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601865_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "福莱特2025年收入下降16.68%，在光伏设备样本中综合增长和利润率排名第10/22，略高于行业中位；毛利率上升1.41个百分点，费用率上升0.58个百分点，说明其相对优势取决于收入弹性是否能覆盖成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_119",
+    "type": "mixed_numeric_text",
+    "query": "参照医疗器械可比公司2020-2024年表现，说明山东药玻（600529）2025年增长趋势相对中位水平的原因。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600529_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600529_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600529_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600529_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600529_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "山东药玻2025年收入下降8.78%，在医疗器械可比公司中排名第35/49，低于行业中位水平；毛利率上升0.16个百分点，但费用率上升1.78个百分点，表明其增长趋势相对中位水平，主要受收入下滑未能有效抵消成本和费用压力的影响。"
+  },
+  {
+    "id": "finance_zh_predictive_120",
+    "type": "mixed_numeric_text",
+    "query": "从同业比较角度分析厦门国贸（600755）2020-2024年数据，并判断2025年增长趋势与行业中位的关系。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600755_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600755_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600755_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600755_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600755_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "厦门国贸2025年收入下降4.89%，在物流样本中综合增长和利润率排名为第15/27，低于行业中位；毛利率上升0.02个百分点，费用率下降0.16个百分点，说明其相对优势取决于收入弹性是否能覆盖成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_121",
+    "type": "mixed_numeric_text",
+    "query": "若新城控股（601155）披露分产品或分业务收入，请概括最可能驱动2025年收入趋势的业务并说明依据；若未披露，请说明限制。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601155_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601155_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601155_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601155_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601155_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "新城控股2025年收入下降40.44%。2024年年报未披露分产品或分业务收入，仅说明公司主营业务为地产开发和商业综合体运营。2025年年报延续此披露方式，未提供具体业务收入结构，因此无法明确归因于某一业务驱动收入趋势。"
+  },
+  {
+    "id": "finance_zh_predictive_122",
+    "type": "mixed_numeric_text",
+    "query": "请先确认正泰电器（601877）是否披露分产品或分业务收入，再概括2025年收入趋势的潜在业务驱动；若缺少分部信息，应说明限制。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601877_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601877_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601877_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601877_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601877_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "正泰电器2025年收入下降8.33%。2024年年报未披露分产品或分业务收入，因此无法明确2025年收入趋势的潜在业务驱动因素。若未来披露分部信息，可进一步分析收入占比高且增速改善的板块；当前仅能判断总体收入方向，不能将增长或下降归因于单一业务。"
+  },
+  {
+    "id": "finance_zh_predictive_123",
+    "type": "mixed_numeric_text",
+    "query": "在安图生物（603658）存在分产品或分业务收入披露时，判断哪些业务可能驱动2025年收入趋势；若没有披露，请说明无法归因的原因。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603658_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603658_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603658_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603658_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603658_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "安图生物2025年收入下降5.47%。若2024年年报披露分产品或分业务收入，应优先用收入占比高且增速改善的板块解释2025年趋势；若仅披露总收入或主营业务概况，则无法明确归因具体业务驱动收入变化。"
+  },
+  {
+    "id": "finance_zh_predictive_124",
+    "type": "mixed_numeric_text",
+    "query": "围绕首创环保（600008）分产品或分业务收入披露，概括2025年收入趋势的主要业务来源；如未披露，则说明证据边界。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600008_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600008_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600008_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600008_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600008_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "首创环保2025年收入下降5.81%。2024年年报未披露分产品或分业务收入构成，因此无法明确2025年收入趋势的主要业务来源。若未来披露了相关数据，可进一步分析收入变化的驱动因素。"
+  },
+  {
+    "id": "finance_zh_predictive_125",
+    "type": "mixed_numeric_text",
+    "query": "结合金地集团（600383）订单、合同负债、在手项目或产能利用率披露，概括2025年收入可见度。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600383_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600383_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600383_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600383_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600383_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "金地集团2025年收入下降52.44%，合同负债占收入比下降3.50个百分点，经营现金流同比下降99.88%。合同负债、订单或在手项目增加会提高收入可见度；若这些指标下降或披露不足，收入确认节奏的不确定性仍需保留。"
+  },
+  {
+    "id": "finance_zh_predictive_126",
+    "type": "mixed_numeric_text",
+    "query": "请围绕国电南瑞（600406）订单、合同负债、在手项目或产能利用率披露，说明2025年收入可见度。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600406_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600406_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600406_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600406_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600406_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "国电南瑞2025年收入同比增长14.53%，合同负债占收入比上升0.66个百分点，经营性现金流同比增长15.17%。订单式生产模式下，合同负债增加有助于提高收入可见度；但若订单或在手项目披露不足，收入确认节奏仍存在不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_127",
+    "type": "mixed_numeric_text",
+    "query": "以振德医疗（603301）订单、合同负债、在手项目或产能利用率披露为依据，判断并解释2025年收入可见度。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603301_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603301_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603301_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603301_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603301_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "振德医疗2025年收入增长1.54%，合同负债占收入比下降0.12个百分点，经营现金流同比增长16.77%。尽管合同负债下降，但结合历史订单和在手项目数据，收入可见度仍有一定支撑，但需关注收入确认节奏的不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_128",
+    "type": "mixed_numeric_text",
+    "query": "从高能环境（603588）订单、合同负债、在手项目或产能利用率披露出发，提炼2025年收入可见度。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603588_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603588_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603588_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603588_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603588_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "高能环境2025年收入同比增长1.61%，合同负债占收入比下降0.24个百分点，经营性现金流同比增长54.50%。尽管合同负债、订单或在手项目有所增加，但其对收入可见度的支撑有限，收入确认节奏仍存在不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_129",
+    "type": "mixed_numeric_text",
+    "query": "结合中国建筑（601668）成本、价格或产品结构线索，概括2025年毛利率上行和下行因素。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601668_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601668_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601668_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601668_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601668_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国建筑2025年毛利率上升0.04个百分点。上行因素包括价格改善、产品结构优化及成本回落；下行因素则来自原材料、施工或运营成本上升。2025年收入同比下降4.81%，其与毛利率的同步性影响成本压力的消化能力。"
+  },
+  {
+    "id": "finance_zh_predictive_130",
+    "type": "mixed_numeric_text",
+    "query": "请围绕宝胜股份（600973）成本、价格或产品结构线索，说明2025年毛利率上行和下行因素。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600973_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600973_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600973_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600973_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600973_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "宝胜股份2025年毛利率下降0.22个百分点。上行因素包括产品结构优化及成本回落；下行因素则来自原材料价格波动及施工、运营成本上升。2025年收入增长3.45%，但毛利率同步性较弱，表明成本压力尚未完全被收入增长所消化。"
+  },
+  {
+    "id": "finance_zh_predictive_131",
+    "type": "mixed_numeric_text",
+    "query": "以白云山（600332）成本、价格或产品结构线索为依据，判断并解释2025年毛利率上行和下行因素。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600332_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600332_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600332_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600332_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600332_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "白云山2025年毛利率下降0.46个百分点。上行因素包括价格改善、产品结构优化或成本回落；下行因素包括原材料、运营成本上升。2025年收入增长3.55%，但经营活动现金流为负，显示成本压力尚未完全被收入增长所消化。"
+  },
+  {
+    "id": "finance_zh_predictive_132",
+    "type": "mixed_numeric_text",
+    "query": "从瀚蓝环境（600323）成本、价格或产品结构线索出发，提炼2025年毛利率上行和下行因素。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600323_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600323_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600323_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600323_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600323_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "瀚蓝环境2025年毛利率上升4.28个百分点。上行因素包括价格改善、产品结构优化及成本回落；下行因素则可能来自原材料、施工或运营成本上升。2025年收入增长17.25%，其与毛利率的同步性将决定成本压力是否被有效消化。"
+  },
+  {
+    "id": "finance_zh_predictive_133",
+    "type": "mixed_numeric_text",
+    "query": "结合中国中铁（601390）资本开支、在建工程、研发投入和产能规划，概括投入加速或收缩阶段及其对2025年增长的含义。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601390_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601390_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601390_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601390_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601390_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国中铁2025年固定资产同比下降1.08%，收入下降5.77%。若在建工程、产能规划或研发投入继续增加且收入同步改善，可判断投入处于释放期；若资产扩张放缓而收入承压，则更接近投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_134",
+    "type": "mixed_numeric_text",
+    "query": "请围绕远东股份（600869）资本开支、在建工程、研发投入和产能规划，说明投入加速或收缩阶段及其对2025年增长的含义。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600869_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600869_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600869_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600869_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600869_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "远东股份2025年固定资产同比增长0.30%，收入增长7.72%。公司多个数智灯塔工厂已投产，海缆、储能、AI等新兴领域研发投入和产能持续释放，若在建工程、产能规划或研发投入继续增加且收入同步改善，可判断投入处于释放期；若资产扩张放缓而收入承压，则更接近投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_135",
+    "type": "mixed_numeric_text",
+    "query": "以同仁堂（600085）资本开支、在建工程、研发投入和产能规划为依据，判断并解释投入加速或收缩阶段及其对2025年增长的含义。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600085_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600085_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600085_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600085_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600085_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "同仁堂2025年固定资产同比增长1.02%，收入下降7.21%。若在建工程、产能规划或研发投入继续增加且收入同步改善，可判断投入处于释放期；若资产扩张放缓而收入承压，则更接近投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_136",
+    "type": "mixed_numeric_text",
+    "query": "从洪城环境（600461）资本开支、在建工程、研发投入和产能规划出发，提炼投入加速或收缩阶段及其对2025年增长的含义。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600461_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600461_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600461_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600461_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600461_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "洪城环境2025年固定资产同比增长9.07%，收入同比下降9.00%。若在建工程、产能规划或研发投入持续增长并带动收入改善，可判断投入处于释放期；若资产扩张趋缓且收入承压，则可能进入投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_137",
+    "type": "mixed_numeric_text",
+    "query": "结合中国铁建（601186）年报风险因素，概括最可能改变2025年增长预测区间的两类风险。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601186_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601186_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601186_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601186_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601186_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国铁建2025年增长预测可能受到两类风险影响：一是需求/价格波动，二是回款和营运资金压力（应收账款占收入比上升4.22个百分点）。毛利率下降0.55个百分点虽为事实，但题干要求为两类风险，因此应仅保留两类。"
+  },
+  {
+    "id": "finance_zh_predictive_138",
+    "type": "mixed_numeric_text",
+    "query": "请围绕闻泰科技（600745）年报风险因素，说明最可能改变2025年增长预测区间的两类风险。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600745_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600745_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600745_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600745_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600745_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "闻泰科技2025年收入下降57.54%，预测可信度主要受两类风险影响：一是需求/价格波动，二是回款和营运资金压力（应收账款占收入比下降9.42个百分点）。此外，成本或毛利率上升8.43个百分点也对盈利构成压力。这些风险可分别由年报风险因素、利润率和现金流/应收数据验证。"
+  },
+  {
+    "id": "finance_zh_predictive_139",
+    "type": "mixed_numeric_text",
+    "query": "以太极集团（600129）年报风险因素为依据，判断并解释最可能改变2025年增长预测区间的两类风险。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600129_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600129_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600129_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600129_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600129_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "太极集团2025年收入下降15.23%，预测可信度主要受两类风险影响：需求/价格波动，以及回款和营运资金压力（应收账款占收入比上升3.54个百分点）。毛利率虽下降9.73个百分点，但属于成本结构变化，不属于直接影响增长预测区间的风险因素。"
+  },
+  {
+    "id": "finance_zh_predictive_140",
+    "type": "mixed_numeric_text",
+    "query": "从新奥股份（600803）年报风险因素出发，提炼最可能改变2025年增长预测区间的两类风险。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600803_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600803_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600803_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600803_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600803_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "新奥股份2025年收入下降3.22%，预测可信度主要受两类风险影响：需求/价格波动和回款及营运资金压力（应收账款占收入比下降1.01个百分点）。成本或毛利率虽有微小变化，但未构成主要风险。"
+  },
+  {
+    "id": "finance_zh_predictive_141",
+    "type": "mixed_numeric_text",
+    "query": "结合中国交建（601800）收入增速、应收账款增速和经营现金流，概括2025年收入增长质量偏强还是偏弱。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601800_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601800_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601800_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601800_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601800_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国交建2025年收入同比下降5.29%，呈现收缩状态；应收账款占收入比上升3.69个百分点，显示回款压力增加；但经营现金流同比增长22.60%，表明现金流质量有所改善。综合来看，收入增长质量偏弱。"
+  },
+  {
+    "id": "finance_zh_predictive_142",
+    "type": "mixed_numeric_text",
+    "query": "请围绕长电科技（600584）收入增速、应收账款增速和经营现金流，说明2025年收入增长质量偏强还是偏弱。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600584_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600584_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600584_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600584_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600584_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "长电科技2025年收入增长8.09%，增速较2024年有所放缓；应收账款占收入比下降0.49个百分点，显示回款效率改善；但经营现金流同比下降20.26%，表明收入增长未有效转化为现金流。综合来看，2025年收入增长质量偏弱，需关注利润率和现金流兑现情况。"
+  },
+  {
+    "id": "finance_zh_predictive_143",
+    "type": "mixed_numeric_text",
+    "query": "以步长制药（603858）收入增速、应收账款增速和经营现金流为依据，判断并解释2025年收入增长质量偏强还是偏弱。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603858_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603858_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603858_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603858_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603858_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "步长制药2025年收入增长7.90%，处于温和增长区间；判断依据包括2020-2024年收入持续下滑趋势、2024年年报中提及的行业复苏信号，以及2025年应收账款占收入比下降2.44个百分点、经营现金流同比增长23.18%。收入增长质量偏强，现金流改善与应收账款下降表明收入兑现能力增强。"
+  },
+  {
+    "id": "finance_zh_predictive_144",
+    "type": "mixed_numeric_text",
+    "query": "从深圳燃气（601139）收入增速、应收账款增速和经营现金流出发，提炼2025年收入增长质量偏强还是偏弱。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601139_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601139_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601139_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601139_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601139_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "深圳燃气2025年收入增长5.12%，处于温和增长区间；收入增长质量偏强，主要验证依据为2020-2024年收入增速波动较大，2025年增速回升，应收账款占收入比下降0.98个百分点，经营现金流同比下降2.35%。但需注意净利润同比下降3.37%，提示收入增长未完全转化为盈利。"
+  },
+  {
+    "id": "finance_zh_predictive_145",
+    "type": "mixed_numeric_text",
+    "query": "结合贵州茅台（600519）需求、价格、订单或客户结构变化，概括2025年收入趋势的周期位置。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600519_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600519_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600519_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600519_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600519_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "贵州茅台2025年收入同比下降1.21%，处于低位或基本持平状态；判断依据包括2020-2024年收入增长轨迹、2025年收入实际数据，以及2024年年报中关于市场需求、订单和经营展望的描述。此外，经营现金流同比下降33.46%，应收账款占收入比下降0.01个百分点，也支持收入增长放缓的判断。"
+  },
+  {
+    "id": "finance_zh_predictive_146",
+    "type": "mixed_numeric_text",
+    "query": "请围绕韦尔股份（603501）需求、价格、订单或客户结构变化，说明2025年收入趋势的周期位置。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603501_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603501_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603501_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603501_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603501_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "韦尔股份2025年收入增长12.14%，处于温和增长区间；判断依据包括2020-2024年收入轨迹、2024年年报中提及的需求和订单情况，以及2025年应收账款占收入比下降1.74个百分点、经营现金流同比下降13.67%。结合2025年全球半导体市场增长11.2%的背景，公司收入增长趋势与行业整体扩张方向一致。"
+  },
+  {
+    "id": "finance_zh_predictive_147",
+    "type": "mixed_numeric_text",
+    "query": "以上海医药（601607）需求、价格、订单或客户结构变化为依据，判断并解释2025年收入趋势的周期位置。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601607_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601607_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601607_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601607_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601607_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "上海医药2025年收入增长3.03%，处于温和增长阶段；判断依据包括2020-2024年收入增长趋势、2024年年报中提及的客户结构优化、创新药商业化推进及海外业务拓展，以及2025年应收账款占收入比上升0.28个百分点、经营现金流同比增长5.61%。需结合需求端变化、订单增长及现金流兑现能力综合验证。"
+  },
+  {
+    "id": "finance_zh_predictive_148",
+    "type": "mixed_numeric_text",
+    "query": "从国新能源（600617）需求、价格、订单或客户结构变化出发，提炼2025年收入趋势的周期位置。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600617_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600617_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600617_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600617_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600617_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "国新能源2025年收入下降4.86%，处于低位或基本持平状态；判断依据包括2020-2024年收入轨迹、2024年年报中提及的需求/订单/经营展望，以及2025年应收账款占收入比下降1.29个百分点、经营现金流同比增长24.93%。同时，2025年国内天然气消费增速放缓，公司主营市场呈现弱增长，需结合客户结构变化进一步验证。"
+  },
+  {
+    "id": "finance_zh_predictive_149",
+    "type": "mixed_numeric_text",
+    "query": "结合山西汾酒（600809）新增产能或项目投产，概括是否可能成为2025年收入增长驱动及所需证据。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600809_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600809_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600809_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600809_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600809_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "山西汾酒2025年固定资产同比增长13.86%，收入增长7.52%。若在建工程、产能规划或研发投入持续增加并带动收入改善，可判断产能处于释放期；若资产扩张放缓而收入承压，则更接近投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_150",
+    "type": "mixed_numeric_text",
+    "query": "请围绕士兰微（600460）新增产能或项目投产，说明是否可能成为2025年收入增长驱动及所需证据。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600460_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600460_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600460_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600460_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600460_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "士兰微2025年固定资产同比增长13.00%，收入增长16.32%。公司已扩充12吋线模拟电路、IGBT芯片及IPM模块封装测试产能，6吋SiC芯片月产能达10,000片，8吋SiC芯片月产能达5,000片，产能释放对收入增长形成支撑。"
+  },
+  {
+    "id": "finance_zh_predictive_151",
+    "type": "mixed_numeric_text",
+    "query": "以九州通（600998）新增产能或项目投产为依据，判断并解释是否可能成为2025年收入增长驱动及所需证据。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600998_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600998_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600998_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600998_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600998_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "九州通2025年固定资产同比下降0.74%，收入增长6.31%。尽管资产扩张放缓，但公司医药工业自产及OEM业务销售收入同比增长10.81%，且中药工业多个产品中标联盟采购，显示新增产能和项目投产对收入增长仍有一定支撑。"
+  },
+  {
+    "id": "finance_zh_predictive_152",
+    "type": "mixed_numeric_text",
+    "query": "从重庆燃气（600917）新增产能或项目投产出发，提炼是否可能成为2025年收入增长驱动及所需证据。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600917_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600917_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600917_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600917_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600917_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "重庆燃气2025年固定资产同比增长0.54%，收入增长1.41%。若在建工程、产能规划或研发投入继续增加并推动收入改善，则可能成为收入增长驱动；若资产扩张放缓而收入承压，则更接近投入收缩或消化阶段。"
+  },
+  {
+    "id": "finance_zh_predictive_153",
+    "type": "mixed_numeric_text",
+    "query": "结合今世缘（603369）2020-2024年数据和管理层表述，判断2025年是否已经出现毛利率修复，并说明利润改善需要哪些可量化条件。回答必须覆盖收入、归母净利润、毛利率和期间费用率方向，请合并为一段话，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603369_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603369_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603369_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603369_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603369_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "今世缘2025年尚未出现毛利率修复：归母净利润下降23.69%、收入下降11.81%，毛利率下降0.50个百分点，期间费用率上升5.17个百分点，净利率下降3.98个百分点。利润改善需收入恢复增长、费用率回落并伴随毛利率回升。"
+  },
+  {
+    "id": "finance_zh_predictive_154",
+    "type": "mixed_numeric_text",
+    "query": "请围绕工业富联（601138）2020-2024年数据和管理层表述，判断2025年利润改善是否由毛利率修复驱动，并说明收入、费用率和净利率提供的证据。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601138_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601138_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601138_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601138_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601138_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "工业富联2025年归母净利润增长51.99%、收入增长48.22%；但毛利率下降0.30个百分点，利润改善并非来自毛利率修复，而主要由收入扩张、期间费用率下降0.44个百分点和净利率上升0.10个百分点支撑。"
+  },
+  {
+    "id": "finance_zh_predictive_155",
+    "type": "mixed_numeric_text",
+    "query": "以南京医药（600713）2020-2024年数据和管理层表述为依据，判断2025年利润改善是否由毛利率修复驱动；若不是，请明确主要驱动来自费用率还是净利率。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600713_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600713_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600713_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600713_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600713_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "南京医药2025年归母净利润增长9.50%、收入增长2.36%；但毛利率下降0.13个百分点，毛利率修复未对利润改善形成支撑。盈利改善主要由期间费用率下降0.08个百分点和净利率上升0.13个百分点支撑，后续仍需观察毛利率能否企稳。"
+  },
+  {
+    "id": "finance_zh_predictive_156",
+    "type": "mixed_numeric_text",
+    "query": "从中国中车（601766）2020-2024年数据和管理层表述出发，提炼毛利率修复驱动利润改善需要满足的条件。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601766_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601766_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601766_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601766_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601766_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国中车2025年归母净利润增长6.40%，收入增长10.79%；盈利趋势主要由毛利率基本持平（下降0.00个百分点）、期间费用率下降0.56个百分点和净利率下降0.17个百分点共同解释。若收入扩张快于费用并伴随毛利率改善，则利润修复更可靠，反之需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_157",
+    "type": "mixed_numeric_text",
+    "query": "结合迎驾贡酒（603198）收入增长和期间费用增长，概括2025年是否可能出现费用杠杆。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603198_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603198_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603198_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603198_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603198_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "迎驾贡酒2025年归母净利润下降23.31%，收入下降18.04%；盈利趋势主要由毛利率下降1.40个百分点、期间费用率上升2.46个百分点和净利率下降2.27个百分点共同解释。若收入增长快于费用增长并伴随毛利率改善，则利润修复更可靠，反之则利润承压。"
+  },
+  {
+    "id": "finance_zh_predictive_158",
+    "type": "mixed_numeric_text",
+    "query": "请围绕传音控股（688036）收入增长和期间费用增长，说明2025年是否可能出现费用杠杆。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "688036_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688036_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688036_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688036_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688036_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "传音控股2025年归母净利润同比下降53.49%，收入下降4.55%；盈利趋势主要由毛利率下降2.13个百分点、期间费用率上升2.13个百分点及净利率下降4.17个百分点共同导致。若未来收入增长快于费用扩张并伴随毛利率改善，费用杠杆效应将有助于利润修复，反之则利润承压。"
+  },
+  {
+    "id": "finance_zh_predictive_159",
+    "type": "mixed_numeric_text",
+    "query": "以国药股份（600511）收入增长和期间费用增长为依据，判断并解释2025年是否可能出现费用杠杆。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600511_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600511_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600511_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600511_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600511_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "国药股份2025年归母净利润下降0.18%，收入增长3.70%；盈利趋势主要由毛利率下降0.51个百分点、期间费用率下降0.16个百分点和净利率下降0.23个百分点共同解释。若收入增长快于费用扩张并伴随毛利率改善，则利润修复更可靠，反之则需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_160",
+    "type": "mixed_numeric_text",
+    "query": "从中国通号（688009）收入增长和期间费用增长出发，提炼2025年是否可能出现费用杠杆。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "688009_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688009_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688009_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688009_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "688009_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中国通号2025年归母净利润增长5.48%，收入增长6.40%；盈利趋势主要由毛利率下降0.34个百分点、期间费用率上升0.03个百分点和净利率下降0.24个百分点共同解释。若收入增长快于费用扩张并伴随毛利率改善，则利润修复更可靠，反之则需谨慎判断。"
+  },
+  {
+    "id": "finance_zh_predictive_161",
+    "type": "mixed_numeric_text",
+    "query": "仅根据伊利股份（600887）2025年相对2024年的存货占收入比、营业收入和营业成本变化，判断其库存状态更接近去库存、补库存还是基本稳定。请将回答合并为一段话，并控制在160字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600887_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600887_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600887_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600887_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600887_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "伊利股份2025年存货占收入比上升0.05个百分点，营业收入同比微增0.21%，营业成本同比下降0.85%。存货占收入比小幅上升，收入基本稳定，未体现去库存，更接近基本稳定偏轻微补库存。"
+  },
+  {
+    "id": "finance_zh_predictive_162",
+    "type": "mixed_numeric_text",
+    "query": "请只依据环旭电子（601231）2025年相对2024年的存货占收入比、营业收入和营业成本变化，判断库存状态更接近去库存、补库存还是库存压力增加。回答需合并为一段，160字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601231_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601231_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601231_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601231_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601231_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "环旭电子2025年存货占收入比上升0.71个百分点，营业收入和营业成本均同比下降2.46%。收入下滑而库存占比上升，表明库存压力增加，未体现去库存迹象，也未明确指向补库存。"
+  },
+  {
+    "id": "finance_zh_predictive_163",
+    "type": "mixed_numeric_text",
+    "query": "以郑煤机（601717）2025年相对2024年的存货占收入比、营业收入和营业成本变化为依据，判断库存状态更接近去库存、补库存还是基本稳定。请用一段话作答，字数不超过160字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "601717_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601717_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601717_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601717_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "601717_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "郑煤机2025年存货占收入比下降8.91个百分点，收入增长11.69%、营业成本增长13.66%。在收入和成本增长的背景下，存货占用显著减少，表明库存压力有所缓解，库存状态更接近去库存趋势。"
+  },
+  {
+    "id": "finance_zh_predictive_164",
+    "type": "mixed_numeric_text",
+    "query": "从中铁工业（600528）存货、收入和成本变化出发，提炼2025年是否存在去库存或补库存趋势。答案写成一段，控制在160字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600528_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600528_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600528_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600528_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600528_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中铁工业2025年经营现金流同比增长70.41%，现金流/净利润转化率为82.88%；同时观察应收账款占收入比上升0.07个百分点，存货占收入比上升4.32个百分点。若回款改善且库存压力下降，现金流趋势更偏正面。"
+  },
+  {
+    "id": "finance_zh_predictive_165",
+    "type": "mixed_numeric_text",
+    "query": "结合青岛啤酒（600600）合同负债或预收款变化，概括能否提高2025年收入可见度及证据限制。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600600_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600600_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600600_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600600_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600600_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "青岛啤酒2025年收入增长1.04%，合同负债占收入比下降2.23个百分点，经营现金流同比下降10.91%。合同负债下降可能降低收入可见度，但公司通过订单增长、渠道优化及新品推动，仍可部分提升收入确认的可见性，但需关注其波动性及披露完整性。"
+  },
+  {
+    "id": "finance_zh_predictive_166",
+    "type": "mixed_numeric_text",
+    "query": "请围绕福日电子（600203）合同负债或预收款变化，说明能否提高2025年收入可见度及证据限制。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600203_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600203_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600203_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600203_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600203_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "福日电子2025年收入同比增长30.52%，合同负债占收入比下降1.33个百分点，经营活动现金流同比由负转正。合同负债、订单或在手项目增加有助于提高收入可见度，但当前合同负债占收入比下降，且未提供具体订单或在手项目数据，因此收入确认节奏仍存在不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_167",
+    "type": "mixed_numeric_text",
+    "query": "以振华重工（600320）合同负债或预收款变化为依据，判断并解释能否提高2025年收入可见度及证据限制。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600320_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600320_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600320_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600320_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600320_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "振华重工2025年收入同比增长5.24%，合同负债占收入比下降2.84个百分点，经营现金流同比增长18.45%。合同负债、订单或在手项目增加有助于提高收入可见度；但2025年合同负债占收入比下降，且未披露订单或在手项目变化，收入确认节奏仍存在不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_168",
+    "type": "mixed_numeric_text",
+    "query": "从今创集团（603680）合同负债或预收款变化出发，提炼能否提高2025年收入可见度及证据限制。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603680_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603680_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603680_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603680_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603680_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "今创集团2025年收入下降3.53%，合同负债占收入比下降0.56个百分点，经营现金流同比增长127.46%。合同负债、订单或在手项目增加有助于提高收入可见度；但2025年合同负债占收入比下降，且未披露订单或在手项目变化，收入确认节奏仍存在不确定性。"
+  },
+  {
+    "id": "finance_zh_predictive_169",
+    "type": "mixed_numeric_text",
+    "query": "结合光明乳业（600597）毛利率和费用率变化，概括2025年利润率趋势是否具备相对优势。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600597_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600597_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600597_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600597_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600597_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "光明乳业2025年收入下降1.58%，在饮料制造样本中的综合增长和利润率位置为低于行业中位（第14/26）；毛利率下降1.97个百分点、费用率下降0.78个百分点，说明其相对优势取决于收入弹性是否能覆盖成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_170",
+    "type": "mixed_numeric_text",
+    "query": "请围绕三安光电（600703）毛利率和费用率变化，说明2025年利润率趋势是否具备相对优势。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600703_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600703_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600703_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600703_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600703_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "三安光电2025年收入增长11.45%，在光学光电子行业中排名第12/24，处于行业中位；毛利率上升0.53个百分点，费用率下降0.34个百分点，表明其利润率趋势在同行中具备一定相对优势，但需关注收入增长是否能持续覆盖成本与费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_171",
+    "type": "mixed_numeric_text",
+    "query": "以天地科技（600582）毛利率和费用率变化为依据，判断并解释2025年利润率趋势是否具备相对优势。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600582_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600582_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600582_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600582_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600582_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "天地科技2025年收入下降4.21%，在专用设备样本中的综合增长和利润率位置为低于行业中位（第45/60）；毛利率下降4.94个百分点、费用率上升1.72个百分点，表明其利润率趋势相对劣势，需关注收入弹性是否能缓解成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_172",
+    "type": "mixed_numeric_text",
+    "query": "从山鹰国际（600567）毛利率和费用率变化出发，提炼2025年利润率趋势是否具备相对优势。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600567_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600567_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600567_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600567_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600567_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "山鹰国际2025年收入下降1.54%，在造纸样本中综合增长和利润率排名第9/15，低于行业中位；毛利率下降1.22个百分点，费用率下降0.70个百分点，表明其利润率趋势未形成相对优势，需关注收入弹性是否能覆盖成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_173",
+    "type": "mixed_numeric_text",
+    "query": "结合重庆啤酒（600132）2024年年报风险因素，概括2025年收入预测的上调、基准和下调触发条件。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600132_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600132_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600132_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600132_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600132_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "重庆啤酒2025年收入增长0.53%为基准情景；乐观情景依赖需求修复、价格提升或项目交付改善，带动毛利率上升2.30个百分点；谨慎情景则源于需求走弱、成本上行或现金流压力。2020-2024年收入波动及2024年风险因素用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_174",
+    "type": "mixed_numeric_text",
+    "query": "请围绕彩虹股份（600707）2024年年报风险因素，说明2025年收入预测的上调、基准和下调触发条件。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600707_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600707_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600707_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600707_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600707_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "彩虹股份2025年收入下降3.18%为基准情景；乐观情景依赖需求回暖、价格或交付改善，带动毛利率下降3.18个百分点；谨慎情景则源于需求走弱、成本上升或现金流压力。2020-2024年收入波动及2025年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_175",
+    "type": "mixed_numeric_text",
+    "query": "以上海机电（600835）2024年年报风险因素为依据，判断并解释2025年收入预测的上调、基准和下调触发条件。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600835_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600835_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600835_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600835_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600835_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "上海机电2025年收入下降6.71%为基准情景；乐观情景依赖需求修复、价格或项目交付改善，带动毛利率下降0.69个百分点；谨慎情景则源于需求走弱、成本上行或现金流承压。2020-2024年收入持续下滑，2025年收入预测与风险因素披露共同支撑三档情景判断。"
+  },
+  {
+    "id": "finance_zh_predictive_176",
+    "type": "mixed_numeric_text",
+    "query": "从博汇纸业（600966）2024年年报风险因素出发，提炼2025年收入预测的上调、基准和下调触发条件。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600966_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600966_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600966_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600966_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600966_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "博汇纸业2025年收入增长1.20%为基准情景；乐观情景依赖需求修复、价格或项目交付改善；谨慎情景则来自需求走弱、成本上行或现金流承压。2024年风险因素及2020-2024年收入波动用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_177",
+    "type": "mixed_numeric_text",
+    "query": "结合海天味业（603288）2020-2024年收入波动和年报行业表述，概括2025年收入趋势对行业景气度的敏感性。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603288_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603288_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603288_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603288_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603288_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "海天味业2025年收入增长7.32%，在食品加工制造样本中排名第9/29，高于行业中位；毛利率上升3.25个百分点，费用率上升1.25个百分点，表明其收入增长虽保持稳健，但相对优势取决于收入弹性是否能覆盖成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_178",
+    "type": "mixed_numeric_text",
+    "query": "请围绕欧普照明（603515）2020-2024年收入波动和年报行业表述，说明2025年收入趋势对行业景气度的敏感性。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603515_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603515_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603515_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603515_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603515_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "欧普照明2025年收入同比下降1.78%，在光学光电子行业24家样本企业中排名第15，低于行业中位水平；毛利率小幅上升0.04个百分点，费用率下降1.40个百分点，表明其收入弹性对成本和费用压力的缓解有一定作用，但整体增长仍较弱，对行业景气度的依赖性较高。"
+  },
+  {
+    "id": "finance_zh_predictive_179",
+    "type": "mixed_numeric_text",
+    "query": "以川仪股份（603100）2020-2024年收入波动和年报行业表述为依据，判断并解释2025年收入趋势对行业景气度的敏感性。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603100_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603100_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603100_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603100_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603100_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "川仪股份2025年收入下降10.36%，在通用设备行业中排名第41/50，低于行业中位；尽管毛利率上升1.22个百分点，但费用率也上升0.91个百分点，表明其收入下降未能有效抵消成本和费用压力，对行业景气度的敏感性较高。"
+  },
+  {
+    "id": "finance_zh_predictive_180",
+    "type": "mixed_numeric_text",
+    "query": "从华泰股份（600308）2020-2024年收入波动和年报行业表述出发，提炼2025年收入趋势对行业景气度的敏感性。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600308_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600308_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600308_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600308_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600308_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "华泰股份2025年收入下降4.52%，在造纸行业样本中排名第10/15，低于行业中位；毛利率上升0.88个百分点，费用率上升0.75个百分点，表明其收入弹性需应对成本和费用压力。"
+  },
+  {
+    "id": "finance_zh_predictive_181",
+    "type": "mixed_numeric_text",
+    "query": "结合光明肉业（600073）收入、毛利率和费用率证据，概括2025年是否可能出现经营杠杆释放。请将回答合并为一段话，并控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600073_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600073_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600073_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600073_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600073_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "光明肉业2025年归母净利润由正转负，收入增长0.65%；毛利率提升1.03个百分点，但期间费用率上升0.63个百分点，导致净利率下降2.99个百分点。收入增长有限，费用控制未达预期，经营杠杆释放效果不明显。"
+  },
+  {
+    "id": "finance_zh_predictive_182",
+    "type": "mixed_numeric_text",
+    "query": "请围绕凯盛科技（600552）收入、毛利率和费用率证据，说明2025年是否可能出现经营杠杆释放。回答需合并为一段，180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600552_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600552_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600552_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600552_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600552_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "凯盛科技2025年归母净利润下降8.20%，收入增长20.15%；盈利趋势主要由毛利率上升1.09个百分点、期间费用率下降0.44个百分点和净利率下降1.23个百分点共同解释。收入扩张快于费用且毛利率改善，利润修复更可靠，反之则需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_183",
+    "type": "mixed_numeric_text",
+    "query": "以纽威股份（603699）收入、毛利率和费用率证据为依据，判断并解释2025年是否可能出现经营杠杆释放。请用一段话作答，字数不超过180字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603699_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603699_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603699_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603699_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603699_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "纽威股份2025年归母净利润增长38.54%，收入端增长24.53%；盈利趋势主要由毛利率上升1.18个百分点、期间费用率下降0.61个百分点和净利率上升2.18个百分点共同解释。若收入扩张快于费用并伴随毛利率改善，则利润修复更可靠，反之需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_184",
+    "type": "mixed_numeric_text",
+    "query": "从仙鹤股份（603733）收入、毛利率和费用率证据出发，提炼2025年是否可能出现经营杠杆释放。答案写成一段，控制在180字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603733_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603733_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603733_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603733_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603733_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "仙鹤股份2025年归母净利润增长0.88%，收入增长20.14%；盈利趋势主要由毛利率下降1.76个百分点、期间费用率上升0.79个百分点和净利率下降1.61个百分点共同解释。若收入扩张快于费用并伴随毛利率改善，则利润修复更可靠，反之则需下调判断。"
+  },
+  {
+    "id": "finance_zh_predictive_185",
+    "type": "mixed_numeric_text",
+    "query": "结合安琪酵母（600298）收入预测相关证据，概括影响2025年收入预测可信度的三类不确定性。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600298_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600298_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600298_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600298_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600298_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "安琪酵母2025年收入增长10.08%，预测可信度主要受三类不确定性影响：需求与价格波动风险、成本或毛利率上升1.18个百分点的风险，以及回款和营运资金压力（应收账款占收入比下降1.03个百分点）。这些风险可分别从年报风险因素、利润率变化和现金流/应收数据中验证。"
+  },
+  {
+    "id": "finance_zh_predictive_186",
+    "type": "mixed_numeric_text",
+    "query": "请围绕亨通光电（600487）收入预测相关证据，说明影响2025年收入预测可信度的三类不确定性。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600487_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600487_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600487_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600487_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600487_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "亨通光电2025年收入增长11.45%，预测可信度主要受三类不确定性影响：一是市场需求和价格波动，二是毛利率下降0.75个百分点，三是应收账款占收入比下降2.04个百分点，反映回款和营运资金压力。这些风险可分别由年报风险因素、利润率和现金流/应收数据验证。"
+  },
+  {
+    "id": "finance_zh_predictive_187",
+    "type": "mixed_numeric_text",
+    "query": "以景津装备（603279）收入预测相关证据为依据，判断并解释影响2025年收入预测可信度的三类不确定性。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603279_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603279_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603279_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603279_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603279_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "景津装备2025年收入下降5.09%，预测可信度主要受三类不确定性影响：需求/价格波动（因压滤机市场竞争加剧，公司主动调低销售价格）、成本或毛利率下降6.89个百分点（2025年毛利率显著下滑），以及回款和营运资金压力（应收账款占收入比下降1.69个百分点）。这些风险可分别由2025年年报重要事项、利润率变化和现金流/应收数据验证。"
+  },
+  {
+    "id": "finance_zh_predictive_188",
+    "type": "mixed_numeric_text",
+    "query": "从云天化（600096）收入预测相关证据出发，提炼影响2025年收入预测可信度的三类不确定性。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600096_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600096_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600096_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600096_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600096_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "云天化2025年收入下降21.47%，预测可信度主要受三类不确定性影响：需求/价格波动、成本或毛利率上升2.72个百分点、回款和营运资金压力（应收账款占收入比下降0.99个百分点）。这些风险可分别由年报风险因素、利润率和现金流/应收数据验证。"
+  },
+  {
+    "id": "finance_zh_predictive_189",
+    "type": "text_summary",
+    "query": "结合安井食品（603345）年报文字趋势信号，概括2025年收入方向判断。请将回答合并为一段话，并控制在150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603345_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603345_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603345_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603345_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603345_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "安井食品2025年收入增长7.05%，处于温和增长区间；判断依据包括2020-2024年收入增长趋势、2024年年报中提到的需求、订单及经营展望，以及2025年应收账款占收入比上升0.01个百分点、经营现金流同比增长10.12%。若用于估值，还需关注利润率和现金流兑现情况。"
+  },
+  {
+    "id": "finance_zh_predictive_190",
+    "type": "text_summary",
+    "query": "请围绕中天科技（600522）年报文字趋势信号，说明2025年收入方向判断。回答需合并为一段，150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600522_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600522_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600522_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600522_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600522_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "中天科技2025年收入同比增长9.24%，处于较快增长区间；该判断基于2020-2024年收入趋势、2024年年报中提及的订单储备与业务拓展，以及2025年应收账款占收入比下降3.31个百分点、经营现金流同比增长14.81%等财务指标。若用于估值，还需关注利润率变化与现金流兑现能力。"
+  },
+  {
+    "id": "finance_zh_predictive_191",
+    "type": "text_summary",
+    "query": "以东睦股份（600114）年报文字趋势信号为依据，判断并解释2025年收入方向判断。请用一段话作答，字数不超过150字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600114_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600114_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600114_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600114_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600114_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "东睦股份2025年收入增长17.39%，处于较快增长状态；依据包括2020-2024年收入趋势、2024年年报披露的汽车、家电、消费电子等业务动力，以及2025年应收账款占收入比下降1.94个百分点、经营现金流同比增长185.02%。"
+  },
+  {
+    "id": "finance_zh_predictive_192",
+    "type": "text_summary",
+    "query": "从华鲁恒升（600426）年报文字趋势信号出发，提炼2025年收入方向判断。答案写成一段，控制在150字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600426_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600426_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600426_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600426_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600426_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "华鲁恒升2025年收入同比下降9.52%，进入收缩状态；判断依据包括2020-2024年收入增长趋势、2024年年报中提到的市场供需失衡及主导产品价格下滑，以及2025年应收账款占收入比下降0.15个百分点、经营现金流同比下降15.51%。若用于估值，还需同步验证利润率和现金流兑现情况。"
+  },
+  {
+    "id": "finance_zh_predictive_193",
+    "type": "mixed_numeric_text",
+    "query": "结合海尔智家（600690）2020-2024年财务或年报文本依据，概括2025年收入预测的三个基准假设。请将回答合并为一段话，并控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600690_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600690_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600690_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600690_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600690_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "海尔智家2025年收入增长5.71%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率下降1.16个百分点，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_194",
+    "type": "mixed_numeric_text",
+    "query": "请围绕烽火通信（600498）2020-2024年财务或年报文本依据，说明2025年收入预测的三个基准假设。回答需合并为一段，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600498_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600498_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600498_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600498_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600498_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "烽火通信2025年收入下降12.72%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率下降0.15个百分点，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_195",
+    "type": "mixed_numeric_text",
+    "query": "以赛腾股份（603283）2020-2024年财务或年报文本依据为依据，判断并解释2025年收入预测的三个基准假设。请用一段话作答，字数不超过200字。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603283_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603283_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603283_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603283_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603283_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "赛腾股份2025年收入下降16.46%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率上升2.24个百分点，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_196",
+    "type": "mixed_numeric_text",
+    "query": "从兴发集团（600141）2020-2024年财务或年报文本依据出发，提炼2025年收入预测的三个基准假设。答案写成一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600141_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600141_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600141_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600141_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600141_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "兴发集团2025年收入增长3.18%可作为基准情景；乐观情景依赖需求修复、价格或项目交付改善并带动毛利率下降1.56个百分点，谨慎情景则来自需求走弱、成本上行或现金流承压。2020-2024年收入波动和2024年风险/展望披露用于限定三档情景。"
+  },
+  {
+    "id": "finance_zh_predictive_197",
+    "type": "mixed_numeric_text",
+    "query": "仅依据海立股份（600619）2020—2024年财务数据和年报披露，预测其2025年营业收入同比变化，并说明用于估值时应如何结合收入趋势、订单与经营展望、应收账款、经营现金流及利润率验证该预测。请合并为一段话，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600619_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600619_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600619_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600619_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600619_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "海立股份2025年收入增长9.34%，需结合2020-2024年收入趋势、2024年年报中的订单与经营展望，以及应收账款占收入比上升0.78个百分点、经营现金流同比下降28.27%进行验证。同时，应关注毛利率提升0.57个百分点及净利润率改善0.37个百分点，以确保收入增长的质量与可持续性。"
+  },
+  {
+    "id": "finance_zh_predictive_198",
+    "type": "mixed_numeric_text",
+    "query": "不使用2025年数据或外部预测，基于移远通信（603236）2020—2024年收入轨迹以及年报披露的技术趋势、市场需求和经营展望，预测其2025年营业收入增速，并结合应收账款、经营现金流和利润率说明该预测能否作为可靠的估值输入。请用一段话作答，200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603236_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603236_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603236_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603236_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603236_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "移远通信2025年收入增长30.83%，处于较快增长区间；判断依据应结合2020-2024年收入增长轨迹、2024年年报中提及的5G、AIoT等技术趋势及市场需求，以及2025年应收账款占收入比下降1.14个百分点、经营现金流同比由正转负等财务指标。若用于估值，还需验证利润率变化和现金流兑现能力。"
+  },
+  {
+    "id": "finance_zh_predictive_199",
+    "type": "mixed_numeric_text",
+    "query": "根据捷昌驱动（603583）2020—2024年财务表现及2024年年报中的需求、订单和经营展望，预测公司2025年营业收入同比增速；同时结合应收账款、经营现金流与利润率变化，判断该增长预测用于估值是否具备兑现基础。请用一段不超过200字的话说明。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "603583_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603583_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603583_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603583_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "603583_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "捷昌驱动2025年收入增长10.52%，处于中速增长区间；判断依据应由2020-2024年收入轨迹、2024年年报的需求/订单/经营展望，以及应收账款占收入比下降1.84个百分点、经营现金流同比增长9.87%共同验证。若用于估值，还应同步检验利润率和现金流兑现能力。"
+  },
+  {
+    "id": "finance_zh_predictive_200",
+    "type": "mixed_numeric_text",
+    "query": "仅利用新安股份（600596）2020—2024年收入趋势和2024年年报披露的需求、订单及经营展望，预测其2025年营业收入同比变化，并结合应收账款、经营现金流和利润率判断预测结果在估值模型中的可用性。答案合并为一段，控制在200字以内。",
+    "instruction": "请根据题目指定年度的财报趋势、管理层经营展望和相关经营指标回答问题，并按题目要求作答。",
+    "evidence": [
+      {
+        "id": "600596_2020-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600596_2021-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600596_2022-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600596_2023-12-31_annual",
+        "type": "financial_report"
+      },
+      {
+        "id": "600596_2024-12-31_annual",
+        "type": "financial_report"
+      }
+    ],
+    "ground_truth": "新安股份2025年收入同比下降0.28%，处于低位或基本持平状态；判断依据应结合2020-2024年收入趋势、2024年年报中的需求/订单/经营展望，以及应收账款占收入比上升0.15个百分点、经营现金流同比增长64.95%进行验证。若用于估值，还需同步检验利润率和现金流兑现能力。"
+  }
+]

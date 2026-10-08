@@ -1,0 +1,15 @@
+{
+  "deadline_seconds": 300,
+  "max_requests": 20,
+  "request_timeout_seconds": 120,
+  "transient_retries": 2,
+  "max_output_tokens": 8192,
+  "context_bytes_guard": 100000,
+  "search_top_k": 10,
+  "chunk_chars": 3000,
+  "chunk_overlap": 200,
+  "policies_file": "policies.json",
+  "concurrency": 4,
+  "borrow_slots": true,
+  "borrow_min_available_gb": 2
+}

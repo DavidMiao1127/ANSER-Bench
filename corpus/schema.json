@@ -1,0 +1,1771 @@
+{
+  "finance/en/12_CFR_Part_217.sqlite": {
+    "regulation_paragraphs": [
+      {
+        "name": "paragraph_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "section_number",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "paragraph_label",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "section_title",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "finance/en/audit_rules.sqlite": {
+    "dqc_rules": [
+      {
+        "name": "rule_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "ruleset_version",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "rule_name",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "status",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "release_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "effective_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "description",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "rule_logic",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "target_concepts",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "messages_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "source_files",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "filing_facts": [
+      {
+        "name": "fact_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "filing_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "document_order",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "concept",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "is_nil",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "unit",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "decimals",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "context_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "start_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "end_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "instant_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "dimensions",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "filing_relationships": [
+      {
+        "name": "relationship_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "filing_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "document_order",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "parent_concept",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "child_concept",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "weight",
+        "type": "REAL",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "order_value",
+        "type": "REAL",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "role",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "arcrole",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "attributes_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "taxonomy_concepts": [
+      {
+        "name": "concept_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "taxonomy_year",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "qname",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "label",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "data_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "balance",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "period_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "abstract",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "documentation",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "labels",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "references_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "attributes_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "taxonomy_relationships": [
+      {
+        "name": "relationship_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "taxonomy_year",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "relationship_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "parent_concept",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "child_concept",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "arcrole",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "role",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "weight",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "order_value",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "preferred_label",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "attributes_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "finance/en/finance_reports.sqlite": {
+    "companies": [
+      {
+        "name": "cik",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "tickers_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "exchanges_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "sic",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "sic_description",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "state_of_incorporation",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "industry_bucket",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "region_bucket",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "size_bucket",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "latest_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "filings": [
+      {
+        "name": "accession",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "cik",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "company_name",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "form",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "filing_date",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fiscal_year",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fiscal_period",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "split",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "primary_document",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "filing_url",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "quality_score",
+        "type": "REAL",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "downloaded_at",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "financial_facts": [
+      {
+        "name": "accession",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "cik",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_period",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "currency",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_revenue",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_revenue",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_cost",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "gross_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "management_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "research_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "financial_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "income_tax_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "parent_net_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "basic_eps",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "monetary_funds",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "accounts_receivable",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "inventory",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_current_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fixed_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "intangible_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "goodwill",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_noncurrent_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "short_term_borrowing",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "accounts_payable",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_current_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "long_term_borrowing",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_noncurrent_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_equity",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_operating_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_investing_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_financing_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "cash_equivalent_increase",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "ending_cash_equivalent",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "missing_rate",
+        "type": "REAL",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "sections": [
+      {
+        "name": "accession",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "section_name",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 2
+      },
+      {
+        "name": "section_order",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "finance/zh/finance_reports.sqlite": {
+    "companies": [
+      {
+        "name": "stock_code",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "company_name",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "exchange",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "board",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "industry",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "listing_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "selected_flag",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "financial_fields": [
+      {
+        "name": "report_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "stock_code",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_period",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_revenue",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_revenue",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_cost",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "gross_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "selling_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "management_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "research_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "financial_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "income_tax_expense",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "parent_net_profit",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "basic_eps",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "monetary_funds",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "accounts_receivable",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "inventory",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_current_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fixed_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "intangible_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "goodwill",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_noncurrent_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_assets",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "short_term_borrowing",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "accounts_payable",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "contract_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_current_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "long_term_borrowing",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "bonds_payable",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_noncurrent_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_liabilities",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "total_equity",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_cash_inflow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "operating_cash_outflow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_operating_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_investing_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "net_financing_cash_flow",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "cash_equivalent_increase",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "ending_cash_equivalent",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "missing_rate",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "report_chunks": [
+      {
+        "name": "chunk_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "report_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "stock_code",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "company_name",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_year",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_period",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_type",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "section_title",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "page_start",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "page_end",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "chunk_type",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "chunk_text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "reports": [
+      {
+        "name": "report_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "stock_code",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "company_name",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_year",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_period",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fiscal_quarter",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "report_type",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "disclosure_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "pdf_url",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "pdf_path",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "full_text",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "markdown_text",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "split",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "text_quality_score",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "structured_quality_score",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "created_at",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "finance/zh/regulatory_rules.jsonl": {
+    "fields": [
+      "id",
+      "law_name",
+      "item",
+      "content"
+    ]
+  },
+  "legal/en/legal_cases.db": {
+    "annotation_registry": [
+      {
+        "name": "registry_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 1
+      },
+      {
+        "name": "registry_key",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 2
+      },
+      {
+        "name": "parent_key",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "display_name",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "description",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value_type",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "unit",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "status",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "aliases_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "allowed_values_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "registry_version",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "case_feature": [
+      {
+        "name": "feature_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "case_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "matter_annotation_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "matter_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "feature_key",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value_status",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value_text",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "value_number",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "unit",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "confidence",
+        "type": "REAL",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "evidence_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "missing_reason",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "case_record": [
+      {
+        "name": "case_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "cluster_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "docket_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "docket_number",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "case_name",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "case_name_docket",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "court_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "jurisdiction_type",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "court_level",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "decision_date",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "decision_year",
+        "type": "INTEGER",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "publication_status_raw",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "precedential_status",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "source",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "opinion_ids_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "primary_practice_area",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "practice_areas_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "matter_types_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "legal_issues_json",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "opinion_record": [
+      {
+        "name": "opinion_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "case_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "cluster_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "opinion_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "preferred_text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "preferred_text_source",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "has_usable_text",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "text_length",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "text_sha1",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "quality_metrics_json",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ],
+    "search_document": [
+      {
+        "name": "document_id",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "case_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "opinion_id",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "section_type",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "chunk_text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "bm25_text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "chunk_token_count",
+        "type": "INTEGER",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "legal/en/precedents.sqlite": {
+    "documents": [
+      {
+        "name": "docid",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "case_text",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      },
+      {
+        "name": "corpus_role",
+        "type": "TEXT",
+        "not_null": true,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "legal/zh/law_corpus.jsonl": {
+    "fields": [
+      "id",
+      "law_name",
+      "item",
+      "content"
+    ]
+  },
+  "legal/zh/legal_wenshu.db": {
+    "case_features": [
+      {
+        "name": "anhao",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "feature_key",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "feature_value",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ],
+    "cases": [
+      {
+        "name": "anhao",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 1
+      },
+      {
+        "name": "anyou",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "wenshuleixing",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "fayuanmingcheng",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "caipanriqi",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "shenpanchengxu",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      },
+      {
+        "name": "wenshu_content",
+        "type": "TEXT",
+        "not_null": false,
+        "primary_key_position": 0
+      }
+    ]
+  },
+  "science/articles.jsonl": {
+    "fields": [
+      "ID",
+      "pmid",
+      "title",
+      "abstract",
+      "authors",
+      "journal",
+      "doi",
+      "year",
+      "sections",
+      "pmc_id",
+      "fulltext_source"
+    ]
+  }
+}
