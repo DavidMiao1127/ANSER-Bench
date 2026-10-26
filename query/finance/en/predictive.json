@@ -20,10 +20,6 @@
       {
         "accession": "0001166691-24-000011",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001166691-25-000011",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "1.78 %"
@@ -48,10 +44,6 @@
       },
       {
         "accession": "0000950170-24-021781",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-022844",
         "type": "financial_report"
       }
     ],
@@ -78,10 +70,6 @@
       {
         "accession": "0001326380-24-000012",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-014731",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "0.73 %"
@@ -106,10 +94,6 @@
       },
       {
         "accession": "0000766704-24-000008",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000766704-25-000009",
         "type": "financial_report"
       }
     ],
@@ -136,10 +120,6 @@
       {
         "accession": "0000702165-24-000005",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000702165-25-000008",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "10.13 %"
@@ -164,10 +144,6 @@
       },
       {
         "accession": "0000893538-24-000009",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000893538-25-000008",
         "type": "financial_report"
       }
     ],
@@ -194,10 +170,6 @@
       {
         "accession": "0000764180-24-000018",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000764180-25-000019",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "38.55 %"
@@ -222,10 +194,6 @@
       },
       {
         "accession": "0001039828-24-000020",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001039828-25-000010",
         "type": "financial_report"
       }
     ],
@@ -252,10 +220,6 @@
       {
         "accession": "0001551182-24-000006",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001551182-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "19.4 %"
@@ -280,10 +244,6 @@
       },
       {
         "accession": "0000026172-24-000012",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000026172-25-000007",
         "type": "financial_report"
       }
     ],
@@ -310,10 +270,6 @@
       {
         "accession": "0001618756-24-000020",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001618756-25-000087",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-0.96 %"
@@ -338,10 +294,6 @@
       },
       {
         "accession": "0000895421-24-000300",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000895421-25-000304",
         "type": "financial_report"
       }
     ],
@@ -368,10 +320,6 @@
       {
         "accession": "0000064803-24-000007",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000064803-25-000007",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "197.38 %"
@@ -396,10 +344,6 @@
       },
       {
         "accession": "0001050915-24-000009",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001050915-25-000005",
         "type": "financial_report"
       }
     ],
@@ -426,10 +370,6 @@
       {
         "accession": "0001558370-24-001999",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-001495",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-1.28 %"
@@ -454,10 +394,6 @@
       },
       {
         "accession": "0001193125-24-031005",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001193125-25-020826",
         "type": "financial_report"
       }
     ],
@@ -484,10 +420,6 @@
       {
         "accession": "0001628280-24-005348",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-007110",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-1.62 %"
@@ -512,10 +444,6 @@
       },
       {
         "accession": "0000096021-23-000117",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000096021-24-000128",
         "type": "financial_report"
       }
     ],
@@ -542,10 +470,6 @@
       {
         "accession": "0001571949-24-000007",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001571949-25-000003",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-0.12 %"
@@ -570,10 +494,6 @@
       },
       {
         "accession": "0000795266-24-000008",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000795266-25-000014",
         "type": "financial_report"
       }
     ],
@@ -600,10 +520,6 @@
       {
         "accession": "0000018926-24-000016",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000018926-25-000010",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "0.7 %"
@@ -628,10 +544,6 @@
       },
       {
         "accession": "0001193125-24-044609",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001193125-25-041730",
         "type": "financial_report"
       }
     ],
@@ -658,10 +570,6 @@
       {
         "accession": "0000740260-24-000067",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000740260-25-000052",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "13.47 %"
@@ -686,10 +594,6 @@
       },
       {
         "accession": "0000107815-24-000095",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000107815-25-000103",
         "type": "financial_report"
       }
     ],
@@ -716,10 +620,6 @@
       {
         "accession": "0000717423-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000717423-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-2.4 %"
@@ -744,10 +644,6 @@
       },
       {
         "accession": "0001276187-24-000024",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001276187-25-000018",
         "type": "financial_report"
       }
     ],
@@ -774,10 +670,6 @@
       {
         "accession": "0000874761-24-000011",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000874761-25-000013",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-3.08 %"
@@ -802,10 +694,6 @@
       },
       {
         "accession": "0000049071-24-000012",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000049071-25-000007",
         "type": "financial_report"
       }
     ],
@@ -832,10 +720,6 @@
       {
         "accession": "0000037996-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000037996-25-000013",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-4.38 %"
@@ -860,10 +744,6 @@
       },
       {
         "accession": "0001193125-23-259599",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-24-043960",
         "type": "financial_report"
       }
     ],
@@ -890,10 +770,6 @@
       {
         "accession": "0000107263-24-000019",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000107263-25-000031",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "2.71 %"
@@ -918,10 +794,6 @@
       },
       {
         "accession": "0000003570-24-000040",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000003570-25-000033",
         "type": "financial_report"
       }
     ],
@@ -948,10 +820,6 @@
       {
         "accession": "0000027904-24-000003",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000027904-25-000004",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "6.19 %"
@@ -976,10 +844,6 @@
       },
       {
         "accession": "0001558370-24-001703",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-001939",
         "type": "financial_report"
       }
     ],
@@ -1006,10 +870,6 @@
       {
         "accession": "0001628280-24-012221",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-015037",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-1.65 %"
@@ -1034,10 +894,6 @@
       },
       {
         "accession": "0000092380-24-000027",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000092380-25-000024",
         "type": "financial_report"
       }
     ],
@@ -1064,10 +920,6 @@
       {
         "accession": "0001437749-24-003599",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000100885-25-000042",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "2.4 %"
@@ -1092,10 +944,6 @@
       },
       {
         "accession": "0000759944-24-000039",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000759944-25-000013",
         "type": "financial_report"
       }
     ],
@@ -1122,10 +970,6 @@
       {
         "accession": "0000091576-24-000040",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000091576-25-000038",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-116.65 %"
@@ -1150,10 +994,6 @@
       },
       {
         "accession": "0000092230-24-000010",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000092230-25-000020",
         "type": "financial_report"
       }
     ],
@@ -1180,10 +1020,6 @@
       {
         "accession": "0000004962-24-000013",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000004962-25-000016",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-24.3 %"
@@ -1208,10 +1044,6 @@
       },
       {
         "accession": "0000766421-24-000012",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000766421-25-000009",
         "type": "financial_report"
       }
     ],
@@ -1238,10 +1070,6 @@
       {
         "accession": "0000860546-24-000013",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000860546-25-000008",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-25.43 %"
@@ -1266,10 +1094,6 @@
       },
       {
         "accession": "0000885590-24-000011",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000885590-25-000007",
         "type": "financial_report"
       }
     ],
@@ -1296,10 +1120,6 @@
       {
         "accession": "0001528396-23-000089",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001528396-24-000105",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "1.55 x"
@@ -1324,10 +1144,6 @@
       },
       {
         "accession": "0001613103-23-000040",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001613103-24-000072",
         "type": "financial_report"
       }
     ],
@@ -1354,10 +1170,6 @@
       {
         "accession": "0001628280-24-005451",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-005924",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "7.86 %"
@@ -1382,10 +1194,6 @@
       },
       {
         "accession": "0000799292-24-000014",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000799292-25-000018",
         "type": "financial_report"
       }
     ],
@@ -1412,10 +1220,6 @@
       {
         "accession": "0001628280-24-008632",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-009420",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-0.02 %"
@@ -1440,10 +1244,6 @@
       },
       {
         "accession": "0000814547-23-000022",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-24-045719",
         "type": "financial_report"
       }
     ],
@@ -1470,10 +1270,6 @@
       {
         "accession": "0001628280-24-008044",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-009060",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-5.05 %"
@@ -1498,10 +1294,6 @@
       },
       {
         "accession": "0000067716-24-000017",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000067716-25-000016",
         "type": "financial_report"
       }
     ],
@@ -1528,10 +1320,6 @@
       {
         "accession": "0001053507-24-000011",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001053507-25-000025",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "-11.2 %"
@@ -1556,10 +1344,6 @@
       },
       {
         "accession": "0001585689-24-000027",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001585689-25-000008",
         "type": "financial_report"
       }
     ],
@@ -1586,10 +1370,6 @@
       {
         "accession": "0001331875-24-000019",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001331875-25-000013",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "145.55 %"
@@ -1614,10 +1394,6 @@
       },
       {
         "accession": "0000950170-24-019110",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-028387",
         "type": "financial_report"
       }
     ],
@@ -1644,10 +1420,6 @@
       {
         "accession": "0001628280-24-005392",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-006093",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "1.32 %"
@@ -1672,10 +1444,6 @@
       },
       {
         "accession": "0001552000-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001552000-25-000012",
         "type": "financial_report"
       }
     ],
@@ -1702,10 +1470,6 @@
       {
         "accession": "0001437749-24-003735",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-005347",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "1.37 %"
@@ -1730,10 +1494,6 @@
       },
       {
         "accession": "0000801337-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000801337-25-000004",
         "type": "financial_report"
       }
     ],
@@ -1760,10 +1520,6 @@
       {
         "accession": "0000010795-23-000098",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000010795-24-000084",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "C"
@@ -1788,10 +1544,6 @@
       },
       {
         "accession": "0001300514-24-000048",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001300514-25-000040",
         "type": "financial_report"
       }
     ],
@@ -1818,10 +1570,6 @@
       {
         "accession": "0000950170-24-019275",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-024770",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -1846,10 +1594,6 @@
       },
       {
         "accession": "0000096223-24-000006",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-002833",
         "type": "financial_report"
       }
     ],
@@ -1876,10 +1620,6 @@
       {
         "accession": "0000732717-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000732717-25-000013",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -1904,10 +1644,6 @@
       },
       {
         "accession": "0001506307-24-000011",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001506307-25-000008",
         "type": "financial_report"
       }
     ],
@@ -1934,10 +1670,6 @@
       {
         "accession": "0000721371-23-000060",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000721371-24-000056",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -1962,10 +1694,6 @@
       },
       {
         "accession": "0000070318-24-000016",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000070318-25-000009",
         "type": "financial_report"
       }
     ],
@@ -1992,10 +1720,6 @@
       {
         "accession": "0001628280-24-002371",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-002404",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2020,10 +1744,6 @@
       },
       {
         "accession": "0001628280-24-006128",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-008420",
         "type": "financial_report"
       }
     ],
@@ -2050,10 +1770,6 @@
       {
         "accession": "0000822416-24-000010",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000822416-25-000007",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2078,10 +1794,6 @@
       },
       {
         "accession": "0000895728-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000895728-25-000006",
         "type": "financial_report"
       }
     ],
@@ -2108,10 +1820,6 @@
       {
         "accession": "0001558370-24-001018",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-000781",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -2136,10 +1844,6 @@
       },
       {
         "accession": "0000950170-24-016524",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-020134",
         "type": "financial_report"
       }
     ],
@@ -2166,10 +1870,6 @@
       {
         "accession": "0001003078-23-000102",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001003078-24-000107",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2194,10 +1894,6 @@
       },
       {
         "accession": "0001558370-23-019812",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-24-016169",
         "type": "financial_report"
       }
     ],
@@ -2224,10 +1920,6 @@
       {
         "accession": "0001023128-24-000032",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001023128-25-000026",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2252,10 +1944,6 @@
       },
       {
         "accession": "0001477333-24-000013",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001477333-25-000043",
         "type": "financial_report"
       }
     ],
@@ -2282,10 +1970,6 @@
       {
         "accession": "0001628280-24-005115",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-005451",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2310,10 +1994,6 @@
       },
       {
         "accession": "0000794170-23-000066",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000794170-24-000051",
         "type": "financial_report"
       }
     ],
@@ -2340,10 +2020,6 @@
       {
         "accession": "0001596532-24-000043",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001596532-25-000028",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2368,10 +2044,6 @@
       },
       {
         "accession": "0001658566-24-000018",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001658566-25-000014",
         "type": "financial_report"
       }
     ],
@@ -2398,10 +2070,6 @@
       {
         "accession": "0001123360-24-000004",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001123360-25-000011",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2426,10 +2094,6 @@
       },
       {
         "accession": "0001357615-24-000016",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001357615-25-000018",
         "type": "financial_report"
       }
     ],
@@ -2456,10 +2120,6 @@
       {
         "accession": "0000277135-24-000011",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000277135-25-000010",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2484,10 +2144,6 @@
       },
       {
         "accession": "0000100493-23-000105",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000100493-24-000119",
         "type": "financial_report"
       }
     ],
@@ -2514,10 +2170,6 @@
       {
         "accession": "0000076334-23-000042",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000076334-24-000044",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "C"
@@ -2542,10 +2194,6 @@
       },
       {
         "accession": "0000063908-24-000072",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000063908-25-000012",
         "type": "financial_report"
       }
     ],
@@ -2572,10 +2220,6 @@
       {
         "accession": "0000018230-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000018230-25-000008",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -2600,10 +2244,6 @@
       },
       {
         "accession": "0001104485-24-000045",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001104485-25-000039",
         "type": "financial_report"
       }
     ],
@@ -2630,10 +2270,6 @@
       {
         "accession": "0000314808-24-000014",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000314808-25-000028",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2658,10 +2294,6 @@
       },
       {
         "accession": "0001260221-23-000081",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001260221-24-000083",
         "type": "financial_report"
       }
     ],
@@ -2688,10 +2320,6 @@
       {
         "accession": "0001628280-24-004774",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-005100",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "C"
@@ -2716,10 +2344,6 @@
       },
       {
         "accession": "0001089063-24-000037",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001089063-25-000012",
         "type": "financial_report"
       }
     ],
@@ -2746,10 +2370,6 @@
       {
         "accession": "0000950170-24-018584",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-023953",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2774,10 +2394,6 @@
       },
       {
         "accession": "0000950170-24-015841",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-023983",
         "type": "financial_report"
       }
     ],
@@ -2804,10 +2420,6 @@
       {
         "accession": "0001609253-24-000043",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001609253-25-000027",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -2832,10 +2444,6 @@
       },
       {
         "accession": "0000036104-24-000018",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000036104-25-000016",
         "type": "financial_report"
       }
     ],
@@ -2862,10 +2470,6 @@
       {
         "accession": "0001390777-24-000051",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001390777-25-000046",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -2890,10 +2494,6 @@
       },
       {
         "accession": "0000950170-24-019719",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-025210",
         "type": "financial_report"
       }
     ],
@@ -2920,10 +2520,6 @@
       {
         "accession": "0001137774-24-000045",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001137774-25-000044",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -2948,10 +2544,6 @@
       },
       {
         "accession": "0001004980-24-000014",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001004980-25-000010",
         "type": "financial_report"
       }
     ],
@@ -2978,10 +2570,6 @@
       {
         "accession": "0000820027-24-000015",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000820027-25-000013",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -3006,10 +2594,6 @@
       },
       {
         "accession": "0001025996-24-000094",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001025996-25-000052",
         "type": "financial_report"
       }
     ],
@@ -3036,10 +2620,6 @@
       {
         "accession": "0001352010-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001352010-25-000007",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "D"
@@ -3064,10 +2644,6 @@
       },
       {
         "accession": "0001193125-24-051772",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001193125-25-041860",
         "type": "financial_report"
       }
     ],
@@ -3094,10 +2670,6 @@
       {
         "accession": "0000833079-24-000015",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000833079-25-000021",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -3122,10 +2694,6 @@
       },
       {
         "accession": "0000077543-24-000015",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000077543-25-000025",
         "type": "financial_report"
       }
     ],
@@ -3152,10 +2720,6 @@
       {
         "accession": "0001370637-24-000013",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001370637-25-000017",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -3180,10 +2744,6 @@
       },
       {
         "accession": "0000071691-24-000030",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000071691-25-000047",
         "type": "financial_report"
       }
     ],
@@ -3210,10 +2770,6 @@
       {
         "accession": "0001558370-24-001369",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-001940",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "B"
@@ -3238,10 +2794,6 @@
       },
       {
         "accession": "0001193125-24-044485",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001193125-25-042469",
         "type": "financial_report"
       }
     ],
@@ -3268,10 +2820,6 @@
       {
         "accession": "0000950170-24-015266",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-023207",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -3296,10 +2844,6 @@
       },
       {
         "accession": "0001556593-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001556593-25-000007",
         "type": "financial_report"
       }
     ],
@@ -3326,10 +2870,6 @@
       {
         "accession": "0001333986-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001333986-25-000011",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "C"
@@ -3354,10 +2894,6 @@
       },
       {
         "accession": "0000073756-24-000008",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000073756-25-000016",
         "type": "financial_report"
       }
     ],
@@ -3384,10 +2920,6 @@
       {
         "accession": "0001645590-23-000117",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001645590-24-000139",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "C"
@@ -3412,10 +2944,6 @@
       },
       {
         "accession": "0000892553-24-000067",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000892553-25-000039",
         "type": "financial_report"
       }
     ],
@@ -3442,10 +2970,6 @@
       {
         "accession": "0000701985-24-000010",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000701985-25-000011",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "A"
@@ -3470,10 +2994,6 @@
       },
       {
         "accession": "0001437749-24-005041",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001437749-25-005059",
         "type": "financial_report"
       }
     ],
@@ -3500,10 +3020,6 @@
       {
         "accession": "0001306830-24-000029",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001306830-25-000027",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 inventory-to-revenue ratio remained broadly stable, with an actual ground-truth change of 0.67%.\n- Key data: FY2021-FY2023 values were 17.85%, 29.03%, 21.54%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: inventory-to-revenue ratio moved from 17.85% in FY2021 to 21.54% in FY2023. The FY2023 Risk Factors “demand” disclosure is directionally positive, creating a reinforcing signal. Working-capital intensity can reveal collection, destocking, or supply-chain pressure. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3528,10 +3044,6 @@
       },
       {
         "accession": "0000950170-24-034691",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-042662",
         "type": "financial_report"
       }
     ],
@@ -3558,10 +3070,6 @@
       {
         "accession": "0001558370-24-002166",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-001806",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 current ratio increased, with an actual ground-truth change of 3.21x.\n- Key data: FY2021-FY2023 values were 3.91x, 3.55x, 5.66x.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: current ratio moved from 3.91x in FY2021 to 5.66x in FY2023. The FY2023 MD&A “pricing” disclosure is cautious, creating a conditional or conflicting signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3586,10 +3094,6 @@
       },
       {
         "accession": "0001447669-24-000034",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001447669-25-000035",
         "type": "financial_report"
       }
     ],
@@ -3616,10 +3120,6 @@
       {
         "accession": "0001637207-24-000020",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001637207-25-000016",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 current ratio increased, with an actual ground-truth change of 2.08x.\n- Key data: FY2021-FY2023 values were 3.75x, 2.27x, 1.88x.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: current ratio moved from 3.75x in FY2021 to 1.88x in FY2023. The FY2023 MD&A “pricing” disclosure is directionally positive, creating a conditional or conflicting signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3644,10 +3144,6 @@
       },
       {
         "accession": "0000764065-24-000038",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000764065-25-000058",
         "type": "financial_report"
       }
     ],
@@ -3674,10 +3170,6 @@
       {
         "accession": "0000045012-24-000007",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000045012-25-000010",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 liabilities-to-assets ratio decreased, with an actual ground-truth change of -3.01%.\n- Key data: FY2021-FY2023 values were 69.86%, 65.7%, 61.78%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “inflation” signal.\n- Explanation: liabilities-to-assets ratio moved from 69.86% in FY2021 to 61.78% in FY2023. The FY2023 MD&A “inflation” disclosure is directionally neutral, creating a conditional or conflicting signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3702,10 +3194,6 @@
       },
       {
         "accession": "0000027419-24-000032",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000027419-25-000018",
         "type": "financial_report"
       }
     ],
@@ -3732,10 +3220,6 @@
       {
         "accession": "0001071739-24-000037",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001071739-25-000027",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 cash-to-current-liabilities ratio decreased, with an actual ground-truth change of -5.78%.\n- Key data: FY2021-FY2023 values were 50.91%, 42.42%, 46.83%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “capacity” signal.\n- Explanation: cash-to-current-liabilities ratio moved from 50.91% in FY2021 to 46.83% in FY2023. The FY2023 MD&A “capacity” disclosure is cautious, creating a reinforcing signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3760,10 +3244,6 @@
       },
       {
         "accession": "0001646972-24-000060",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001646972-25-000052",
         "type": "financial_report"
       }
     ],
@@ -3790,10 +3270,6 @@
       {
         "accession": "0000015615-24-000021",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000015615-25-000021",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 net-fixed-assets YoY growth decreased, with an actual ground-truth change of -6.21%.\n- Key data: FY2021-FY2023 values were 46.19%, 22.14%, -5.85%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “working capital” signal.\n- Explanation: net-fixed-assets YoY growth moved from 46.19% in FY2021 to -5.85% in FY2023. The FY2023 Risk Factors “working capital” disclosure is cautious, creating a reinforcing signal. Asset investment must be read alongside demand and capacity utilization. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3818,10 +3294,6 @@
       },
       {
         "accession": "0000105634-24-000006",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000105634-25-000015",
         "type": "financial_report"
       }
     ],
@@ -3848,10 +3320,6 @@
       {
         "accession": "0001628280-24-006354",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-007376",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 R&D expense ratio remained broadly stable, with an actual ground-truth change of -0.33%.\n- Key data: FY2021-FY2023 values were 7.92%, 12.18%, 12.41%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: R&D expense ratio moved from 7.92% in FY2021 to 12.41% in FY2023. The FY2023 MD&A “liquidity” disclosure is directionally neutral, creating a conditional or conflicting signal. Expense ratios indicate investment intensity and operating leverage. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3876,10 +3344,6 @@
       },
       {
         "accession": "0000950170-24-015277",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-018873",
         "type": "financial_report"
       }
     ],
@@ -3906,10 +3370,6 @@
       {
         "accession": "0001564408-24-000019",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001564408-25-000019",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 R&D expense ratio decreased, with an actual ground-truth change of -9.93%.\n- Key data: FY2021-FY2023 values were 38.02%, 45.85%, 41.49%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: R&D expense ratio moved from 38.02% in FY2021 to 41.49% in FY2023. The FY2023 MD&A “liquidity” disclosure is directionally neutral, creating a conditional or conflicting signal. Expense ratios indicate investment intensity and operating leverage. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3934,10 +3394,6 @@
       },
       {
         "accession": "0001185185-24-000237",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-009626",
         "type": "financial_report"
       }
     ],
@@ -3964,10 +3420,6 @@
       {
         "accession": "0000032604-23-000044",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000032604-24-000041",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 management-expense ratio remained broadly stable, with an actual ground-truth change of 1.79%.\n- Key data: FY2021-FY2023 values were 22.92%, 21.64%, 27.6%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “competition” signal.\n- Explanation: management-expense ratio moved from 22.92% in FY2021 to 27.6% in FY2023. The FY2023 MD&A “competition” disclosure is directionally neutral, creating a conditional or conflicting signal. Expense ratios indicate investment intensity and operating leverage. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -3992,10 +3444,6 @@
       },
       {
         "accession": "0000950170-23-043011",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-24-097033",
         "type": "financial_report"
       }
     ],
@@ -4022,10 +3470,6 @@
       {
         "accession": "0000950170-24-018005",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-024199",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-assets YoY growth decreased, with an actual ground-truth change of -5.06%.\n- Key data: FY2021-FY2023 values were 31.27%, -1.32%, 10.08%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “margin” signal.\n- Explanation: total-assets YoY growth moved from 31.27% in FY2021 to 10.08% in FY2023. The FY2023 MD&A “margin” disclosure is cautious, creating a reinforcing signal. Asset investment must be read alongside demand and capacity utilization. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4050,10 +3494,6 @@
       },
       {
         "accession": "0000950170-23-047575",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-24-106317",
         "type": "financial_report"
       }
     ],
@@ -4080,10 +3520,6 @@
       {
         "accession": "0001067701-24-000007",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001067701-25-000008",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-equity YoY growth increased, with an actual ground-truth change of 6.05%.\n- Key data: FY2021-FY2023 values were 31.82%, 17.88%, 15.12%; the secondary FY2023 value was 23.11%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: the primary metric decreased in FY2023, while total-revenue YoY growth moved from 13.9% to 23.11%. The two indicators are divergent or mixed. Capital-structure changes affect expansion capacity and financial resilience. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -4108,10 +3544,6 @@
       },
       {
         "accession": "0001373715-24-000030",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001373715-25-000010",
         "type": "financial_report"
       }
     ],
@@ -4138,10 +3570,6 @@
       {
         "accession": "0000950170-24-017842",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-006416",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-liabilities YoY growth increased, with an actual ground-truth change of 2.37%.\n- Key data: FY2021-FY2023 values were 14.78%, -19.61%, -12.66%; the secondary FY2023 value was 24.04%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: the primary metric decreased in FY2023, while gross margin moved from 20.63% to 24.04%. The two indicators are divergent or mixed. Liquidity and leverage jointly indicate the size of the repayment buffer. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -4166,10 +3594,6 @@
       },
       {
         "accession": "0001467373-23-000324",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001467373-24-000278",
         "type": "financial_report"
       }
     ],
@@ -4196,10 +3620,6 @@
       {
         "accession": "0001336920-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001336920-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-liabilities YoY growth decreased, with an actual ground-truth change of -3.22%.\n- Key data: FY2021-FY2023 values were 49.01%, 0%, -2.23%; the secondary FY2023 value was 14.66%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: the primary metric decreased in FY2023, while gross margin moved from 14.66% to 14.66%. The two indicators are divergent or mixed. Liquidity and leverage jointly indicate the size of the repayment buffer. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -4224,10 +3644,6 @@
       },
       {
         "accession": "0000950170-23-033201",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-24-083577",
         "type": "financial_report"
       }
     ],
@@ -4254,10 +3670,6 @@
       {
         "accession": "0000065984-24-000012",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000065984-25-000012",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 basic-EPS YoY growth decreased, with an actual ground-truth change of -77.83%.\n- Key data: FY2021-FY2023 values were -19.74%, -3.05%, 106.3%; the secondary FY2023 value was 21.55%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “inflation” signal.\n- Explanation: the primary metric increased in FY2023, while operating margin moved from 15.72% to 21.55%. The two indicators are reinforcing. Profit combines revenue, cost, and operating-leverage effects. This relationship therefore raises confidence in continuation."
@@ -4282,10 +3694,6 @@
       },
       {
         "accession": "0001558370-24-003813",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-003413",
         "type": "financial_report"
       }
     ],
@@ -4312,10 +3720,6 @@
       {
         "accession": "0001328581-24-000018",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001328581-25-000010",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 return on assets decreased, with an actual ground-truth change of -3.42%.\n- Key data: FY2021-FY2023 values were 31.4%, 29.51%, 14.44%; the secondary FY2023 value was -43.61%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “capacity” signal.\n- Explanation: the primary metric decreased in FY2023, while net-profit YoY growth moved from 307.18% to -43.61%. The two indicators are reinforcing. Margin movement reflects pricing power and cost pass-through. This relationship therefore raises confidence in continuation."
@@ -4340,10 +3744,6 @@
       },
       {
         "accession": "0000109563-23-000075",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000109563-24-000078",
         "type": "financial_report"
       }
     ],
@@ -4370,10 +3770,6 @@
       {
         "accession": "0001031296-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001031296-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating-cash-flow margin increased, with an actual ground-truth change of 10.68%.\n- Key data: FY2021-FY2023 values were 25.25%, 21.53%, 10.78%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “working capital” signal.\n- Explanation: operating-cash-flow margin moved from 25.25% in FY2021 to 10.78% in FY2023. The FY2023 Risk Factors “working capital” disclosure is directionally positive, creating a conditional or conflicting signal. Cash-flow metrics test earnings realization and collection quality. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4398,10 +3794,6 @@
       },
       {
         "accession": "0001111711-24-000011",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001111711-25-000008",
         "type": "financial_report"
       }
     ],
@@ -4428,10 +3820,6 @@
       {
         "accession": "0001527469-24-000021",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001527469-25-000016",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating-cash-flow conversion increased, with an actual ground-truth change of 54.2%.\n- Key data: FY2021-FY2023 values were 266.7%, -150.36%, 106.82%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: operating-cash-flow conversion moved from 266.7% in FY2021 to 106.82% in FY2023. The FY2023 MD&A “liquidity” disclosure is cautious, creating a reinforcing signal. Cash-flow metrics test earnings realization and collection quality. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4456,10 +3844,6 @@
       },
       {
         "accession": "0000035527-24-000088",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000035527-25-000079",
         "type": "financial_report"
       }
     ],
@@ -4486,10 +3870,6 @@
       {
         "accession": "0000896159-24-000003",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000896159-25-000004",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating-cash-flow conversion increased, with an actual ground-truth change of 174.53%.\n- Key data: FY2021-FY2023 values were 130.57%, 211.61%, 139.92%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: operating-cash-flow conversion moved from 130.57% in FY2021 to 139.92% in FY2023. The FY2023 MD&A “liquidity” disclosure is cautious, creating a conditional or conflicting signal. Cash-flow metrics test earnings realization and collection quality. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4514,10 +3894,6 @@
       },
       {
         "accession": "0000060086-24-000029",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000060086-25-000036",
         "type": "financial_report"
       }
     ],
@@ -4544,10 +3920,6 @@
       {
         "accession": "0001628280-24-006659",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-007441",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 accounts-receivable-to-revenue ratio decreased, with an actual ground-truth change of -5.4%.\n- Key data: FY2021-FY2023 values were 24.61%, 22.86%, 29.4%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “competition” signal.\n- Explanation: accounts-receivable-to-revenue ratio moved from 24.61% in FY2021 to 29.4% in FY2023. The FY2023 MD&A “competition” disclosure is directionally neutral, creating a conditional or conflicting signal. Working-capital intensity can reveal collection, destocking, or supply-chain pressure. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4572,10 +3944,6 @@
       },
       {
         "accession": "0000040533-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000040533-25-000008",
         "type": "financial_report"
       }
     ],
@@ -4602,10 +3970,6 @@
       {
         "accession": "0000007084-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000007084-25-000011",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 inventory-to-revenue ratio remained broadly stable, with an actual ground-truth change of 0.8%.\n- Key data: FY2021-FY2023 values were 16.99%, 14.54%, 12.73%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “margin” signal.\n- Explanation: inventory-to-revenue ratio moved from 16.99% in FY2021 to 12.73% in FY2023. The FY2023 MD&A “margin” disclosure is directionally positive, creating a conditional or conflicting signal. Working-capital intensity can reveal collection, destocking, or supply-chain pressure. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4630,10 +3994,6 @@
       },
       {
         "accession": "0000093556-24-000032",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000093556-25-000007",
         "type": "financial_report"
       }
     ],
@@ -4660,10 +4020,6 @@
       {
         "accession": "0001558370-23-014509",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-24-011099",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 current ratio remained broadly stable, with an actual ground-truth change of 0.86x.\n- Key data: FY2021-FY2023 values were 3.71x, 1.33x, 1.11x.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: current ratio moved from 3.71x in FY2021 to 1.11x in FY2023. The FY2023 Risk Factors “demand” disclosure is cautious, creating a reinforcing signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4688,10 +4044,6 @@
       },
       {
         "accession": "0001506293-24-000018",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001506293-25-000022",
         "type": "financial_report"
       }
     ],
@@ -4718,10 +4070,6 @@
       {
         "accession": "0000899051-24-000013",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000899051-25-000015",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 liabilities-to-assets ratio decreased, with an actual ground-truth change of -2.09%.\n- Key data: FY2021-FY2023 values were 74.73%, 82.29%, 82.94%; the secondary FY2023 value was 6.36%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: the primary metric increased in FY2023, while total-liabilities YoY growth moved from -22.4% to 6.36%. The two indicators are reinforcing. Liquidity and leverage jointly indicate the size of the repayment buffer. This relationship therefore raises confidence in continuation."
@@ -4746,10 +4094,6 @@
       },
       {
         "accession": "0000898174-24-000048",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000898174-25-000027",
         "type": "financial_report"
       }
     ],
@@ -4776,10 +4120,6 @@
       {
         "accession": "0001224608-24-000009",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001224608-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 liabilities-to-assets ratio remained broadly stable, with an actual ground-truth change of -0.29%.\n- Key data: FY2021-FY2023 values were 85.47%, 95.8%, 93.69%; the secondary FY2023 value was 2.97%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: the primary metric increased in FY2023, while total-liabilities YoY growth moved from 3.65% to 2.97%. The two indicators are divergent or mixed. Liquidity and leverage jointly indicate the size of the repayment buffer. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -4804,10 +4144,6 @@
       },
       {
         "accession": "0000097745-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000097745-25-000010",
         "type": "financial_report"
       }
     ],
@@ -4834,10 +4170,6 @@
       {
         "accession": "0000014272-24-000044",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000014272-25-000039",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 cash-to-current-liabilities ratio decreased, with an actual ground-truth change of -7.98%.\n- Key data: FY2021-FY2023 values were 63.92%, 41.68%, 51.5%; the secondary FY2023 value was 30.64%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “inflation” signal.\n- Explanation: the primary metric decreased in FY2023, while basic-EPS YoY growth moved from 178.95% to 30.64%. The two indicators are reinforcing. Liquidity and leverage jointly indicate the size of the repayment buffer. This relationship therefore raises confidence in continuation."
@@ -4862,10 +4194,6 @@
       },
       {
         "accession": "0001534701-24-000078",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001534701-25-000074",
         "type": "financial_report"
       }
     ],
@@ -4892,10 +4220,6 @@
       {
         "accession": "0001650729-24-000004",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001650729-25-000004",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-assets YoY growth remained broadly stable, with an actual ground-truth change of 0%.\n- Key data: FY2021-FY2023 values were 17.49%, 24.79%, 33.68%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “competition” signal.\n- Explanation: total-assets YoY growth moved from 17.49% in FY2021 to 33.68% in FY2023. The FY2023 MD&A “competition” disclosure is cautious, creating a conditional or conflicting signal. Asset investment must be read alongside demand and capacity utilization. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4920,10 +4244,6 @@
       },
       {
         "accession": "0001628280-24-006634",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001628280-25-007620",
         "type": "financial_report"
       }
     ],
@@ -4950,10 +4270,6 @@
       {
         "accession": "0001212545-24-000092",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001212545-25-000090",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-assets YoY growth increased, with an actual ground-truth change of 14.21%.\n- Key data: FY2021-FY2023 values were 53.54%, 20.99%, 4.62%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “competition” signal.\n- Explanation: total-assets YoY growth moved from 53.54% in FY2021 to 4.62% in FY2023. The FY2023 MD&A “competition” disclosure is directionally neutral, creating a conditional or conflicting signal. Asset investment must be read alongside demand and capacity utilization. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -4978,10 +4294,6 @@
       },
       {
         "accession": "0001099219-24-000035",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001099219-25-000044",
         "type": "financial_report"
       }
     ],
@@ -5008,10 +4320,6 @@
       {
         "accession": "0000040729-24-000004",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000040729-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-equity YoY growth remained broadly stable, with an actual ground-truth change of 1%.\n- Key data: FY2021-FY2023 values were 15.96%, -24.58%, 7.05%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “margin” signal.\n- Explanation: total-equity YoY growth moved from 15.96% in FY2021 to 7.05% in FY2023. The FY2023 MD&A “margin” disclosure is directionally neutral, creating a conditional or conflicting signal. Capital-structure changes affect expansion capacity and financial resilience. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5036,10 +4344,6 @@
       },
       {
         "accession": "0001022079-24-000041",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001022079-25-000044",
         "type": "financial_report"
       }
     ],
@@ -5066,10 +4370,6 @@
       {
         "accession": "0001059556-24-000017",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001059556-25-000025",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-liabilities YoY growth increased, with an actual ground-truth change of 5.67%.\n- Key data: FY2021-FY2023 values were 10.5%, -0.88%, -4.41%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: total-liabilities YoY growth moved from 10.5% in FY2021 to -4.41% in FY2023. The FY2023 Risk Factors “demand” disclosure is cautious, creating a reinforcing signal. Liquidity and leverage jointly indicate the size of the repayment buffer. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5094,10 +4394,6 @@
       },
       {
         "accession": "0000033185-24-000017",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000033185-25-000025",
         "type": "financial_report"
       }
     ],
@@ -5124,10 +4420,6 @@
       {
         "accession": "0000086312-24-000012",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000086312-25-000012",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 basic-EPS YoY growth increased, with an actual ground-truth change of 68.29%.\n- Key data: FY2021-FY2023 values were 38.54%, -18.59%, 8.56%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: basic-EPS YoY growth moved from 38.54% in FY2021 to 8.56% in FY2023. The FY2023 MD&A “pricing” disclosure is cautious, creating a reinforcing signal. Profit combines revenue, cost, and operating-leverage effects. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5152,10 +4444,6 @@
       },
       {
         "accession": "0000080661-24-000007",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000080661-25-000007",
         "type": "financial_report"
       }
     ],
@@ -5182,10 +4470,6 @@
       {
         "accession": "0000821483-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000821483-25-000010",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 return on assets decreased, with an actual ground-truth change of -21.26%.\n- Key data: FY2021-FY2023 values were -3.46%, 12.45%, 20.4%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “inflation” signal.\n- Explanation: return on assets moved from -3.46% in FY2021 to 20.4% in FY2023. The FY2023 MD&A “inflation” disclosure is cautious, creating a conditional or conflicting signal. Margin movement reflects pricing power and cost pass-through. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5210,10 +4494,6 @@
       },
       {
         "accession": "0000950170-24-018046",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-026789",
         "type": "financial_report"
       }
     ],
@@ -5240,10 +4520,6 @@
       {
         "accession": "0001558370-24-001162",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001558370-25-000864",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 return on assets remained broadly stable, with an actual ground-truth change of -1.76%.\n- Key data: FY2021-FY2023 values were -1.14%, 14.46%, 2.46%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “inflation” signal.\n- Explanation: return on assets moved from -1.14% in FY2021 to 2.46% in FY2023. The FY2023 MD&A “inflation” disclosure is cautious, creating a conditional or conflicting signal. Margin movement reflects pricing power and cost pass-through. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5268,10 +4544,6 @@
       },
       {
         "accession": "0000885725-24-000017",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000885725-25-000011",
         "type": "financial_report"
       }
     ],
@@ -5298,10 +4570,6 @@
       {
         "accession": "0001666700-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001666700-25-000005",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating-revenue YoY growth increased, with an actual ground-truth change of 2.64%.\n- Key data: FY2021-FY2023 values were -18.36%, -21.83%, -7.29%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “capacity” signal.\n- Explanation: operating-revenue YoY growth moved from -18.36% in FY2021 to -7.29% in FY2023. The FY2023 MD&A “capacity” disclosure is directionally positive, creating a reinforcing signal. The revenue path reflects the realization of volume, demand, and pricing. The narrative therefore changes confidence in extrapolating the historical direction."
@@ -5326,10 +4594,6 @@
       },
       {
         "accession": "0001061219-24-000006",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001061219-25-000006",
         "type": "financial_report"
       }
     ],
@@ -5356,10 +4620,6 @@
       {
         "accession": "0000313616-24-000052",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000313616-25-000043",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating-profit YoY growth decreased, with an actual ground-truth change of -6.52%.\n- Key data: FY2021-FY2023 values were 76.44%, 16.38%, -40.12%; the secondary FY2023 value was 29.99%.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “working capital” signal.\n- Explanation: the primary metric decreased in FY2023, while operating-cash-flow margin moved from 28.38% to 29.99%. The two indicators are divergent or mixed. Profit combines revenue, cost, and operating-leverage effects. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -5384,10 +4644,6 @@
       },
       {
         "accession": "0000310764-24-000024",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000310764-25-000023",
         "type": "financial_report"
       }
     ],
@@ -5414,10 +4670,6 @@
       {
         "accession": "0000029989-24-000007",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000029989-25-000009",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 accounts-payable-to-revenue ratio remained broadly stable, with an actual ground-truth change of 0.39%.\n- Key data: FY2021-FY2023 values were 83.26%, 76.98%, 79.18%; the secondary FY2023 value was 102.19%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: the primary metric decreased in FY2023, while operating-cash-flow conversion moved from 138.19% to 102.19%. The two indicators are reinforcing. Working-capital intensity can reveal collection, destocking, or supply-chain pressure. This relationship therefore raises confidence in continuation."
@@ -5442,10 +4694,6 @@
       },
       {
         "accession": "0000037785-24-000033",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000037785-25-000030",
         "type": "financial_report"
       }
     ],
@@ -5472,10 +4720,6 @@
       {
         "accession": "0001437749-24-005040",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001437749-25-004353",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 accounts-payable-to-revenue ratio increased, with an actual ground-truth change of 2.21%.\n- Key data: FY2021-FY2023 values were 18.04%, 9.77%, 8.47%; the secondary FY2023 value was 243.08%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “liquidity” signal.\n- Explanation: the primary metric decreased in FY2023, while operating-cash-flow conversion moved from 74.69% to 243.08%. The two indicators are divergent or mixed. Working-capital intensity can reveal collection, destocking, or supply-chain pressure. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -5500,10 +4744,6 @@
       },
       {
         "accession": "0000072741-24-000005",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000072741-25-000007",
         "type": "financial_report"
       }
     ],
@@ -5530,10 +4770,6 @@
       {
         "accession": "0001130310-24-000010",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001130310-25-000040",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 total-revenue YoY growth remained broadly stable, with an actual ground-truth change of -0.61%.\n- Key data: FY2021-FY2023 values were 12.59%, 11.6%, -6.71%; the secondary FY2023 value was 8.16%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “competition” signal.\n- Explanation: the primary metric decreased in FY2023, while accounts-receivable-to-revenue ratio moved from 8.26% to 8.16%. The two indicators are divergent or mixed. The revenue path reflects the realization of volume, demand, and pricing. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -5558,10 +4794,6 @@
       },
       {
         "accession": "0000950170-24-021195",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-028427",
         "type": "financial_report"
       }
     ],
@@ -5588,10 +4820,6 @@
       {
         "accession": "0000950170-24-032294",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-042746",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 gross margin decreased, with an actual ground-truth change of -4.77%.\n- Key data: FY2021-FY2023 values were 35.33%, 30.54%, 39.75%; the secondary FY2023 value was 11.68%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “margin” signal.\n- Explanation: the primary metric increased in FY2023, while inventory-to-revenue ratio moved from 9.41% to 11.68%. The two indicators are reinforcing. Margin movement reflects pricing power and cost pass-through. This relationship therefore raises confidence in continuation."
@@ -5616,10 +4844,6 @@
       },
       {
         "accession": "0001618034-24-000004",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001618034-25-000003",
         "type": "financial_report"
       }
     ],
@@ -5646,10 +4870,6 @@
       {
         "accession": "0000922224-24-000008",
         "type": "financial_report"
-      },
-      {
-        "accession": "0000922224-25-000009",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating margin remained broadly stable, with an actual ground-truth change of 0.95%.\n- Key data: FY2021-FY2023 values were 24.62%, 17.39%, 19.61%; the secondary FY2023 value was 0.88x.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: the primary metric decreased in FY2023, while current ratio moved from 2.16x to 0.88x. The two indicators are reinforcing. Margin movement reflects pricing power and cost pass-through. This relationship therefore raises confidence in continuation."
@@ -5674,10 +4894,6 @@
       },
       {
         "accession": "0001064728-24-000021",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0001064728-25-000018",
         "type": "financial_report"
       }
     ],
@@ -5704,10 +4920,6 @@
       {
         "accession": "0001603145-24-000005",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001603145-25-000006",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 operating margin decreased, with an actual ground-truth change of -34.72%.\n- Key data: FY2021-FY2023 values were 23.83%, 16.27%, -2.6%; the secondary FY2023 value was 1.33x.\n- Section evidence: FY2023 Risk Factors contains the pre-forecast “demand” signal.\n- Explanation: the primary metric decreased in FY2023, while current ratio moved from 1.12x to 1.33x. The two indicators are divergent or mixed. Margin movement reflects pricing power and cost pass-through. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -5732,10 +4944,6 @@
       },
       {
         "accession": "0000720005-23-000079",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000720005-24-000069",
         "type": "financial_report"
       }
     ],
@@ -5762,10 +4970,6 @@
       {
         "accession": "0001326160-24-000037",
         "type": "financial_report"
-      },
-      {
-        "accession": "0001326160-25-000072",
-        "type": "financial_report"
       }
     ],
     "ground_truth": "Trend conclusion: FY2024 net-profit YoY growth increased, with an actual ground-truth change of 59.24%.\n- Key data: FY2021-FY2023 values were 183.81%, -34.75%, 11.41%; the secondary FY2023 value was 71.63%.\n- Section evidence: FY2023 MD&A contains the pre-forecast “pricing” signal.\n- Explanation: the primary metric decreased in FY2023, while liabilities-to-assets ratio moved from 69.85% to 71.63%. The two indicators are divergent or mixed. Profit combines revenue, cost, and operating-leverage effects. This relationship therefore reduces confidence in a single-metric extrapolation."
@@ -5790,10 +4994,6 @@
       },
       {
         "accession": "0000950170-24-013370",
-        "type": "financial_report"
-      },
-      {
-        "accession": "0000950170-25-021775",
         "type": "financial_report"
       }
     ],
