@@ -4,6 +4,10 @@
 
 # ANSER-Bench
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/ANSER-Bench.pdf)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Dataset-yellow)](https://huggingface.co/datasets/THUIR/ANSER-Bench)
+[![Website](https://img.shields.io/badge/Website-ANSER--Bench-blue)](https://anser.thuir.cn/)
+
 面向**法律、金融与科学研究**的多领域、双语分析型检索基准，覆盖描述型、预测型与规范型用户需求。提供全部 **2,235 条任务**、八种基线的统一运行入口，以及面向答案、证据和效率的多维度评测。
 
 [English](README.md) · [基线说明](src/README.md) · [语料结构](corpus/README.md)
@@ -24,6 +28,7 @@
   - [子任务介绍](#tasks)
   - [评测](#evaluation)
 - [许可](#license)
+- [引用](#citation)
 
 <a id="layout"></a>
 ## 目录
@@ -32,6 +37,8 @@
 query/                 全部任务及评分标注，按领域、语言、任务需求划分
 src/                   八种基线、评测器、公共接口、配置、提示词与构建工具
 corpus/                全量小型规则库与保持原结构的大型数据库样本
+paper/ANSER-Bench.pdf   论文全文（含完整作者信息）
+CITATION.cff           论文的机器可读引用信息
 assets/                logo等资源
 run_benchmark.py       统一任务筛选、推理与自动评测入口
 requirements.txt       公共依赖
@@ -89,7 +96,7 @@ ANSER_JUDGE_MODEL=gpt-5.6-sol
 <a id="running"></a>
 ## 运行
 
-受仓库容量限制，大型语料库发布微缩样本，较小的法条和监管规则库全量发布。完整语料库计划后续发布至 Hugging Face。正式评测需在 `--corpus-root` 参数下指定完整语料目录。
+受仓库容量限制，大型语料库发布微缩样本，较小的法条和监管规则库全量发布。语料下载见 [Hugging Face 数据集](https://huggingface.co/datasets/THUIR/ANSER-Bench)。正式评测需在 `--corpus-root` 参数下指定完整语料目录。
 
 <a id="quickstart"></a>
 ### 筛选任务与运行基线
@@ -335,7 +342,7 @@ python -m src.evaluator outputs/runs/inference-only/results.json \
 
 公开语料文件合计约 **82 MiB**。
 
-字段定义见 [corpus/schema.json](corpus/schema.json)，主键和证据标识见 [corpus/README.md](corpus/README.md)。正式实验通过 `--corpus-root /path/to/full/corpus` 使用完整语料（后续在huggingface上发布）。
+字段定义见 [corpus/schema.json](corpus/schema.json)，主键和证据标识见 [corpus/README.md](corpus/README.md)。语料下载见 [Hugging Face 数据集](https://huggingface.co/datasets/THUIR/ANSER-Bench)，正式实验通过 `--corpus-root /path/to/full/corpus` 使用完整语料。
 
 <a id="task-format"></a>
 ### 统一任务形式
@@ -452,4 +459,20 @@ Judge 使用 `OPENAI_API_KEY`、可选的 `OPENAI_BASE_URL` 和 `ANSER_JUDGE_MOD
 
 原创基准代码采用 MIT。FinSight 派生代码和配套工具采用 GPL-3.0；上游许可与固定版本见 [src/licenses/README.md](src/licenses/README.md)。语料来源保留其自身分发条款。
 
--------------
+<a id="citation"></a>
+## 引用
+
+如果 ANSER-Bench 对您的研究有帮助，请引用我们的论文：
+
+```bibtex
+@misc{miao2026anserbench,
+  title        = {{ANSER-Bench}: A Comprehensive Benchmark for Analytical Search},
+  author       = {Miao, Shuo and Qing, Yipeng and Zhang, Yudong and Tu, Yiteng and
+                  Qiu, Yulai and Xie, Anzhe and Zhang, Qimeng and Guo, Dongsheng and
+                  Zhou, Quan and Luo, Cheng and Zhan, Jingtao and Ai, Qingyao and
+                  de Rijke, Maarten and Liu, Yiqun},
+  year         = {2026},
+  howpublished = {Manuscript available on GitHub},
+  url          = {https://github.com/DavidMiao1127/ANSER-Bench/blob/main/paper/ANSER-Bench.pdf}
+}
+```

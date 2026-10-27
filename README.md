@@ -5,6 +5,8 @@
 # ANSER-Bench: A Comprehensive Benchmark for Analytical Search
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/ANSER-Bench.pdf)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Dataset-yellow)](https://huggingface.co/datasets/THUIR/ANSER-Bench)
+[![Website](https://img.shields.io/badge/Website-ANSER--Bench-blue)](https://anser.thuir.cn/)
 
 A multi-domain, bilingual analytical search benchmark for **law, finance, and scientific research**, covering descriptive, predictive, and prescriptive user needs. It provides all **2,235 tasks**, a unified entry point for eight baselines, and multidimensional evaluation of answers, retrieved evidence, and efficiency.
 
@@ -94,7 +96,7 @@ The root `.env` is loaded automatically. Precedence: **CLI arguments > exported 
 <a id="running"></a>
 ## Running the benchmark
 
-Large corpora are distributed as samples to keep the repository manageable; small statute and regulatory collections are included in full. The complete corpora are planned for a subsequent Hugging Face release. For complete-benchmark evaluation, set `--corpus-root` to the full corpus directory.
+Large corpora are distributed as samples to keep the repository manageable; small statute and regulatory collections are included in full. Corpus downloads are available from the [Hugging Face dataset](https://huggingface.co/datasets/THUIR/ANSER-Bench). For complete-benchmark evaluation, set `--corpus-root` to the full corpus directory.
 
 <a id="quickstart"></a>
 ### Task selection and baselines
@@ -340,7 +342,7 @@ The table below lists the full corpus sizes and their task mappings:
 
 Distributed corpus files total approximately **82 MiB**.
 
-Field definitions are in [corpus/schema.json](corpus/schema.json), and primary keys and evidence identifiers are described in [corpus/README.md](corpus/README.md). Use `--corpus-root /path/to/full/corpus` for experiments with the complete corpora, which are planned for a subsequent Hugging Face release.
+Field definitions are in [corpus/schema.json](corpus/schema.json), and primary keys and evidence identifiers are described in [corpus/README.md](corpus/README.md). See the [Hugging Face dataset](https://huggingface.co/datasets/THUIR/ANSER-Bench) for corpus downloads, and use `--corpus-root /path/to/full/corpus` for experiments with the complete corpora.
 
 <a id="task-format"></a>
 ### Unified task format
@@ -455,3 +457,21 @@ Judge uses `OPENAI_API_KEY`, optional `OPENAI_BASE_URL`, and `ANSER_JUDGE_MODEL`
 ## Licenses
 
 Original benchmark code is MIT-licensed. FinSight-derived code and tools use GPL-3.0; upstream licenses and pinned revisions are recorded in [src/licenses/README.md](src/licenses/README.md). Corpus sources retain their own distribution terms.
+
+<a id="citation"></a>
+## Citation
+
+If you find ANSER-Bench useful in your research, please cite our work:
+
+```bibtex
+@misc{miao2026anserbench,
+  title        = {{ANSER-Bench}: A Comprehensive Benchmark for Analytical Search},
+  author       = {Miao, Shuo and Qing, Yipeng and Zhang, Yudong and Tu, Yiteng and
+                  Qiu, Yulai and Xie, Anzhe and Zhang, Qimeng and Guo, Dongsheng and
+                  Zhou, Quan and Luo, Cheng and Zhan, Jingtao and Ai, Qingyao and
+                  de Rijke, Maarten and Liu, Yiqun},
+  year         = {2026},
+  howpublished = {Manuscript available on GitHub},
+  url          = {https://github.com/DavidMiao1127/ANSER-Bench/blob/main/paper/ANSER-Bench.pdf}
+}
+```

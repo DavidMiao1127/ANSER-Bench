@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use ANSER-Bench, please cite the manuscript in preferred-citation."
+title: "ANSER-Bench: A Comprehensive Benchmark for Analytical Search"
+authors:
+  - family-names: Miao
+    given-names: Shuo
+  - family-names: Qing
+    given-names: Yipeng
+  - family-names: Zhang
+    given-names: Yudong
+  - family-names: Tu
+    given-names: Yiteng
+  - family-names: Qiu
+    given-names: Yulai
+  - family-names: Xie
+    given-names: Anzhe
+  - family-names: Zhang
+    given-names: Qimeng
+  - family-names: Guo
+    given-names: Dongsheng
+  - family-names: Zhou
+    given-names: Quan
+  - family-names: Luo
+    given-names: Cheng
+  - family-names: Zhan
+    given-names: Jingtao
+  - family-names: Ai
+    given-names: Qingyao
+  - family-names: de Rijke
+    given-names: Maarten
+  - family-names: Liu
+    given-names: Yiqun
+url: "https://github.com/DavidMiao1127/ANSER-Bench"
+repository-code: "https://github.com/DavidMiao1127/ANSER-Bench"
+preferred-citation:
+  type: unpublished
+  title: "ANSER-Bench: A Comprehensive Benchmark for Analytical Search"
+  authors:
+    - family-names: Miao
+      given-names: Shuo
+    - family-names: Qing
+      given-names: Yipeng
+    - family-names: Zhang
+      given-names: Yudong
+    - family-names: Tu
+      given-names: Yiteng
+    - family-names: Qiu
+      given-names: Yulai
+    - family-names: Xie
+      given-names: Anzhe
+    - family-names: Zhang
+      given-names: Qimeng
+    - family-names: Guo
+      given-names: Dongsheng
+    - family-names: Zhou
+      given-names: Quan
+    - family-names: Luo
+      given-names: Cheng
+    - family-names: Zhan
+      given-names: Jingtao
+    - family-names: Ai
+      given-names: Qingyao
+    - family-names: de Rijke
+      given-names: Maarten
+    - family-names: Liu
+      given-names: Yiqun
+  year: 2026
+  url: "https://github.com/DavidMiao1127/ANSER-Bench/blob/main/paper/ANSER-Bench.pdf"
+  notes: "Manuscript available on GitHub."
