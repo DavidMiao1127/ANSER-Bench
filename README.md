@@ -455,21 +455,3 @@ Judge uses `OPENAI_API_KEY`, optional `OPENAI_BASE_URL`, and `ANSER_JUDGE_MODEL`
 ## Licenses
 
 Original benchmark code is MIT-licensed. FinSight-derived code and tools use GPL-3.0; upstream licenses and pinned revisions are recorded in [src/licenses/README.md](src/licenses/README.md). Corpus sources retain their own distribution terms.
-
-<a id="citation"></a>
-## Citation
-
-If you find ANSER-Bench useful in your research, please cite our work:
-
-```bibtex
-@misc{miao2026anserbench,
-  title        = {{ANSER-Bench}: A Comprehensive Benchmark for Analytical Search},
-  author       = {Miao, Shuo and Qing, Yipeng and Zhang, Yudong and Tu, Yiteng and
-                  Qiu, Yulai and Xie, Anzhe and Zhang, Qimeng and Guo, Dongsheng and
-                  Zhou, Quan and Luo, Cheng and Zhan, Jingtao and Ai, Qingyao and
-                  de Rijke, Maarten and Liu, Yiqun},
-  year         = {2026},
-  howpublished = {Manuscript available on GitHub},
-  url          = {https://github.com/DavidMiao1127/ANSER-Bench/blob/main/paper/ANSER-Bench.pdf}
-}
-```
