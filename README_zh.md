@@ -451,3 +451,5 @@ Judge 使用 `OPENAI_API_KEY`、可选的 `OPENAI_BASE_URL` 和 `ANSER_JUDGE_MOD
 ## 许可
 
 原创基准代码采用 MIT。FinSight 派生代码和配套工具采用 GPL-3.0；上游许可与固定版本见 [src/licenses/README.md](src/licenses/README.md)。语料来源保留其自身分发条款。
+
+-------------
